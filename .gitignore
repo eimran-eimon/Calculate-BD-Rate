@@ -1,0 +1,6 @@
+*.yuv
+*.bin
+venv
+.idea/
+*.pyc
+*.txt
