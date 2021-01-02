@@ -6,11 +6,11 @@ import numpy as np
 import bjontegaard_metric
 import matplotlib.pyplot as plt
 
-frames_to_encode = 20
+frames_to_encode = 2
 
 data_fields = ['Seq Name', 'cfg', 'Codec Name', 'QP', 'Bitrate', 'PSNR']
 csv_directory = "stored_csv_files"
-rec_yuv_directory = './rev_yuv/'
+rec_yuv_directory = './rec_yuv/'
 bin_directory = './bin/'
 stored_plots = './plots/'
 
@@ -67,8 +67,8 @@ with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
 								f'-c ./configs/{config_dir}/{cfg} ' \
 								f'-i ./sequences/{sequence} ' \
 								f'-wdt {width} -hgt {height} ' \
-								f'-b ./bin/{sequence.split(".")[0] + "_QP_" + str(qp) + "_" + codec_name}.bin ' \
-								f'-o ./rev_yuv/{sequence.split(".")[0] + "_QP_" + str(qp) + "_" + codec_name}.yuv ' \
+								f'-b {bin_directory}{sequence.split(".")[0] + "_QP_" + str(qp) + "_" + codec_name}.bin ' \
+								f'-o {rec_yuv_directory}{sequence.split(".")[0] + "_QP_" + str(qp) + "_" + codec_name}.yuv ' \
 								f'-fr {int(sequence.split("_")[2].split(".")[0])} ' \
 								f'-fs 0 -f {frames_to_encode} -q {qp} '
 

@@ -1,0 +1,6 @@
+Seq Name,cfg,Codec Name,QP,Bitrate,PSNR
+BasketballPass_416x240_50.yuv,encoder_lowdelay_P_main_hm.cfg,hm,22,3237.4000,42.3689
+BasketballPass_416x240_50.yuv,encoder_lowdelay_P_main_hm.cfg,hm,27,1863.0000,38.7474
+BasketballPass_416x240_50.yuv,encoder_lowdelay_P_main_hm.cfg,hm,32,1068.2000,35.5394
+BasketballPass_416x240_50.yuv,encoder_lowdelay_P_main_hm.cfg,hm,37,574.4000,32.4584
+BasketballPass_416x240_50.yuv,encoder_lowdelay_P_vtm.cfg,vtm,22,3059.0000,43.4140
