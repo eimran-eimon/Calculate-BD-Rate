@@ -4,7 +4,7 @@ import re
 import decode
 from datetime import datetime
 
-frames_to_encode = 5
+frames_to_encode = 2
 vtune_cmd = '/opt/intel/oneapi/vtune/2021.1.1/bin64/vtune'
 sudo_cmd = 'echo 555555 | sudo -S'
 qps = [27, 32]
