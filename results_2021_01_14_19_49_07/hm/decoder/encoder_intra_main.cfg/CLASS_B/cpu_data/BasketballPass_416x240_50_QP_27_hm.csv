@@ -1,0 +1,4 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+TDecSbac::parseCoeffNxN	0.011985	0.011985	0.0	0.011985	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecSbac::parseCoeffNxN(TComTU&, ComponentID)	[Unknown]	0x472a0
+TDecBinCABAC::decodeBinsEP	0.010016	0.010016	0.0	0.010016	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecBinCABAC::decodeBinsEP(unsigned int&, int)	[Unknown]	0x2bd70
+func@0x11350	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	libgcc_s.so.1	func@0x11350	[Unknown]	0x11350

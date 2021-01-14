@@ -1,0 +1,40 @@
+Function	Allocation/Deallocation Delta	Allocation Size	Deallocation Size	Allocations	Module
+byteStreamNALUnit	350840.000000	1884168.000000	1533328.000000	168	TAppDecoderStatic
+func@0x8f3f0	72704.000000	72704.000000		1	libstdc++.so.6
+main	4096.000000	4096.000000		1	TAppDecoderStatic
+__libc_csu_init	1040.000000	1040.000000		1	TAppDecoderStatic
+__register_frame	480.000000	480.000000		10	libgcc_s.so.1
+_GLOBAL__sub_I__ZN3SEI19prefix_sei_messagesE	212.000000	212.000000		2	TAppDecoderStatic
+TAppDecCfg::parseCfg	0.0	2979.000000	2979.000000	33	TAppDecoderStatic
+TAppDecTop::decode	0.0	8744.000000	8744.000000	2	TAppDecoderStatic
+TComCUMvField::create	0.0	23500800.000000	23500800.000000	30600	TAppDecoderStatic
+TComDataCU::create	0.0	114892800.000000	114892800.000000	96900	TAppDecoderStatic
+TComInputBitstream::extractSubstream	0.0	226958.000000	226958.000000	10	TAppDecoderStatic
+TComLoopFilter::create	0.0	5120.000000	5120.000000	20	TAppDecoderStatic
+TComPic::create	0.0	600.000000	600.000000	5	TAppDecoderStatic
+TComPicSym::TComPicSym	0.0	1152.000000	1152.000000	4	TAppDecoderStatic
+TComPicSym::allocateNewSlice	0.0	27600.000000	27600.000000	5	TAppDecoderStatic
+TComPicSym::create	0.0	1349104.000000	1349104.000000	27	TAppDecoderStatic
+TComPicSym::prepareForReconstruction	0.0	3162040.000000	3162040.000000	7660	TAppDecoderStatic
+TComPicSym::xInitTiles	0.0	64.000000	64.000000	2	TAppDecoderStatic
+TComPicYuv::create	0.0	61280.000000	61280.000000	40	TAppDecoderStatic
+TComPicYuv::createWithoutCUInfo	0.0	77376000.000000	77376000.000000	30	TAppDecoderStatic
+TComPrediction::initTempBuff	0.0	201870.000000	201870.000000	7	TAppDecoderStatic
+TComSampleAdaptiveOffset::create	0.0	600.000000	600.000000	5	TAppDecoderStatic
+TComSampleAdaptiveOffset::offsetBlock	0.0	130.000000	130.000000	2	TAppDecoderStatic
+TComScalingList::TComScalingList	0.0	69888.000000	69888.000000	336	TAppDecoderStatic
+TComTrQuant::TComTrQuant	0.0	800640.000000	800640.000000	434	TAppDecoderStatic
+TComYuv::create	0.0	517504.000000	517504.000000	189	TAppDecoderStatic
+TDecCavlc::parseSPS	0.0	4160.000000	4160.000000	5	TAppDecoderStatic
+TDecCu::create	0.0	14400.000000	14400.000000	75	TAppDecoderStatic
+TDecTop::create	0.0	5520.000000	5520.000000	1	TAppDecoderStatic
+TDecTop::xDecodePPS	0.0	5224.000000	5224.000000	6	TAppDecoderStatic
+TDecTop::xDecodeSPS	0.0	48264.000000	48264.000000	6	TAppDecoderStatic
+TDecTop::xDecodeVPS	0.0	8664.000000	8664.000000	6	TAppDecoderStatic
+TDecTop::xGetNewPicBuffer	0.0	22000.000000	22000.000000	2	TAppDecoderStatic
+_Z28getListOfColourSpaceConvertsB5cxx11b	0.0	36.000000	36.000000	1	TAppDecoderStatic
+df::program_options_lite::Options::addOption	0.0	4411.000000	4411.000000	70	TAppDecoderStatic
+df::program_options_lite::scanArgv[abi:cxx11]	0.0	146.000000	146.000000	2	TAppDecoderStatic
+initROM	0.0	94848.000000	94848.000000	180	TAppDecoderStatic
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_construct<char*>.isra.38	0.0	1339.000000	1339.000000	16	TAppDecoderStatic
+[Unknown]				1	[Unknown]

@@ -1,0 +1,151 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+TComTrQuant::xRateDistOptQuant	12.514132	12.514132	0.010000	12.504132	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTrQuant::xRateDistOptQuant(TComTU&, int*, int*, int*, int&, ComponentID, QpParam const&)	[Unknown]	0x115200
+TComPrediction::xPredIntraAng	5.004098	5.004098	0.0	5.004098	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComPrediction::xPredIntraAng(int, short const*, int, short*, int, unsigned int, unsigned int, ChannelType, unsigned int, bool)	[Unknown]	0xdc910
+TEncSearch::xIntraCodingTUBlock	4.533986	4.533986	0.0	4.533986	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSearch::xIntraCodingTUBlock(TComYuv*, TComYuv*, TComYuv*, short (*)[4096], bool, unsigned int&, ComponentID, TComTU&, int)	[Unknown]	0x98880
+__memmove_avx_unaligned_erms	3.492079	3.492079	0.0	3.492079	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ed40
+TEncSbac::codeCoeffNxN	1.492006	1.492006	0.0	1.492006	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::codeCoeffNxN(TComTU&, int*, ComponentID)	[Unknown]	0x943e0
+TComRdCost::xCalcHADs4x4	1.408017	1.408017	0.0	1.408017	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComRdCost::xCalcHADs4x4(short const*, short const*, int, int, int)	[Unknown]	0xfd070
+simdHADs8x8	1.344072	1.344072	0.0	1.344072	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	simdHADs8x8(short const*, short const*, int, int)	[Unknown]	0xfa5f0
+TEncSearch::estIntraPredLumaQT	1.323988	1.323988	0.0	1.323988	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSearch::estIntraPredLumaQT(TComDataCU*, TComYuv*, TComYuv*, TComYuv*, TComYuv*, short (*)[4096])	[Unknown]	0x9c2d0
+partialButterfly32	1.301947	1.301947	0.010010	1.291936	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	partialButterfly32(int*, int*, int, int)	[Unknown]	0x10e5c0
+fillReferenceSamples	1.292031	1.292031	0.0	1.292031	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	fillReferenceSamples(int, short const*, short*, bool const*, int, int, int, int, int, unsigned int, unsigned int, int)	[Unknown]	0xd1d30
+__memset_avx2_unaligned_erms	1.259960	1.259960	0.0	1.259960	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_unaligned_erms	memset-vec-unaligned-erms.S	0x18f1c0
+TEncSbac::estBit	1.210009	1.210009	0.0	1.210009	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::estBit(estBitsSbacStruct*, int, int, ChannelType, COEFF_SCAN_TYPE)	[Unknown]	0x95db0
+TComPrediction::initIntraPatternChType	1.183997	1.183997	0.012012	1.171985	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComPrediction::initIntraPatternChType(TComTU&, ComponentID, bool)	[Unknown]	0xd34a0
+TComDataCU::getIntraDirPredictor	1.115921	1.115921	0.0	1.115921	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::getIntraDirPredictor(unsigned int, int*, ComponentID, int*) const	[Unknown]	0xbf990
+partialButterflyInverse32	1.056010	1.056010	0.0	1.056010	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	partialButterflyInverse32(int*, int*, int, int, int, int)	[Unknown]	0x10f450
+TEncBinCABACCounter::encodeBin	0.776023	0.776023	0.0	0.776023	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncBinCABACCounter::encodeBin(unsigned int, ContextModel&)	[Unknown]	0x7ed80
+TComTrQuant::getSigCtxInc	0.771981	0.771981	0.0	0.771981	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTrQuant::getSigCtxInc(int, TUEntropyCodingParameters const&, int, int, int, ChannelType)	[Unknown]	0x1150b0
+partialButterfly16	0.743984	0.743984	0.0	0.743984	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	partialButterfly16(int*, int*, int, int)	[Unknown]	0x10ccc0
+TEncSbac::codeIntraDirLumaAng	0.711945	0.711945	0.0	0.711945	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::codeIntraDirLumaAng(TComDataCU*, unsigned int, bool)	[Unknown]	0x923b0
+TEncSearch::xRecurIntraCodingLumaQT	0.687980	0.687980	0.0	0.687980	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSearch::xRecurIntraCodingLumaQT(TComYuv*, TComYuv*, TComYuv*, short (*)[4096], unsigned int&, bool, double&, TComTU&)	[Unknown]	0x9a3d0
+TComTrQuant::xDeQuant	0.686006	0.686006	0.0	0.686006	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTrQuant::xDeQuant(TComTU&, int const*, int*, ComponentID, QpParam const&)	[Unknown]	0x1130e0
+TComPrediction::predIntraAng	0.648026	0.648026	0.0	0.648026	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComPrediction::predIntraAng(ComponentID, unsigned int, short*, unsigned int, short*, unsigned int, TComTU&, bool, bool)	[Unknown]	0xe01c0
+fastForwardDst	0.632040	0.632040	0.0	0.632040	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	fastForwardDst(int*, int*, int)	[Unknown]	0x10a1e0
+_Z15simd8x8HAD1D32bPDv2_xS0_	0.608000	0.608000	0.0	0.608000	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	_Z15simd8x8HAD1D32bPDv2_xS0_	[Unknown]	0xfa390
+partialButterflyInverse8	0.584017	0.584017	0.0	0.584017	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	partialButterflyInverse8(int*, int*, int, int, int, int)	[Unknown]	0x10b810
+TComRdCost::xGetSSE8	0.567965	0.567965	0.0	0.567965	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComRdCost::xGetSSE8(DistParam*)	[Unknown]	0xe5a10
+TComYuv::getAddr	0.555955	0.555955	0.0	0.555955	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComYuv::getAddr(ComponentID, unsigned int)	[Unknown]	0xac010
+partialButterfly8	0.539974	0.539974	0.0	0.539974	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	partialButterfly8(int*, int*, int, int)	[Unknown]	0x10b4a0
+getTUEntropyCodingParameters	0.533184	0.533184	0.0	0.533184	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	getTUEntropyCodingParameters(TUEntropyCodingParameters&, TComTU&, ComponentID)	[Unknown]	0xbc990
+TComTrQuant::xT	0.512026	0.512026	0.0	0.512026	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTrQuant::xT(int, bool, short*, unsigned int, int*, int, int, int)	[Unknown]	0x1145b0
+TComRdCost::xGetHADs	0.491984	0.491984	0.0	0.491984	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComRdCost::xGetHADs(DistParam*)	[Unknown]	0xfd470
+TEncSbac::estLastSignificantPositionBit	0.488012	0.488012	0.0	0.488012	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::estLastSignificantPositionBit(estBitsSbacStruct*, int, int, ChannelType, COEFF_SCAN_TYPE)	[Unknown]	0x95bb0
+partialButterflyInverse16	0.467992	0.467992	0.0	0.467992	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	partialButterflyInverse16(int*, int*, int, int, int, int)	[Unknown]	0x10d850
+TComTrQuant::transformNxN	0.448006	0.448006	0.010006	0.438001	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTrQuant::transformNxN(TComTU&, ComponentID, short*, unsigned int, int*, int*, int&, QpParam const&)	[Unknown]	0x11a330
+TEncSbac::estSignificantMapBit	0.440014	0.440014	0.0	0.440014	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::estSignificantMapBit(estBitsSbacStruct*, int, int, ChannelType)	[Unknown]	0x95a50
+fastInverseDst	0.412015	0.412015	0.0	0.412015	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	fastInverseDst(int*, int*, int, int, int)	[Unknown]	0x10a8d0
+TComTURecurse::nextSection	0.387971	0.387971	0.0	0.387971	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTURecurse::nextSection(TComTU const&)	[Unknown]	0x11c440
+TComTrQuant::xIT	0.379947	0.379947	0.0	0.379947	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTrQuant::xIT(int, bool, int*, short*, unsigned int, int, int, int)	[Unknown]	0x1146c0
+TComPrediction::xPredIntraPlanar	0.359983	0.359983	0.0	0.359983	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComPrediction::xPredIntraPlanar(short const*, int, short*, int, unsigned int, unsigned int)	[Unknown]	0xdea20
+TComDataCU::getPUAboveRight	0.356000	0.356000	0.0	0.356000	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::getPUAboveRight(unsigned int&, unsigned int, unsigned int, bool) const	[Unknown]	0xbf350
+TComRdCost::xGetSSE16	0.355980	0.355980	0.0	0.355980	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComRdCost::xGetSSE16(DistParam*)	[Unknown]	0xe6b30
+TComRdCost::xGetSSE4	0.355969	0.355969	0.0	0.355969	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComRdCost::xGetSSE4(DistParam*)	[Unknown]	0xe4ed0
+TEncSearch::xEncSubdivCbfQT	0.348017	0.348017	0.0	0.348017	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSearch::xEncSubdivCbfQT(TComTU&, bool, bool)	[Unknown]	0x97090
+TComRdCost::xGetSSE32	0.326816	0.326816	0.0	0.326816	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComRdCost::xGetSSE32(DistParam*)	[Unknown]	0xe8b90
+TComDataCU::getCoefScanIdx	0.309954	0.309954	0.0	0.309954	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::getCoefScanIdx(unsigned int, unsigned int, unsigned int, ComponentID) const	[Unknown]	0xc5d30
+partialButterfly4	0.291979	0.291979	0.0	0.291979	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	partialButterfly4(int*, int*, int, int)	[Unknown]	0x109a30
+TEncSearch::xGetIntraBitsQT	0.288023	0.288023	0.0	0.288023	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSearch::xGetIntraBitsQT(TComTU&, bool, bool, bool)	[Unknown]	0x977b0
+TComTrQuant::xQuant	0.279994	0.279994	0.0	0.279994	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTrQuant::xQuant(TComTU&, int*, int*, int*, int&, ComponentID, QpParam const&)	[Unknown]	0x117f10
+TComYuv::copyPartToPartComponent	0.279960	0.279960	0.0	0.279960	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComYuv::copyPartToPartComponent(ComponentID, TComYuv*, unsigned int, unsigned int, unsigned int) const	[Unknown]	0xb2960
+TEncSearch::xEncCoeffQT	0.272018	0.272018	0.0	0.272018	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSearch::xEncCoeffQT(TComTU&, ComponentID, bool)	[Unknown]	0x97430
+TEncSbac::store	0.268012	0.268012	0.0	0.268012	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::store(TEncSbac*) const	[Unknown]	0x94080
+QpParam::QpParam	0.264002	0.264002	0.0	0.264002	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	QpParam::QpParam(TComDataCU const&, ComponentID)	[Unknown]	0x1091d0
+TEncSearch::xRecurIntraChromaCodingQT	0.259993	0.259993	0.0	0.259993	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSearch::xRecurIntraChromaCodingQT(TComYuv*, TComYuv*, TComYuv*, short (*)[4096], unsigned int&, TComTU&)	[Unknown]	0x9b320
+TEncBinCABAC::copyState	0.240002	0.240002	0.0	0.240002	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncBinCABAC::copyState(TEncBinIf const*)	[Unknown]	0x7df90
+TEncSampleAdaptiveOffset::getBlkStats	0.235987	0.235987	0.0	0.235987	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSampleAdaptiveOffset::getBlkStats(ComponentID, int, SAOStatData*, short*, short*, int, int, int, int, bool, bool, bool, bool, bool, bool, bool)	[Unknown]	0x83270
+TComPrediction::filteringIntraReferenceSamples	0.224008	0.224008	0.0	0.224008	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComPrediction::filteringIntraReferenceSamples(ComponentID, unsigned int, unsigned int, unsigned int, ChromaFormat, bool)	[Unknown]	0xd4c60
+TComRdCost::getDistPart	0.208031	0.208031	0.0	0.208031	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComRdCost::getDistPart(int, short const*, int, short const*, int, unsigned int, unsigned int, ComponentID, DFunc)	[Unknown]	0xfa280
+TEncSearch::xLoadIntraResultQT	0.208016	0.208016	0.0	0.208016	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSearch::xLoadIntraResultQT(ComponentID, TComTU&)	[Unknown]	0x97c60
+TComTrQuant::rdpcmNxN	0.207984	0.207984	0.0	0.207984	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTrQuant::rdpcmNxN(TComTU&, ComponentID, short*, unsigned int, QpParam const&, int*, int&, RDPCMMode&)	[Unknown]	0x119fc0
+TEncSbac::codeQtCbf	0.207974	0.207974	0.0	0.207974	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::codeQtCbf(TComTU&, ComponentID, bool)	[Unknown]	0x926d0
+TComTrQuant::xTransformSkip	0.191974	0.191974	0.0	0.191974	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTrQuant::xTransformSkip(short*, unsigned int, int*, TComTU&, ComponentID)	[Unknown]	0x1147e0
+__memset_chk_avx2_unaligned_erms	0.183992	0.183992	0.0	0.183992	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_chk_avx2_unaligned_erms	memset-vec-unaligned-erms.S	0x18f1b0
+TEncSbac::load	0.179999	0.179999	0.0	0.179999	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::load(TEncSbac const*)	[Unknown]	0x93fb0
+TComDataCU::getPUBelowLeft	0.179996	0.179996	0.0	0.179996	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::getPUBelowLeft(unsigned int&, unsigned int, unsigned int, bool) const	[Unknown]	0xbf1b0
+TComDataCU::initEstData	0.163996	0.163996	0.0	0.163996	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::initEstData(unsigned int, int, bool)	[Unknown]	0xbda00
+__memset_avx2_erms	0.156024	0.156024	0.0	0.156024	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18f190
+TEncSearch::estIntraPredChromaQT	0.155987	0.155987	0.0	0.155987	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSearch::estIntraPredChromaQT(TComDataCU*, TComYuv*, TComYuv*, TComYuv*, TComYuv*, short (*)[4096])	[Unknown]	0x9d860
+TEncEntropy::countNonZeroCoeffs	0.142020	0.142020	0.0	0.142020	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncEntropy::countNonZeroCoeffs(int*, unsigned int)	[Unknown]	0x90e50
+TComPrediction::UseDPCMForFirstPassIntraEstimation	0.139988	0.139988	0.0	0.139988	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComPrediction::UseDPCMForFirstPassIntraEstimation(TComTU&, unsigned int)	[Unknown]	0xe12e0
+TEncBinCABAC::getTEncBinCABAC	0.136013	0.136013	0.0	0.136013	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncBinCABAC::getTEncBinCABAC(void) const	[Unknown]	0x7ed40
+TComDataCU::getPUAboveLeft	0.135993	0.135993	0.0	0.135993	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::getPUAboveLeft(unsigned int&, unsigned int, bool) const	[Unknown]	0xbf070
+TEncEntropy::encodeCoeffNxN	0.132007	0.132007	0.0	0.132007	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncEntropy::encodeCoeffNxN(TComTU&, int*, ComponentID)	[Unknown]	0x90ce0
+TEncSbac::xWriteCoefRemainExGolomb	0.131999	0.131999	0.0	0.131999	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::xWriteCoefRemainExGolomb(unsigned int, unsigned int&, bool, int)	[Unknown]	0x93de0
+TEncSbac::codeLastSignificantXY	0.127985	0.127985	0.0	0.127985	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::codeLastSignificantXY(unsigned int, unsigned int, int, int, ComponentID, unsigned int)	[Unknown]	0x94120
+TEncBinCABACCounter::getNumWrittenBits	0.119989	0.119989	0.0	0.119989	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncBinCABACCounter::getNumWrittenBits(void)	[Unknown]	0x7ee60
+TComDataCU::getQuadtreeTULog2MinSizeInCU	0.112002	0.112002	0.0	0.112002	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::getQuadtreeTULog2MinSizeInCU(unsigned int) const	[Unknown]	0xbff40
+TEncEntropy::estimateBit	0.112001	0.112001	0.0	0.112001	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncEntropy::estimateBit(estBitsSbacStruct*, int, int, ChannelType, COEFF_SCAN_TYPE)	[Unknown]	0x90e30
+TComTU::TComTU	0.112000	0.112000	0.0	0.112000	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTU::TComTU(TComTU&, bool, TComTU::TU_SPLIT_MODE, bool, ComponentID)	[Unknown]	0x11c040
+TComDataCU::initSubCU	0.111997	0.111997	0.0	0.111997	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::initSubCU(TComDataCU*, unsigned int, unsigned int, int)	[Unknown]	0xbdc90
+TComDataCU::getPUAbove	0.111986	0.111986	0.0	0.111986	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::getPUAbove(unsigned int&, unsigned int, bool, bool, bool) const	[Unknown]	0xbef90
+TComTrQuant::invRdpcmNxN	0.104008	0.104008	0.0	0.104008	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTrQuant::invRdpcmNxN(TComTU&, ComponentID, short*, unsigned int)	[Unknown]	0x114360
+TComTU::getGolombRiceStatisticsIndex	0.100009	0.100009	0.0	0.100009	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTU::getGolombRiceStatisticsIndex(ComponentID)	[Unknown]	0x11c750
+TComTrQuant::invTransformNxN	0.091997	0.091997	0.0	0.091997	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTrQuant::invTransformNxN(TComTU&, ComponentID, short*, unsigned int, int*, QpParam const&)	[Unknown]	0x114d00
+TComDataCU::getPULeft	0.088001	0.088001	0.0	0.088001	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::getPULeft(unsigned int&, unsigned int, bool, bool) const	[Unknown]	0xbeeb0
+TComDataCU::setTransformSkipSubParts	0.087996	0.087996	0.0	0.087996	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::setTransformSkipSubParts(unsigned int, ComponentID, unsigned int, unsigned int)	[Unknown]	0xc2240
+xTrMxN	0.084006	0.084006	0.0	0.084006	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	xTrMxN(int, int*, int*, int, int, bool, int)	[Unknown]	0x1120b0
+TEncSbac::loadIntraDirMode	0.084006	0.084006	0.0	0.084006	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::loadIntraDirMode(TEncSbac const*, ChannelType)	[Unknown]	0x94000
+TEncBinCABAC::resetBits	0.083996	0.083996	0.0	0.083996	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncBinCABAC::resetBits(void)	[Unknown]	0x7dfd0
+TEncSearch::xEncIntraHeader	0.079996	0.079996	0.0	0.079996	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSearch::xEncIntraHeader(TComDataCU*, unsigned int, unsigned int, bool, bool)	[Unknown]	0x975a0
+TEncCu::xCompressCU	0.079994	0.079994	0.0	0.079994	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncCu::xCompressCU(TComDataCU*&, TComDataCU*&, unsigned int, PartSize)	[Unknown]	0x8db00
+TEncCu::xCheckRDCostIntra.part.107	0.076004	0.076004	0.0	0.076004	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncCu::xCheckRDCostIntra(TComDataCU*&, TComDataCU*&, PartSize).part.107	[Unknown]	0x8d150
+TComRdCost::calcRdCost	0.072006	0.072006	0.0	0.072006	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComRdCost::calcRdCost(double, double, DFunc)	[Unknown]	0xf9cb0
+func@0x97b0	0.072006	0.072006	0.0	0.072006	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	func@0x97b0	[Unknown]	0x97b0
+TEncBinCABACCounter::encodeBinsEP	0.072002	0.072002	0.0	0.072002	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncBinCABACCounter::encodeBinsEP(unsigned int, int)	[Unknown]	0x7edd0
+TComCUMvField::clearMvField	0.071996	0.071996	0.0	0.071996	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComCUMvField::clearMvField(void)	[Unknown]	0xcd120
+TComTU::useDST	0.068000	0.068000	0.0	0.068000	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTU::useDST(ComponentID)	[Unknown]	0x11c6d0
+xITrMxN	0.067995	0.067995	0.0	0.067995	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	xITrMxN(int, int*, int*, int, int, bool, int)	[Unknown]	0x112320
+TEncEntropy::xEncodeTransform	0.067993	0.067993	0.0	0.067993	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncEntropy::xEncodeTransform(bool&, bool&, TComTU&)	[Unknown]	0x8fea0
+TEncSearch::xSetIntraResultChromaQT	0.063998	0.063998	0.0	0.063998	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSearch::xSetIntraResultChromaQT(TComYuv*, TComTU&)	[Unknown]	0x9c0f0
+TComDataCU::getCtxQtCbf	0.051998	0.051998	0.0	0.051998	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::getCtxQtCbf(TComTU&, ChannelType) const	[Unknown]	0xbff20
+TComDataCU::copyToPic	0.048006	0.048006	0.0	0.048006	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::copyToPic(unsigned char)	[Unknown]	0xbea90
+TComTrQuant::xITransformSkip	0.048004	0.048004	0.0	0.048004	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTrQuant::xITransformSkip(int*, short*, unsigned int, TComTU&, ComponentID)	[Unknown]	0x114a70
+TEncSbac::codeIntraDirChroma	0.043991	0.043991	0.0	0.043991	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::codeIntraDirChroma(TComDataCU*, unsigned int)	[Unknown]	0x92970
+func@0x96b0	0.040002	0.040002	0.0	0.040002	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	func@0x96b0	[Unknown]	0x96b0
+TEncBinCABACCounter::encodeBinEP	0.039997	0.039997	0.0	0.039997	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncBinCABACCounter::encodeBinEP(unsigned int)	[Unknown]	0x7edc0
+TComTrQuant::calcPatternSigCtx	0.036006	0.036006	0.0	0.036006	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTrQuant::calcPatternSigCtx(unsigned int const*, unsigned int, unsigned int, unsigned int, unsigned int)	[Unknown]	0x115050
+TComYuv::copyToPicYuv	0.036005	0.036005	0.0	0.036005	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComYuv::copyToPicYuv(TComPicYuv*, unsigned int, unsigned int, unsigned int, unsigned int) const	[Unknown]	0xb1710
+TComBitCounter::resetBits	0.036003	0.036003	0.0	0.036003	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComBitCounter::resetBits(void)	[Unknown]	0x54f30
+TComLoopFilter::xEdgeFilterLuma	0.036000	0.036000	0.0	0.036000	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComLoopFilter::xEdgeFilterLuma(TComDataCU*, unsigned int, unsigned int, DeblockEdgeDir, int)	[Unknown]	0xc72b0
+TComDataCU::copyPartFrom	0.035997	0.035997	0.0	0.035997	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::copyPartFrom(TComDataCU*, unsigned int, unsigned int)	[Unknown]	0xbe5f0
+TEncSearch::xStoreIntraResultQT	0.032008	0.032008	0.0	0.032008	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSearch::xStoreIntraResultQT(ComponentID, TComTU&)	[Unknown]	0x97b20
+TComDataCU::setExplicitRdpcmModePartRange	0.032001	0.032001	0.0	0.032001	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::setExplicitRdpcmModePartRange(unsigned int, ComponentID, unsigned int, unsigned int)	[Unknown]	0xc22b0
+TComDataCU::setTrIdxSubParts	0.031998	0.031998	0.0	0.031998	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::setTrIdxSubParts(unsigned int, unsigned int, unsigned int)	[Unknown]	0xc21d0
+__GI___libc_malloc	0.024023	0.024023	0.0	0.024023	0.0	0.0	0.0	0.0	0.0	libc.so.6	__GI___libc_malloc	malloc.c	0x970e0
+TComYuv::copyToPartYuv	0.024001	0.024001	0.0	0.024001	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComYuv::copyToPartYuv(TComYuv*, unsigned int) const	[Unknown]	0xb1cf0
+func@0x9a40	0.024000	0.024000	0.0	0.024000	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	func@0x9a40	[Unknown]	0x9a40
+TComYuv::copyToPicComponent	0.020016	0.020016	0.0	0.020016	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComYuv::copyToPicComponent(ComponentID, TComPicYuv*, unsigned int, unsigned int, unsigned int, unsigned int) const	[Unknown]	0xb1910
+std::ostream::write	0.020013	0.020013	0.0	0.020013	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::ostream::write(char const*, long)	[Unknown]	0x113730
+TComDataCU::setCbfSubParts	0.020006	0.020006	0.0	0.020006	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::setCbfSubParts(unsigned int, ComponentID, unsigned int, unsigned int)	[Unknown]	0xc0230
+TEncEntropy::encodeQtCbf	0.020001	0.020001	0.0	0.020001	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncEntropy::encodeQtCbf(TComTU&, ComponentID, bool)	[Unknown]	0x90b60
+__memset_chk_avx2_unaligned_erms	0.019996	0.019996	0.0	0.019996	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_chk_avx2_unaligned_erms	[Unknown]	0x18f1b0
+TComDataCU::setCbfPartRange	0.019996	0.019996	0.0	0.019996	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::setCbfPartRange(unsigned int, ComponentID, unsigned int, unsigned int)	[Unknown]	0xc05d0
+TVideoIOYuv::write	0.019994	0.019994	0.0	0.019994	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TVideoIOYuv::write(TComPicYuv*, InputColourSpaceConversion, int, int, int, int, ChromaFormat, bool)	[Unknown]	0x133fd0
+TComSampleAdaptiveOffset::offsetBlock	0.016002	0.016002	0.0	0.016002	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComSampleAdaptiveOffset::offsetBlock(int, int, int*, short*, short*, int, int, int, int, bool, bool, bool, bool, bool, bool, bool, bool)	[Unknown]	0xb7120
+TComTU::GetEquivalentLog2TrSize	0.015999	0.015999	0.0	0.015999	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTU::GetEquivalentLog2TrSize(ComponentID) const	[Unknown]	0x11c6b0
+TEncEntropy::encodeIntraDirModeLuma	0.015999	0.015999	0.0	0.015999	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncEntropy::encodeIntraDirModeLuma(TComDataCU*, unsigned int, bool)	[Unknown]	0x90650
+TEncGOP::xCalculateAddPSNR	0.015999	0.015999	0.0	0.015999	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncGOP::xCalculateAddPSNR(TComPic*, TComPicYuv*, AccessUnit const&, double, InputColourSpaceConversion, TEncAnalyze::OutputLogControl const&, double*)	[Unknown]	0x4eb30
+TComLoopFilter::xSetEdgefilterTU	0.015997	0.015997	0.0	0.015997	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComLoopFilter::xSetEdgefilterTU(TComTU&)	[Unknown]	0xc63d0
+TComRdCost::setDistParam	0.015991	0.015991	0.0	0.015991	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComRdCost::setDistParam(DistParam&, int, short const*, int, short const*, int, int, int, bool)	[Unknown]	0xfa220
+TComTURecurse::TComTURecurse	0.012003	0.012003	0.0	0.012003	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTURecurse::TComTURecurse(TComDataCU*, unsigned int)	[Unknown]	0x11bdf0
+TEncEntropy::encodePartSize	0.012002	0.012002	0.0	0.012002	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncEntropy::encodePartSize(TComDataCU*, unsigned int, unsigned int, bool)	[Unknown]	0x8fe10
+operator new	0.012002	0.012002	0.0	0.012002	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	operator new(unsigned long)	[Unknown]	0x93280
+TVideoIOYuv::read	0.012001	0.012001	0.0	0.012001	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TVideoIOYuv::read(TComPicYuv*, TComPicYuv*, InputColourSpaceConversion, int*, ChromaFormat, bool)	[Unknown]	0x1327b0
+TComDataCU::setPredModeSubParts	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::setPredModeSubParts(PredMode, unsigned int, unsigned int)	[Unknown]	0xc06d0
+TEncSbac::codeCrossComponentPrediction	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::codeCrossComponentPrediction(TComTU&, ComponentID)	[Unknown]	0x934f0
+__memcpy_chk_avx_unaligned_erms	0.011999	0.011999	0.0	0.011999	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memcpy_chk_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ed30
+TEncSbac::codeSAOOffsetParam	0.011998	0.011998	0.0	0.011998	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::codeSAOOffsetParam(ComponentID, SAOOffset&, bool, int)	[Unknown]	0x95430
+TComDataCU::getCtxSplitFlag	0.011994	0.011994	0.0	0.011994	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::getCtxSplitFlag(unsigned int, unsigned int) const	[Unknown]	0xbfd70
+TComCUMvField::create	0.011990	0.011990	0.0	0.011990	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComCUMvField::create(unsigned int)	[Unknown]	0xcce30
+TComYuv::copyFromPicYuv	0.011985	0.011985	0.0	0.011985	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComYuv::copyFromPicYuv(TComPicYuv const*, unsigned int, unsigned int)	[Unknown]	0xb1aa0
+__GI_	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	libc.so.6	float __GI_(long, int, bool, char)	malloc.c	0x979c0
+__libc_calloc	0.008009	0.008009	0.0	0.008009	0.0	0.0	0.0	0.0	0.0	libc.so.6	__libc_calloc	malloc.c	0x9a0a0
+TComDataCU::destroy	0.008006	0.008006	0.0	0.008006	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::destroy(void)	[Unknown]	0xbd100
+TComTU::isNonTransformedResidualRotated	0.008004	0.008004	0.0	0.008004	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComTU::isNonTransformedResidualRotated(ComponentID)	[Unknown]	0x11c700
+TEncSearch::xSetIntraResultLumaQT	0.008004	0.008004	0.0	0.008004	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSearch::xSetIntraResultLumaQT(TComYuv*, TComTU&)	[Unknown]	0x979a0
+TComBitCounter::getNumberOfWrittenBits	0.008001	0.008001	0.0	0.008001	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComBitCounter::getNumberOfWrittenBits(void) const	[Unknown]	0x54f40
+TEncSbac::codeTransformSubdivFlag	0.008000	0.008000	0.0	0.008000	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TEncSbac::codeTransformSubdivFlag(unsigned int, unsigned int)	[Unknown]	0x91140
+TComDataCU::setIntraDirSubParts	0.007998	0.007998	0.0	0.007998	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::setIntraDirSubParts(ChannelType, unsigned int, unsigned int, unsigned int)	[Unknown]	0xc10a0
+TComDataCU::setCrossComponentPredictionAlphaPartRange	0.007998	0.007998	0.0	0.007998	0.0	0.0	0.0	0.0	0.0	TAppEncoderStatic	TComDataCU::setCrossComponentPredictionAlphaPartRange(signed char, ComponentID, unsigned int, unsigned int)	[Unknown]	0xc2290
+std::istream::read	0.007997	0.007997	0.0	0.007997	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::read(char*, long)	[Unknown]	0xfc3c0

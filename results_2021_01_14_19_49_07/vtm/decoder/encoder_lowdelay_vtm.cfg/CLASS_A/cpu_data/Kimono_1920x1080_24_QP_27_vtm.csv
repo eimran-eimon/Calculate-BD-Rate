@@ -1,0 +1,42 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+CDTrace::dtrace<(bool)0>	0.083925	0.083925	0.0	0.083925	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void CDTrace::dtrace<(bool)0>(int, char const*, ellipsis)	[Unknown]	0xc0ad0
+LoopFilter::loopFilterPic	0.063950	0.063950	0.0	0.063950	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::loopFilterPic(CodingStructure&)	[Unknown]	0x25db50
+__memset_avx2_unaligned_erms	0.060047	0.060047	0.0	0.060047	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_unaligned_erms	memset-vec-unaligned-erms.S	0x18f1c0
+__memset_avx2_erms	0.056029	0.056029	0.0	0.056029	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18f190
+simdFilter7x7Blk<(X86_VEXT)4>	0.051886	0.051886	0.0	0.051886	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void simdFilter7x7Blk<(X86_VEXT)4>(AlfClassifier**, UnitBuf<short> const&, UnitBuf<short const> const&, Area const&, Area const&, ComponentID, short const*, short const*, ClpRng const&, CodingStructure&, int, int)	[Unknown]	0x17a500
+DecCu::xReconInter	0.048016	0.048016	0.0	0.048016	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	DecCu::xReconInter(CodingUnit&)	[Unknown]	0x21f520
+CodingStructure::getCU	0.040109	0.040109	0.0	0.040109	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CodingStructure::getCU(Position const&, ChannelType)	[Unknown]	0xca570
+fastInverseDST7_B32	0.031981	0.031981	0.0	0.031981	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	fastInverseDST7_B32(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x9bb30
+fastInverseDCT2_B32	0.031965	0.031965	0.0	0.031965	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	fastInverseDCT2_B32(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x91da0
+DecLib::DecLib	0.031949	0.031949	0.0	0.031949	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	DecLib::DecLib(void)	[Unknown]	0x1bd380
+TrQuant::invTransformNxN	0.027995	0.027995	0.0	0.027995	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	TrQuant::invTransformNxN(TransformUnit&, ComponentID const&, AreaBuf<short>&, QpParam const&)	[Unknown]	0x82880
+__memmove_avx_unaligned_erms	0.024030	0.024030	0.0	0.024030	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ed40
+TBinDecoder<BinProbModel_Std>::decodeBin	0.024000	0.024000	0.0	0.024000	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	TBinDecoder<BinProbModel_Std>::decodeBin(unsigned int)	[Unknown]	0x20b400
+CodingStructure::createInternals	0.023988	0.023988	0.0	0.023988	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CodingStructure::createInternals(UnitArea const&, bool, bool)	[Unknown]	0xcc8b0
+IntraPrediction::predIntraAng	0.023984	0.023984	0.0	0.023984	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	IntraPrediction::predIntraAng(ComponentID, AreaBuf<short>&, PredictionUnit const&)	[Unknown]	0x24a0d0
+_GLOBAL__sub_I_Rom.cpp	0.020065	0.020065	0.0	0.020065	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	_GLOBAL__sub_I_Rom.cpp	[Unknown]	0xccd0
+SampleAdaptiveOffset::SAOProcess	0.020014	0.020014	0.0	0.020014	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	SampleAdaptiveOffset::SAOProcess(CodingStructure&, SAOBlkParam*)	[Unknown]	0x5d470
+std::istream::get	0.019996	0.019996	0.0	0.019996	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+LoopFilter::xEdgeFilterLuma	0.019972	0.019972	0.0	0.019972	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::xEdgeFilterLuma(CodingUnit const&, DeblockEdgeDir, int)	[Unknown]	0x258200
+CABACReader::residual_coding_subblock	0.015976	0.015976	0.0	0.015976	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CABACReader::residual_coding_subblock(CoeffCodingContext&, int*, int, int&)	[Unknown]	0x211f70
+dtrace_frame_blockwise<short const>	0.012009	0.012009	0.0	0.012009	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void dtrace_frame_blockwise<short const>(CDTrace*, DTRACE_CHANNEL, short const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)	[Unknown]	0x25f370
+SampleAdaptiveOffset::offsetBlock	0.012008	0.012008	0.0	0.012008	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	SampleAdaptiveOffset::offsetBlock(int, ClpRng const&, int, int*, short const*, short*, int, int, int, int, bool, bool, bool, bool, bool, bool, bool, bool, bool, int*, int*, int, int)	[Unknown]	0x57b30
+simdFilter<(X86_VEXT)4, (int)4, (bool)0, (bool)1, (bool)0>	0.012004	0.012004	0.0	0.012004	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void simdFilter<(X86_VEXT)4, (int)4, (bool)0, (bool)1, (bool)0>(ClpRng const&, short const*, int, short*, int, int, int, short const*, bool)	[Unknown]	0x187d00
+simdInterpolateVerM4<(X86_VEXT)4, (int)8, (bool)0>.isra.12	0.012002	0.012002	0.0	0.012002	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void simdInterpolateVerM4<(X86_VEXT)4, (int)8, (bool)0>(short const*, int, short*, int, int, int, int, int, ClpRng const&, short const*).isra.12	[Unknown]	0x1862a0
+QpParam::QpParam	0.012001	0.012001	0.0	0.012001	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	QpParam::QpParam(TransformUnit const&, ComponentID const&, int, bool)	[Unknown]	0x105ac0
+QTBTPartitioner::exitCurrSplit	0.011996	0.011996	0.0	0.011996	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	QTBTPartitioner::exitCurrSplit(void)	[Unknown]	0x2662d0
+LoopFilter::xGetBoundaryStrengthSingle	0.011994	0.011994	0.0	0.011994	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::xGetBoundaryStrengthSingle(CodingUnit const&, DeblockEdgeDir, Position const&, ChannelType) const	[Unknown]	0x255d10
+initROM	0.011994	0.011994	0.0	0.011994	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	initROM(void)	[Unknown]	0x546b0
+LoopFilter::xDeblockCU	0.011980	0.011980	0.0	0.011980	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::xDeblockCU(CodingUnit&, DeblockEdgeDir)	[Unknown]	0x25c800
+DecCu::decompressCtu	0.011974	0.011974	0.0	0.011974	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	DecCu::decompressCtu(CodingStructure&, UnitArea const&)	[Unknown]	0x220e20
+CodingStructure::setDecomp	0.011967	0.011967	0.0	0.011967	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CodingStructure::setDecomp(CompArea const&, bool)	[Unknown]	0xc73b0
+CDTrace::dtrace<(bool)1>	0.011953	0.011953	0.0	0.011953	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void CDTrace::dtrace<(bool)1>(int, char const*, ellipsis)	[Unknown]	0xc09e0
+QpParam::QpParam	0.011951	0.011951	0.0	0.011951	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	QpParam::QpParam(int, ComponentID, int, int, int, ChromaFormat, int, SPS const*, bool)	[Unknown]	0x1037c0
+[Outside any known module]	0.008162	0.008162	0.0	0.008162	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+InterPrediction::resetVPDUforIBC	0.008056	0.008056	0.0	0.008056	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	InterPrediction::resetVPDUforIBC(ChromaFormat, int, int, int, int)	[Unknown]	0xe2d70
+simdInterpolateHorM8_AVX2<(X86_VEXT)4, (int)4, (bool)0>.isra.13	0.008040	0.008040	0.0	0.008040	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void simdInterpolateHorM8_AVX2<(X86_VEXT)4, (int)4, (bool)0>(short const*, int, short*, int, int, int, int, int, ClpRng const&, short const*).isra.13	[Unknown]	0x187ba0
+IntraPrediction::xGetLumaRecPixels	0.008038	0.008038	0.0	0.008038	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	IntraPrediction::xGetLumaRecPixels(PredictionUnit const&, CompArea)	[Unknown]	0x250b10
+PelStorage::getBuf	0.008010	0.008010	0.0	0.008010	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	PelStorage::getBuf(CompArea const&)	[Unknown]	0x39070
+CodingStructure::getCU	0.008005	0.008005	0.0	0.008005	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CodingStructure::getCU(Position const&, ChannelType) const	[Unknown]	0xca990
+CU::isMTSAllowed	0.007990	0.007990	0.0	0.007990	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CU::isMTSAllowed(CodingUnit const&, ComponentID)	[Unknown]	0xae0f0
+PPS::getSubPicFromCU	0.007989	0.007989	0.0	0.007989	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	PPS::getSubPicFromCU(CodingUnit const&) const	[Unknown]	0x64640
