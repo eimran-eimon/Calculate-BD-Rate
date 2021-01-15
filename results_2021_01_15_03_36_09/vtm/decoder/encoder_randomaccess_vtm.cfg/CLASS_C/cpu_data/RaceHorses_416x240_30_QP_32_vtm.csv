@@ -1,0 +1,10 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+DecLib::DecLib	0.032000	0.032000	0.0	0.032000	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	DecLib::DecLib(void)	[Unknown]	0x1bd380
+std::istream::get	0.020005	0.020005	0.0	0.020005	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+CABACReader::residual_coding_subblock	0.019999	0.019999	0.0	0.019999	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CABACReader::residual_coding_subblock(CoeffCodingContext&, int*, int, int&)	[Unknown]	0x211f70
+__memset_avx2_erms	0.019976	0.019976	0.0	0.019976	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18f190
+LoopFilter::loopFilterPic	0.011990	0.011990	0.0	0.011990	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::loopFilterPic(CodingStructure&)	[Unknown]	0x25db50
+_GLOBAL__sub_I_Rom.cpp	0.010024	0.010024	0.0	0.010024	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	_GLOBAL__sub_I_Rom.cpp	[Unknown]	0xccd0
+[Outside any known module]	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+CDTrace::dtrace<(bool)0>	0.008005	0.008005	0.0	0.008005	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void CDTrace::dtrace<(bool)0>(int, char const*, ellipsis)	[Unknown]	0xc0ad0
+IntraPrediction::predIntraAng	0.008000	0.008000	0.0	0.008000	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	IntraPrediction::predIntraAng(ComponentID, AreaBuf<short>&, PredictionUnit const&)	[Unknown]	0x24a0d0

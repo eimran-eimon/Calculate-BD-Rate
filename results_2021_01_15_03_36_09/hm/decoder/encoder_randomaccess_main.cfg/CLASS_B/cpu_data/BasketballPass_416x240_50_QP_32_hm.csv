@@ -1,0 +1,4 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+std::istream::get	0.011990	0.011990	0.0	0.011990	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+TComPrediction::predIntraAng	0.010010	0.010010	0.0	0.010010	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComPrediction::predIntraAng(ComponentID, unsigned int, short*, unsigned int, short*, unsigned int, TComTU&, bool, bool)	[Unknown]	0x795e0
+__GI_	0.008001	0.008001	0.0	0.008001	0.0	0.0	0.0	0.0	0.0	libc.so.6	float __GI_(long, int, bool, char)	malloc.c	0x979c0

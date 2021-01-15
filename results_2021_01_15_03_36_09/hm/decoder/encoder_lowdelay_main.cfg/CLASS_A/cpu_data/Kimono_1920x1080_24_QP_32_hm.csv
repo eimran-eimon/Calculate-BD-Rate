@@ -1,0 +1,17 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+partialButterflyInverse32	0.023990	0.023990	0.0	0.023990	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	partialButterflyInverse32(int*, int*, int, int, int, int)	[Unknown]	0x8daa0
+partialButterflyInverse16	0.019998	0.019998	0.0	0.019998	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	partialButterflyInverse16(int*, int*, int, int, int, int)	[Unknown]	0x8bea0
+TComLoopFilter::loopFilterPic	0.019997	0.019997	0.0	0.019997	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::loopFilterPic(TComPic*)	[Unknown]	0x620b0
+TDecCu::xReconIntraQT	0.016000	0.016000	0.0	0.016000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecCu::xReconIntraQT(TComDataCU*, unsigned int)	[Unknown]	0x3b9e0
+__libc_calloc	0.012027	0.012027	0.0	0.012027	0.0	0.0	0.0	0.0	0.0	libc.so.6	__libc_calloc	malloc.c	0x9a0a0
+TComPrediction::initIntraPatternChType	0.012001	0.012001	0.0	0.012001	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComPrediction::initIntraPatternChType(TComTU&, ComponentID, bool)	[Unknown]	0x6c8c0
+TComCUMvField::compress	0.012001	0.012001	0.0	0.012001	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComCUMvField::compress(signed char*, signed char const*, int, TComCUMvField const&)	[Unknown]	0x6b000
+__memmove_avx_unaligned_erms	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ed40
+TComInterpolationFilter::filter<(int)8, (bool)0, (bool)1, (bool)0>	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	void TComInterpolationFilter::filter<(int)8, (bool)0, (bool)1, (bool)0>(int, short const*, int, short*, int, int, int, short const*)	[Unknown]	0x9d1e0
+TComCUMvField::clearMvField	0.011998	0.011998	0.0	0.011998	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComCUMvField::clearMvField(void)	[Unknown]	0x66540
+std::istream::get	0.008003	0.008003	0.0	0.008003	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+__GI___libc_malloc	0.008001	0.008001	0.0	0.008001	0.0	0.0	0.0	0.0	0.0	libc.so.6	__GI___libc_malloc	malloc.c	0x970e0
+TComInterpolationFilter::filter<(int)8, (bool)1, (bool)0, (bool)0>	0.008001	0.008001	0.0	0.008001	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	void TComInterpolationFilter::filter<(int)8, (bool)1, (bool)0, (bool)0>(int, short const*, int, short*, int, int, int, short const*)	[Unknown]	0xa2f20
+TDecCu::xIntraRecBlk	0.008000	0.008000	0.0	0.008000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecCu::xIntraRecBlk(TComYuv*, TComYuv*, TComYuv*, ComponentID, TComTU&)	[Unknown]	0x35000
+TComLoopFilter::xEdgeFilterLuma	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::xEdgeFilterLuma(TComDataCU*, unsigned int, unsigned int, DeblockEdgeDir, int)	[Unknown]	0x606d0
+TComTrQuant::xDeQuant	0.007983	0.007983	0.0	0.007983	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComTrQuant::xDeQuant(TComTU&, int const*, int*, ComponentID, QpParam const&)	[Unknown]	0x91730

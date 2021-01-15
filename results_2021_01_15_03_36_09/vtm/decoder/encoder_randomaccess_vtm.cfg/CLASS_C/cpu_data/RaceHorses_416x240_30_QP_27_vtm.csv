@@ -1,0 +1,12 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+DecLib::DecLib	0.020007	0.020007	0.0	0.020007	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	DecLib::DecLib(void)	[Unknown]	0x1bd380
+_GLOBAL__sub_I_Rom.cpp	0.020006	0.020006	0.0	0.020006	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	_GLOBAL__sub_I_Rom.cpp	[Unknown]	0xccd0
+std::istream::get	0.019998	0.019998	0.0	0.019998	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+__memset_avx2_erms	0.019989	0.019989	0.0	0.019989	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18f190
+TBinDecoder<BinProbModel_Std>::decodeBin	0.012007	0.012007	0.0	0.012007	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	TBinDecoder<BinProbModel_Std>::decodeBin(unsigned int)	[Unknown]	0x20b400
+CABACReader::residual_coding_subblock	0.012002	0.012002	0.0	0.012002	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CABACReader::residual_coding_subblock(CoeffCodingContext&, int*, int, int&)	[Unknown]	0x211f70
+__memmove_avx_unaligned_erms	0.011995	0.011995	0.0	0.011995	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ed40
+[Outside any known module]	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+AreaBuf<short>::copyClip	0.008005	0.008005	0.0	0.008005	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	AreaBuf<short>::copyClip(AreaBuf<short const> const&, ClpRng const&)	[Unknown]	0x3a430
+CodingStructure::isDecomp	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CodingStructure::isDecomp(Position const&, ChannelType) const	[Unknown]	0xc7300
+QTBTPartitioner::canSplit	0.007992	0.007992	0.0	0.007992	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	QTBTPartitioner::canSplit(CodingStructure const&, bool&, bool&, bool&, bool&, bool&, bool&)	[Unknown]	0x264250

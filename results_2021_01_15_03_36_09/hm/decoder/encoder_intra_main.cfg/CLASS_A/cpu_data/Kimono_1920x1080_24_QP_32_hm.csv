@@ -1,0 +1,19 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+partialButterflyInverse32	0.047987	0.047987	0.0	0.047987	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	partialButterflyInverse32(int*, int*, int, int, int, int)	[Unknown]	0x8daa0
+fillReferenceSamples	0.023991	0.023991	0.0	0.023991	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	fillReferenceSamples(int, short const*, short*, bool const*, int, int, int, int, int, unsigned int, unsigned int, int)	[Unknown]	0x6b150
+TDecCu::xReconIntraQT	0.019995	0.019995	0.0	0.019995	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecCu::xReconIntraQT(TComDataCU*, unsigned int)	[Unknown]	0x3b9e0
+TComLoopFilter::xEdgeFilterLuma	0.016005	0.016005	0.0	0.016005	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::xEdgeFilterLuma(TComDataCU*, unsigned int, unsigned int, DeblockEdgeDir, int)	[Unknown]	0x606d0
+__libc_calloc	0.012026	0.012026	0.0	0.012026	0.0	0.0	0.0	0.0	0.0	libc.so.6	__libc_calloc	malloc.c	0x9a0a0
+TComSampleAdaptiveOffset::offsetBlock	0.012007	0.012007	0.0	0.012007	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComSampleAdaptiveOffset::offsetBlock(int, int, int*, short*, short*, int, int, int, int, bool, bool, bool, bool, bool, bool, bool, bool)	[Unknown]	0x505a0
+operator new	0.011999	0.011999	0.0	0.011999	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	operator new(unsigned long)	[Unknown]	0x93280
+TComLoopFilter::loopFilterPic	0.011997	0.011997	0.0	0.011997	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::loopFilterPic(TComPic*)	[Unknown]	0x620b0
+TComLoopFilter::xSetEdgefilterTU	0.011997	0.011997	0.0	0.011997	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::xSetEdgefilterTU(TComTU&)	[Unknown]	0x5f7f0
+TComPrediction::xPredIntraAng	0.011996	0.011996	0.0	0.011996	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComPrediction::xPredIntraAng(int, short const*, int, short*, int, unsigned int, unsigned int, ChannelType, unsigned int, bool)	[Unknown]	0x75d30
+__memset_avx2_erms	0.011988	0.011988	0.0	0.011988	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18f190
+TComCUMvField::compress	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComCUMvField::compress(signed char*, signed char const*, int, TComCUMvField const&)	[Unknown]	0x6b000
+TComPrediction::initIntraPatternChType	0.008004	0.008004	0.0	0.008004	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComPrediction::initIntraPatternChType(TComTU&, ComponentID, bool)	[Unknown]	0x6c8c0
+TDecSbac::parseCoeffNxN	0.008004	0.008004	0.0	0.008004	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecSbac::parseCoeffNxN(TComTU&, ComponentID)	[Unknown]	0x472a0
+TComCUMvField::clearMvField	0.008003	0.008003	0.0	0.008003	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComCUMvField::clearMvField(void)	[Unknown]	0x66540
+std::istream::get	0.008002	0.008002	0.0	0.008002	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+TComTrQuant::xIT	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComTrQuant::xIT(int, bool, int*, short*, unsigned int, int, int, int)	[Unknown]	0x92d10
+__GI___libc_malloc	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	libc.so.6	__GI___libc_malloc	malloc.c	0x970e0

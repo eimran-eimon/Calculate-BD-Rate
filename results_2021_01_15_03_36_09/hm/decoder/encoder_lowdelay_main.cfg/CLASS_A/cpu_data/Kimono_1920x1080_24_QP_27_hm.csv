@@ -1,0 +1,16 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+partialButterflyInverse32	0.047979	0.047979	0.0	0.047979	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	partialButterflyInverse32(int*, int*, int, int, int, int)	[Unknown]	0x8daa0
+__memset_avx2_erms	0.031989	0.031989	0.0	0.031989	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18f190
+__libc_calloc	0.024033	0.024033	0.0	0.024033	0.0	0.0	0.0	0.0	0.0	libc.so.6	__libc_calloc	malloc.c	0x9a0a0
+__memmove_avx_unaligned_erms	0.022001	0.022001	0.0	0.022001	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ed40
+TDecSbac::parseMvd	0.012005	0.012005	0.0	0.012005	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecSbac::parseMvd(TComDataCU*, unsigned int, unsigned int, unsigned int, RefPicList)	[Unknown]	0x462e0
+TComPrediction::xPredIntraAng	0.012002	0.012002	0.0	0.012002	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComPrediction::xPredIntraAng(int, short const*, int, short*, int, unsigned int, unsigned int, ChannelType, unsigned int, bool)	[Unknown]	0x75d30
+std::istream::get	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+TComTrQuant::xIT	0.011999	0.011999	0.0	0.011999	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComTrQuant::xIT(int, bool, int*, short*, unsigned int, int, int, int)	[Unknown]	0x92d10
+TDecCu::xIntraRecBlk	0.008005	0.008005	0.0	0.008005	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecCu::xIntraRecBlk(TComYuv*, TComYuv*, TComYuv*, ComponentID, TComTU&)	[Unknown]	0x35000
+TDecCu::xReconIntraQT	0.008002	0.008002	0.0	0.008002	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecCu::xReconIntraQT(TComDataCU*, unsigned int)	[Unknown]	0x3b9e0
+TComSampleAdaptiveOffset::offsetBlock	0.008001	0.008001	0.0	0.008001	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComSampleAdaptiveOffset::offsetBlock(int, int, int*, short*, short*, int, int, int, int, bool, bool, bool, bool, bool, bool, bool, bool)	[Unknown]	0x505a0
+TDecBinCABAC::decodeBin	0.007998	0.007998	0.0	0.007998	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecBinCABAC::decodeBin(unsigned int&, ContextModel&)	[Unknown]	0x2b980
+operator new	0.007997	0.007997	0.0	0.007997	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	operator new(unsigned long)	[Unknown]	0x93280
+TComLoopFilter::xGetBoundaryStrengthSingle	0.007997	0.007997	0.0	0.007997	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::xGetBoundaryStrengthSingle(TComDataCU*, DeblockEdgeDir, unsigned int)	[Unknown]	0x60270
+TComLoopFilter::xEdgeFilterLuma	0.007992	0.007992	0.0	0.007992	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::xEdgeFilterLuma(TComDataCU*, unsigned int, unsigned int, DeblockEdgeDir, int)	[Unknown]	0x606d0

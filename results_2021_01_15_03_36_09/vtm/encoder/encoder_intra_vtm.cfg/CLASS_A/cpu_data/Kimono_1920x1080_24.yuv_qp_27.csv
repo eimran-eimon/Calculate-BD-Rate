@@ -1,0 +1,402 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+CDTrace::dtrace<(bool)0>	34.033641	34.033641	0.0	34.033641	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void CDTrace::dtrace<(bool)0>(int, char const*, ellipsis)	[Unknown]	0xec8a0
+IntraPrediction::xPredIntraAng	26.415802	26.415802	0.0	26.415802	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::xPredIntraAng(AreaBuf<short const> const&, AreaBuf<short>&, ChannelType, ClpRng const&)	[Unknown]	0x3ae760
+std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>>::_M_copy<std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>>::_Alloc_node>	19.237882	19.237882	0.0	19.237882	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>* std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>>::_M_copy<std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>>::_Alloc_node>(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>> const*, std::_Rb_tree_node_base*, std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>>::_Alloc_node&)	[Unknown]	0xf0640
+DQIntern::DepQuant::xDecide	13.797801	13.797801	0.0	13.797801	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DQIntern::DepQuant::xDecide(DQIntern::ScanPosType, int, int, DQIntern::Decision*, bool, int)	[Unknown]	0x411350
+CodingStructure::getCU	13.051873	13.051873	0.0	13.051873	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getCU(Position const&, ChannelType)	[Unknown]	0xf5840
+IntraSearch::estIntraPredLumaQT	12.351827	12.351827	0.0	12.351827	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::estIntraPredLumaQT(CodingUnit&, Partitioner&, double, bool, int, int, bool, CodingStructure*)	[Unknown]	0x275c40
+CABACWriter::residual_coding_subblock	11.691799	11.691799	0.0	11.691799	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::residual_coding_subblock(CoeffCodingContext&, int const*, int, int&)	[Unknown]	0x2b7ae0
+TrQuant::transformNxN	10.359843	10.359843	0.0	10.359843	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::transformNxN(TransformUnit&, ComponentID const&, QpParam const&, int&, Ctx const&, bool)	[Unknown]	0x3d78e0
+CtxStore<BinProbModel_Std>::getFracBitsArray	10.007905	10.007905	0.0	10.007905	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CtxStore<BinProbModel_Std>::getFracBitsArray(unsigned int) const	[Unknown]	0x1be350
+__memmove_avx_unaligned_erms	9.696052	9.696052	0.0	9.696052	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ed40
+EncAdaptiveLoopFilter::getBlkStats	9.280015	9.280015	0.0	9.280015	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncAdaptiveLoopFilter::getBlkStats(AlfCovariance*, AlfFilterShape const&, AlfClassifier**, short*, int, short*, int, CompArea const&, CompArea const&, ChannelType, int, int)	[Unknown]	0x2cde70
+DQIntern::DepQuant::xDecideAndUpdate	8.729719	8.729719	0.0	8.729719	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DQIntern::DepQuant::xDecideAndUpdate(int, DQIntern::ScanInfo const&, bool, int)	[Unknown]	0x4122e0
+DQIntern::DepQuant::quant	8.420009	8.420009	0.0	8.420009	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DQIntern::DepQuant::quant(TransformUnit&, AreaBuf<int const> const&, ComponentID, QpParam const&, double, Ctx const&, int&, bool, int*)	[Unknown]	0x415030
+TrQuant::invLfnstNxN	8.164047	8.164047	0.0	8.164047	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::invLfnstNxN(int*, int*, unsigned int, unsigned int, unsigned int, int, int)	[Unknown]	0x3d4120
+DQIntern::State::updateState<(unsigned char)5>	7.535947	7.535947	0.0	7.535947	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void DQIntern::State::updateState<(unsigned char)5>(DQIntern::ScanInfo const&, DQIntern::State const*, DQIntern::Decision const&)	[Unknown]	0x41ace0
+std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>>::_M_erase	7.189921	7.189921	0.0	7.189921	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>>::_M_erase(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>*)	[Unknown]	0xeed20
+__GI_	6.479934	6.479934	0.0	6.479934	0.0	0.0	0.0	0.0	0.0	libc.so.6	float __GI_(long, int, bool, char)	malloc.c	0x979c0
+TrQuant::invTransformNxN	6.472038	6.472038	0.0	6.472038	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::invTransformNxN(TransformUnit&, ComponentID const&, AreaBuf<short>&, QpParam const&)	[Unknown]	0x3d7450
+__memset_avx2_unaligned_erms	5.268050	5.268050	0.0	5.268050	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_unaligned_erms	memset-vec-unaligned-erms.S	0x18f1c0
+RdCost::xGetHADs_SIMD<(X86_VEXT)4>	5.198020	5.198020	0.0	5.198020	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	unsigned long RdCost::xGetHADs_SIMD<(X86_VEXT)4>(DistParam const&)	[Unknown]	0x1b4c70
+MatrixIntraPrediction::computeReducedPred	5.176094	5.176094	0.0	5.176094	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	MatrixIntraPrediction::computeReducedPred(int*, int const*, unsigned char const*, bool, int)	[Unknown]	0x3cae00
+IntraPrediction::xFillReferenceSamples	5.110109	5.110109	0.0	5.110109	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::xFillReferenceSamples(AreaBuf<short const> const&, short*, CompArea const&, CodingUnit const&)	[Unknown]	0x3b57e0
+DQIntern::State::updateState<(unsigned char)4>	5.053977	5.053977	0.0	5.053977	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void DQIntern::State::updateState<(unsigned char)4>(DQIntern::ScanInfo const&, DQIntern::State const*, DQIntern::Decision const&)	[Unknown]	0x41aa10
+MatrixIntraPrediction::predictionUpsampling1D	4.870120	4.870120	0.0	4.870120	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	MatrixIntraPrediction::predictionUpsampling1D(int*, int const*, int const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)	[Unknown]	0x3caa40
+IntraPrediction::predIntraAng	4.535886	4.535886	0.0	4.535886	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::predIntraAng(ComponentID, AreaBuf<short>&, PredictionUnit const&)	[Unknown]	0x3b4680
+CABACWriter::residual_coding	4.519921	4.519921	0.0	4.519921	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::residual_coding(TransformUnit const&, ComponentID, CUCtx*)	[Unknown]	0x2bd610
+TBitEstimator<BinProbModel_Std>::encodeBin	4.445963	4.445963	0.0	4.445963	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TBitEstimator<BinProbModel_Std>::encodeBin(unsigned int, unsigned int)	[Unknown]	0x2b3660
+CodingStructure::isDecomp	4.160070	4.160070	0.0	4.160070	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::isDecomp(Position const&, ChannelType)	[Unknown]	0xf2500
+DQIntern::Quantizer::dequantBlock	3.939912	3.939912	0.0	3.939912	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DQIntern::Quantizer::dequantBlock(TransformUnit const&, ComponentID, QpParam const&, AreaBuf<int>&, bool, int*) const	[Unknown]	0x410c00
+IntraSearch::xIntraCodingTUBlock	3.928052	3.928052	0.0	3.928052	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xIntraCodingTUBlock(TransformUnit&, ComponentID const&, unsigned long&, int const&, unsigned int*, std::vector<std::pair<int, bool>, std::allocator<std::pair<int, bool>>>*, bool)	[Unknown]	0x2617c0
+fastForwardDCT2_B16	3.803923	3.803923	0.0	3.803923	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastForwardDCT2_B16(int const*, int*, int, int, int, int)	[Unknown]	0x3e41f0
+TrQuant::xT	3.309946	3.309946	0.0	3.309946	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::xT(TransformUnit const&, ComponentID const&, AreaBuf<short const> const&, AreaBuf<int>&, int, int)	[Unknown]	0x3d5f50
+IntraSearch::xRecurIntraCodingLumaQT	3.219934	3.219934	0.0	3.219934	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xRecurIntraCodingLumaQT(CodingStructure&, Partitioner&, double, int, PartSplit, bool, bool, int, int, bool)	[Unknown]	0x26d9e0
+CDTrace::dtrace<(bool)1>	3.116030	3.116030	0.0	3.116030	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void CDTrace::dtrace<(bool)1>(int, char const*, ellipsis)	[Unknown]	0xec7b0
+TrQuant::xIT	3.036009	3.036009	0.0	3.036009	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::xIT(TransformUnit const&, ComponentID const&, AreaBuf<int const> const&, AreaBuf<short>&)	[Unknown]	0x3d6970
+CDTrace::update	2.924004	2.924004	0.0	2.924004	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CDTrace::update(std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, int>)	[Unknown]	0xec520
+fastInverseDST7_B8	2.864015	2.864015	0.0	2.864015	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastInverseDST7_B8(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x3ec100
+CodingStructure::getCURestricted	2.787977	2.787977	0.0	2.787977	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getCURestricted(Position const&, CodingUnit const&, ChannelType) const	[Unknown]	0xf6030
+TrQuant::fwdLfnstNxN	2.620002	2.620002	0.0	2.620002	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::fwdLfnstNxN(int*, int*, unsigned int, unsigned int, unsigned int, int)	[Unknown]	0x3d3d70
+CodingStructure::getPU	2.611995	2.611995	0.0	2.611995	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getPU(Position const&, ChannelType)	[Unknown]	0xf30b0
+fastForwardDCT2_B32	2.591963	2.591963	0.0	2.591963	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastForwardDCT2_B32(int const*, int*, int, int, int, int)	[Unknown]	0x3e5760
+DQIntern::RateEstimator::xSetGtxFlagBits	2.471960	2.471960	0.0	2.471960	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DQIntern::RateEstimator::xSetGtxFlagBits(FracBitsAccess const&, ChannelType)	[Unknown]	0x410700
+IntraPrediction::initPredIntraParams	2.435947	2.435947	0.0	2.435947	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::initPredIntraParams(PredictionUnit const&, CompArea, SPS const&)	[Unknown]	0x3b3940
+DQIntern::State::updateState<(unsigned char)2>	2.431918	2.431918	0.0	2.431918	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void DQIntern::State::updateState<(unsigned char)2>(DQIntern::ScanInfo const&, DQIntern::State const*, DQIntern::Decision const&)	[Unknown]	0x41a530
+fastInverseDCT2_B16	2.367908	2.367908	0.0	2.367908	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastInverseDCT2_B16(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x3e4e70
+IntraPrediction::predIntraMip	2.256025	2.256025	0.0	2.256025	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::predIntraMip(ComponentID, AreaBuf<short>&, PredictionUnit const&)	[Unknown]	0x3baaf0
+CodingStructure::getCU	2.243885	2.243885	0.0	2.243885	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getCU(Position const&, ChannelType) const	[Unknown]	0xf5c60
+DQIntern::RateEstimator::xSetLastCoeffOffset	2.159985	2.159985	0.0	2.159985	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DQIntern::RateEstimator::xSetLastCoeffOffset(FracBitsAccess const&, DQIntern::TUParameters const&, TransformUnit const&, ComponentID)	[Unknown]	0x410080
+CABACWriter::intra_luma_pred_mode	2.093903	2.093903	0.0	2.093903	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::intra_luma_pred_mode(PredictionUnit const&)	[Unknown]	0x2c5c70
+CodingStructure::initSubStructure	2.042019	2.042019	0.0	2.042019	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::initSubStructure(CodingStructure&, ChannelType, UnitArea const&, bool const&)	[Unknown]	0xfd980
+CodingStructure::addTU	2.015964	2.015964	0.0	2.015964	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::addTU(UnitArea const&, ChannelType)	[Unknown]	0xfdd30
+RdCost::xGetSSE16	1.987971	1.987971	0.0	1.987971	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	RdCost::xGetSSE16(DistParam const&)	[Unknown]	0x13a8f0
+fastForwardDCT2_B8	1.947949	1.947949	0.0	1.947949	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastForwardDCT2_B8(int const*, int*, int, int, int, int)	[Unknown]	0x3e2f10
+fastForwardDST7_B16	1.872028	1.872028	0.0	1.872028	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastForwardDST7_B16(int const*, int*, int, int, int, int)	[Unknown]	0x3ec260
+TrQuant::xFwdLfnst	1.787932	1.787932	0.0	1.787932	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::xFwdLfnst(TransformUnit const&, ComponentID, bool)	[Unknown]	0x3d51e0
+RdCost::xGetSSE8	1.775960	1.775960	0.0	1.775960	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	RdCost::xGetSSE8(DistParam const&)	[Unknown]	0x139850
+fastInverseDST7_B16	1.771996	1.771996	0.0	1.771996	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastInverseDST7_B16(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x3ecd70
+CoeffCodingContext::CoeffCodingContext	1.739942	1.739942	0.0	1.739942	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CoeffCodingContext::CoeffCodingContext(TransformUnit const&, ComponentID, bool, bool)	[Unknown]	0x1b7590
+IntraPrediction::xPredIntraPlanar	1.663942	1.663942	0.0	1.663942	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::xPredIntraPlanar(AreaBuf<short const> const&, AreaBuf<short>&)	[Unknown]	0x3b2880
+CodingUnit::initData	1.627999	1.627999	0.0	1.627999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingUnit::initData(void)	[Unknown]	0xd45c0
+CABACWriter::last_sig_coeff	1.612005	1.612005	0.0	1.612005	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::last_sig_coeff(CoeffCodingContext&, TransformUnit const&, ComponentID)	[Unknown]	0x2b7660
+CU::isSameSliceAndTile	1.604001	1.604001	0.0	1.604001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::isSameSliceAndTile(CodingUnit const&, CodingUnit const&)	[Unknown]	0xd64d0
+PredictionUnit::operator=	1.580006	1.580006	0.0	1.580006	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PredictionUnit::operator=(PredictionUnit const&)	[Unknown]	0xd4f80
+updateCandList<IntraSearch::ModeInfo, (unsigned long)99>	1.559960	1.559960	0.0	1.559960	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	unsigned int updateCandList<IntraSearch::ModeInfo, (unsigned long)99>(IntraSearch::ModeInfo, double, static_vector<IntraSearch::ModeInfo, (unsigned long)99>&, static_vector<double, (unsigned long)99>&, unsigned long, int*)	[Unknown]	0x27d000
+fastForwardDST7_B8	1.544050	1.544050	0.0	1.544050	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastForwardDST7_B8(int const*, int*, int, int, int, int)	[Unknown]	0x3ebf30
+__memset_avx2_erms	1.439994	1.439994	0.0	1.439994	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18f190
+fastInverseDCT2_B8	1.427946	1.427946	0.0	1.427946	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastInverseDCT2_B8(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x3e32f0
+AreaBuf<short>::copyFrom	1.408078	1.408078	0.0	1.408078	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AreaBuf<short>::copyFrom(AreaBuf<short const> const&)	[Unknown]	0x10fc10
+QTBTPartitioner::canSplit	1.395987	1.395987	0.0	1.395987	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	QTBTPartitioner::canSplit(CodingStructure const&, bool&, bool&, bool&, bool&, bool&, bool&)	[Unknown]	0x3fc7b0
+fastInverseDCT2_B32	1.387936	1.387936	0.0	1.387936	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastInverseDCT2_B32(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x3e6970
+CodingStructure::clearTUs	1.367922	1.367922	0.0	1.367922	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::clearTUs(void)	[Unknown]	0xf3f60
+PelStorage::getBuf	1.308009	1.308009	0.0	1.308009	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PelStorage::getBuf(CompArea const&)	[Unknown]	0x9df80
+CodingStructure::addCU	1.295999	1.295999	0.0	1.295999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::addCU(UnitArea const&, ChannelType)	[Unknown]	0xfc9c0
+CodingStructure::getPURestricted	1.283963	1.283963	0.0	1.283963	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getPURestricted(Position const&, PredictionUnit const&, ChannelType) const	[Unknown]	0xf5590
+CodingStructure::getTU	1.275940	1.275940	0.0	1.275940	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getTU(Position const&, ChannelType, int)	[Unknown]	0xf6200
+EncCu::xCheckRDCostIntra	1.200020	1.200020	0.0	1.200020	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncCu::xCheckRDCostIntra(CodingStructure*&, CodingStructure*&, Partitioner&, EncTestMode const&, bool)	[Unknown]	0x2e8380
+DQIntern::Quantizer::initQuantBlock	1.163981	1.163981	0.0	1.163981	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DQIntern::Quantizer::initQuantBlock(TransformUnit const&, ComponentID, QpParam const&, double, int)	[Unknown]	0x4108a0
+CodingStructure::addPU	1.160056	1.160056	0.0	1.160056	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::addPU(UnitArea const&, ChannelType)	[Unknown]	0xfd110
+fastInverseDST7_B32	1.139970	1.139970	0.0	1.139970	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastInverseDST7_B32(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x3f0700
+operator new	1.125981	1.125981	0.0	1.125981	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	operator new(unsigned long)	[Unknown]	0x93280
+AreaBuf<short>::subtract	1.067987	1.067987	0.0	1.067987	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AreaBuf<short>::subtract(AreaBuf<short const> const&)	[Unknown]	0x254140
+DepQuant::quant	1.060028	1.060028	0.0	1.060028	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DepQuant::quant(TransformUnit&, ComponentID const&, AreaBuf<int const> const&, int&, QpParam const&, Ctx const&)	[Unknown]	0x419d40
+PU::getIntraMPMs	1.051956	1.051956	0.0	1.051956	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PU::getIntraMPMs(PredictionUnit const&, unsigned int*, ChannelType const&)	[Unknown]	0xdb1a0
+DQIntern::RateEstimator::xSetSigFlagBits	1.004022	1.004022	0.0	1.004022	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DQIntern::RateEstimator::xSetSigFlagBits(FracBitsAccess const&, ChannelType)	[Unknown]	0x410670
+UnitArea::singleChan	0.991971	0.991971	0.0	0.991971	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	UnitArea::singleChan(ChannelType) const	[Unknown]	0xd40d0
+QTBTPartitioner::canSplit	0.951992	0.951992	0.0	0.951992	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	QTBTPartitioner::canSplit(PartSplit, CodingStructure const&)	[Unknown]	0x3fe430
+TrQuant::xInvLfnst	0.939994	0.939994	0.0	0.939994	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::xInvLfnst(TransformUnit const&, ComponentID)	[Unknown]	0x3d49d0
+fastForwardDST7_B32	0.915995	0.915995	0.0	0.915995	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastForwardDST7_B32(int const*, int*, int, int, int, int)	[Unknown]	0x3ed8a0
+CABACWriter::residual_lfnst_mode	0.891968	0.891968	0.0	0.891968	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::residual_lfnst_mode(CodingUnit const&, CUCtx&)	[Unknown]	0x2b71d0
+CS::isDualITree	0.889998	0.889998	0.0	0.889998	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CS::isDualITree(CodingStructure const&)	[Unknown]	0xd6380
+TrQuant::getTrTypes	0.880062	0.880062	0.0	0.880062	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::getTrTypes(TransformUnit, ComponentID, int&, int&)	[Unknown]	0x3d4610
+Picture::getBuf	0.879998	0.879998	0.0	0.879998	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	Picture::getBuf(CompArea const&, PictureType const&)	[Unknown]	0x1255c0
+PredictionUnit::initData	0.867965	0.867965	0.0	0.867965	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PredictionUnit::initData(void)	[Unknown]	0xd4a20
+TrQuant::xTransformSkip	0.864028	0.864028	0.0	0.864028	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::xTransformSkip(TransformUnit const&, ComponentID const&, AreaBuf<short const> const&, int*)	[Unknown]	0x3d4970
+DepQuant::dequant	0.828016	0.828016	0.0	0.828016	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DepQuant::dequant(TransformUnit const&, AreaBuf<int>&, ComponentID const&, QpParam const&)	[Unknown]	0x41a150
+IntraSearch::xGetIntraFracBitsQT	0.820006	0.820006	0.0	0.820006	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xGetIntraFracBitsQT(CodingStructure&, Partitioner&, bool const&, bool const&, int, PartSplit, CUCtx*)	[Unknown]	0x2612a0
+IntraPrediction::xFilterReferenceSamples	0.815989	0.815989	0.0	0.815989	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::xFilterReferenceSamples(short const*, short*, CompArea const&, SPS const&, int)	[Unknown]	0x3b0230
+TrQuant::transformNxN	0.808007	0.808007	0.0	0.808007	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::transformNxN(TransformUnit&, ComponentID const&, QpParam const&, std::vector<std::pair<int, bool>, std::allocator<std::pair<int, bool>>>*, int)	[Unknown]	0x3dc000
+RdCost::xGetSSE4	0.783980	0.783980	0.0	0.783980	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	RdCost::xGetSSE4(DistParam const&)	[Unknown]	0x138d20
+RdCost::xGetSSE32	0.780012	0.780012	0.0	0.780012	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	RdCost::xGetSSE32(DistParam const&)	[Unknown]	0x13c700
+RdCost::getDistPart	0.780010	0.780010	0.0	0.780010	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	RdCost::getDistPart(AreaBuf<short const> const&, AreaBuf<short const> const&, int, ComponentID, DFunc, AreaBuf<short const> const*)	[Unknown]	0x134030
+AlfCovariance::gnsCholeskyDec	0.772010	0.772010	0.0	0.772010	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AlfCovariance::gnsCholeskyDec(double (*)[13], double (*)[13], int) const	[Unknown]	0x2c77b0
+DQIntern::State::updateState<(unsigned char)3>	0.764064	0.764064	0.0	0.764064	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void DQIntern::State::updateState<(unsigned char)3>(DQIntern::ScanInfo const&, DQIntern::State const*, DQIntern::Decision const&)	[Unknown]	0x41a780
+Channel::update	0.743992	0.743992	0.0	0.743992	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	Channel::update(std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, int>>>)	[Unknown]	0xeb910
+IntraSearch::xFracModeBitsIntra	0.736051	0.736051	0.0	0.736051	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xFracModeBitsIntra(PredictionUnit&, unsigned int const&, ChannelType const&)	[Unknown]	0x25e400
+IbcHashMap::xxBuildPicHashMap<(ChromaFormat)1>	0.727999	0.727999	0.0	0.727999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void IbcHashMap::xxBuildPicHashMap<(ChromaFormat)1>(UnitBuf<short> const&)	[Unknown]	0x3ae060
+IntraPrediction::getModifiedWideAngle	0.703974	0.703974	0.0	0.703974	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::getModifiedWideAngle(int, int, int)	[Unknown]	0x3ae640
+fastForwardDCT2_B4	0.703970	0.703970	0.0	0.703970	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastForwardDCT2_B4(int const*, int*, int, int, int, int)	[Unknown]	0x3e2110
+CABACWriter::cbf_comp	0.700003	0.700003	0.0	0.700003	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::cbf_comp(CodingStructure const&, bool, CompArea const&, unsigned int, bool, bool)	[Unknown]	0x2b6bd0
+RdCost::calcRdCost	0.699988	0.699988	0.0	0.699988	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	RdCost::calcRdCost(unsigned long, unsigned long, bool)	[Unknown]	0x133810
+TU::getCbfAtDepth	0.684033	0.684033	0.0	0.684033	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TU::getCbfAtDepth(TransformUnit const&, ComponentID const&, unsigned int const&)	[Unknown]	0xdf890
+CodingStructure::clearCUs	0.679934	0.679934	0.0	0.679934	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::clearCUs(void)	[Unknown]	0xf4510
+EncAdaptiveLoopFilter::calcCovariance	0.671953	0.671953	0.0	0.671953	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncAdaptiveLoopFilter::calcCovariance(short (*)[4], short const*, int, AlfFilterShape const&, int, ChannelType, int)	[Unknown]	0x2ccb00
+CoeffCodingContext::initSubblock	0.668026	0.668026	0.0	0.668026	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CoeffCodingContext::initSubblock(int, bool)	[Unknown]	0x1b7b90
+CodingStructure::useSubStructure	0.663980	0.663980	0.0	0.663980	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::useSubStructure(CodingStructure const&, ChannelType, UnitArea const&, bool, bool, bool, bool, bool)	[Unknown]	0xfe600
+CodingStructure::clearPUs	0.655986	0.655986	0.0	0.655986	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::clearPUs(void)	[Unknown]	0xf4280
+func@0xeaf0	0.651997	0.651997	0.0	0.651997	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	func@0xeaf0	[Unknown]	0xeaf0
+CABACWriter::mip_flag	0.647992	0.647992	0.0	0.647992	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::mip_flag(CodingUnit const&)	[Unknown]	0x2baed0
+func@0xeb70	0.623989	0.623989	0.0	0.623989	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	func@0xeb70	[Unknown]	0xeb70
+DeriveCtx::CtxMipFlag	0.615999	0.615999	0.0	0.615999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DeriveCtx::CtxMipFlag(CodingUnit const&)	[Unknown]	0x1b86f0
+CU::isMTSAllowed	0.595999	0.595999	0.0	0.595999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::isMTSAllowed(CodingUnit const&, ComponentID)	[Unknown]	0xd9ec0
+reco_SSE<(X86_VEXT)4, (int)8>	0.588007	0.588007	0.0	0.588007	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void reco_SSE<(X86_VEXT)4, (int)8>(short const*, int, short const*, int, short*, int, int, int, ClpRng const&)	[Unknown]	0x19ecb0
+QpParam::QpParam	0.583965	0.583965	0.0	0.583965	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	QpParam::QpParam(TransformUnit const&, ComponentID const&, int, bool)	[Unknown]	0x3cf3a0
+fastInverseDCT2_B64	0.583943	0.583943	0.0	0.583943	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastInverseDCT2_B64(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x3e9380
+std::_Hashtable<unsigned int, std::pair<unsigned int const, std::vector<Position, std::allocator<Position>>>, std::allocator<std::pair<unsigned int const, std::vector<Position, std::allocator<Position>>>>, std::__detail::_Select1st, std::equal_to<unsigned int>, std::hash<unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<(bool)0, (bool)0, (bool)1>>::_M_insert_unique_node	0.572013	0.572013	0.0	0.572013	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	std::_Hashtable<unsigned int, std::pair<unsigned int const, std::vector<Position, std::allocator<Position>>>, std::allocator<std::pair<unsigned int const, std::vector<Position, std::allocator<Position>>>>, std::__detail::_Select1st, std::equal_to<unsigned int>, std::hash<unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<(bool)0, (bool)0, (bool)1>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<unsigned int const, std::vector<Position, std::allocator<Position>>>, (bool)0>*)	[Unknown]	0x3ad7e0
+IntraSearch::xGetNextISPMode	0.571996	0.571996	0.0	0.571996	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xGetNextISPMode(IntraSearch::ModeInfo&, IntraSearch::ModeInfo const*, Size)	[Unknown]	0x266c10
+IntraSearch::xEncIntraHeader	0.571972	0.571972	0.0	0.571972	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xEncIntraHeader(CodingStructure&, Partitioner&, bool const&, bool const&, int)	[Unknown]	0x25de20
+IntraSearch::xEncSubdivCbfQT	0.568023	0.568023	0.0	0.568023	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xEncSubdivCbfQT(CodingStructure&, Partitioner&, bool const&, bool const&, int, PartSplit)	[Unknown]	0x260660
+CodingUnit::operator=	0.567982	0.567982	0.0	0.567982	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingUnit::operator=(CodingUnit const&)	[Unknown]	0xd41b0
+CodingStructure::isDecomp	0.563982	0.563982	0.0	0.563982	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::isDecomp(Position const&, ChannelType) const	[Unknown]	0xf25d0
+fastForwardDST7_B4	0.556006	0.556006	0.0	0.556006	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastForwardDST7_B4(int const*, int*, int, int, int, int)	[Unknown]	0x3eb060
+CABACWriter::isp_mode	0.555959	0.555959	0.0	0.555959	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::isp_mode(CodingUnit const&)	[Unknown]	0x2bdc00
+xCalcHAD16x16_AVX2.isra.1	0.547958	0.547958	0.0	0.547958	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	xCalcHAD16x16_AVX2(short const*, short const*, int, int, int).isra.1	[Unknown]	0x1b43b0
+EncCu::xCompressCU	0.536013	0.536013	0.0	0.536013	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncCu::xCompressCU(CodingStructure*&, CodingStructure*&, Partitioner&, double)	[Unknown]	0x2f9900
+CABACWriter::ts_flag	0.531982	0.531982	0.0	0.531982	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::ts_flag(TransformUnit const&, ComponentID)	[Unknown]	0x2b6ed0
+fastForwardDCT2_B64	0.523947	0.523947	0.0	0.523947	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastForwardDCT2_B64(int const*, int*, int, int, int, int)	[Unknown]	0x3e8090
+CodingStructure::initStructData	0.515984	0.515984	0.0	0.515984	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::initStructData(int const&, bool const&)	[Unknown]	0xf47f0
+EncCu::xCheckModeSplit	0.511989	0.511989	0.0	0.511989	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncCu::xCheckModeSplit(CodingStructure*&, CodingStructure*&, Partitioner&, EncTestMode const&, ModeType, bool&)	[Unknown]	0x2fc480
+RdCost::xGetSAD_NxN_SIMD<(int)4, (X86_VEXT)4>	0.500000	0.500000	0.0	0.500000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	unsigned long RdCost::xGetSAD_NxN_SIMD<(int)4, (X86_VEXT)4>(DistParam const&)	[Unknown]	0x1b3dd0
+IntraPrediction::initIntraPatternChTypeISP	0.499993	0.499993	0.0	0.499993	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::initIntraPatternChTypeISP(CodingUnit const&, CompArea const&, AreaBuf<short>&, bool)	[Unknown]	0x3b8010
+xCalcHAD8x8_SSE.isra.0	0.495975	0.495975	0.0	0.495975	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	xCalcHAD8x8_SSE(short const*, short const*, int, int, int).isra.0	[Unknown]	0x1b3f30
+PreCalcValues::getValIdx	0.488025	0.488025	0.0	0.488025	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PreCalcValues::getValIdx(Slice const&, ChannelType) const	[Unknown]	0xbba50
+MatrixIntraPrediction::prepareInputForPred	0.475983	0.475983	0.0	0.475983	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	MatrixIntraPrediction::prepareInputForPred(AreaBuf<short const> const&, Area const&, int, ComponentID)	[Unknown]	0x3ca7b0
+PU::getFinalIntraMode	0.475959	0.475959	0.0	0.475959	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PU::getFinalIntraMode(PredictionUnit const&, ChannelType const&)	[Unknown]	0xd6cc0
+RdCost::xGetSAD_NxN_SIMD<(int)8, (X86_VEXT)4>	0.459999	0.459999	0.0	0.459999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	unsigned long RdCost::xGetSAD_NxN_SIMD<(int)8, (X86_VEXT)4>(DistParam const&)	[Unknown]	0x1b4ac0
+EncModeCtrlMTnoRQT::tryMode	0.451952	0.451952	0.0	0.451952	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncModeCtrlMTnoRQT::tryMode(EncTestMode const&, CodingStructure const&, Partitioner&)	[Unknown]	0x3088f0
+IntraSearch::xEncCoeffQT	0.447998	0.447998	0.0	0.447998	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xEncCoeffQT(CodingStructure&, Partitioner&, ComponentID, int, PartSplit, CUCtx*)	[Unknown]	0x260f40
+EncModeCtrlMTnoRQT::initCULevel	0.443989	0.443989	0.0	0.443989	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncModeCtrlMTnoRQT::initCULevel(Partitioner&, CodingStructure const&)	[Unknown]	0x30ab60
+fastInverseDCT2_B4	0.439993	0.439993	0.0	0.439993	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastInverseDCT2_B4(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x3e27e0
+func@0xeba0	0.439961	0.439961	0.0	0.439961	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	func@0xeba0	[Unknown]	0xeba0
+IntraSearch::reduceHadCandList<IntraSearch::ModeInfo, (unsigned long)99>	0.435991	0.435991	0.0	0.435991	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void IntraSearch::reduceHadCandList<IntraSearch::ModeInfo, (unsigned long)99>(static_vector<IntraSearch::ModeInfo, (unsigned long)99>&, static_vector<double, (unsigned long)99>&, int&, double, double const*, PredictionUnit const&, bool)	[Unknown]	0x27d4e0
+__pow	0.431982	0.431982	0.0	0.431982	0.0	0.0	0.0	0.0	0.0	libm.so.6	__pow	w_pow_compat.c	0xeb00
+AlfCovariance::gnsBacksubstitution	0.427994	0.427994	0.0	0.427994	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AlfCovariance::gnsBacksubstitution(double (*)[13], double*, int, double*) const	[Unknown]	0x2c7a30
+CABACWriter::extend_ref_line	0.423988	0.423988	0.0	0.423988	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::extend_ref_line(PredictionUnit const&)	[Unknown]	0x2b4e90
+__dynamic_cast	0.419987	0.419987	0.0	0.419987	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	__dynamic_cast	[Unknown]	0x913f0
+DeriveCtx::CtxSplit	0.411983	0.411983	0.0	0.411983	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DeriveCtx::CtxSplit(CodingStructure const&, Partitioner&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, unsigned int&, bool*)	[Unknown]	0x1b8820
+UnitBuf<short>::copyFrom	0.396023	0.396023	0.0	0.396023	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	UnitBuf<short>::copyFrom(UnitBuf<short const> const&, bool, bool)	[Unknown]	0x40450
+IntraPrediction::initIntraPatternChType	0.396000	0.396000	0.0	0.396000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::initIntraPatternChType(CodingUnit const&, CompArea const&, bool)	[Unknown]	0x3b9180
+IntraSearch::xIntraCodingLumaISP	0.395995	0.395995	0.0	0.395995	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xIntraCodingLumaISP(CodingStructure&, Partitioner&, double)	[Unknown]	0x2637b0
+operator delete	0.395973	0.395973	0.0	0.395973	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	operator delete(void*)	[Unknown]	0x91390
+CU::isSameCtu	0.384005	0.384005	0.0	0.384005	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::isSameCtu(CodingUnit const&, CodingUnit const&)	[Unknown]	0xd6550
+IbcHashMap::xxComputeCrc32c16bit	0.383976	0.383976	0.0	0.383976	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IbcHashMap::xxComputeCrc32c16bit(unsigned int, short)	[Unknown]	0x3a93c0
+PartitionerImpl::getTUIntraSubPartitions	0.380008	0.380008	0.0	0.380008	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PartitionerImpl::getTUIntraSubPartitions(std::vector<UnitArea, std::allocator<UnitArea>>&, UnitArea const&, CodingStructure const&, PartSplit)	[Unknown]	0x4028c0
+PreCalcValues::getMinQtSize	0.379966	0.379966	0.0	0.379966	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PreCalcValues::getMinQtSize(Slice const&, ChannelType) const	[Unknown]	0xbbc00
+CABACWriter::xWriteTruncBinCode	0.372014	0.372014	0.0	0.372014	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::xWriteTruncBinCode(unsigned int, unsigned int)	[Unknown]	0x2b4e20
+QuantRDOQ::xRateDistOptQuantTS	0.368030	0.368030	0.0	0.368030	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	QuantRDOQ::xRateDistOptQuantTS(TransformUnit&, ComponentID const&, AreaBuf<int const> const&, int&, QpParam const&, Ctx const&)	[Unknown]	0x41f700
+UnitArea::UnitArea	0.360000	0.360000	0.0	0.360000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	UnitArea::UnitArea(ChromaFormat)	[Unknown]	0xd3a60
+std::vector<UnitArea, std::allocator<UnitArea>>::_M_default_append	0.359991	0.359991	0.0	0.359991	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	std::vector<UnitArea, std::allocator<UnitArea>>::_M_default_append(unsigned long)	[Unknown]	0x406aa0
+PU::getIntraDirLuma	0.356004	0.356004	0.0	0.356004	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PU::getIntraDirLuma(PredictionUnit const&)	[Unknown]	0xd6be0
+AreaBuf<unsigned int>::fill	0.351999	0.351999	0.0	0.351999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AreaBuf<unsigned int>::fill(unsigned int const&)	[Unknown]	0xff390
+BitEstimatorBase::resetBits	0.347991	0.347991	0.0	0.347991	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	BitEstimatorBase::resetBits(void)	[Unknown]	0x2b3510
+BestEncInfoCache::isValid	0.339992	0.339992	0.0	0.339992	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	BestEncInfoCache::isValid(CodingStructure const&, Partitioner const&, int)	[Unknown]	0x307720
+PartLevel::PartLevel	0.338011	0.338011	0.0	0.338011	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PartLevel::PartLevel(void)	[Unknown]	0x3fd740
+CodingStructure::getRecoBuf	0.328008	0.328008	0.0	0.328008	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getRecoBuf(UnitArea const&)	[Unknown]	0xf9320
+CABACWriter::transform_unit	0.311998	0.311998	0.0	0.311998	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::transform_unit(TransformUnit const&, CUCtx&, Partitioner&, int)	[Unknown]	0x2be9f0
+MatrixIntraPrediction::boundaryDownsampling1D	0.307983	0.307983	0.0	0.307983	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	MatrixIntraPrediction::boundaryDownsampling1D(int*, int const*, unsigned int, unsigned int)	[Unknown]	0x3ca5b0
+RdCost::xGetSAD_NxN_SIMD<(int)16, (X86_VEXT)4>	0.303996	0.303996	0.0	0.303996	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	unsigned long RdCost::xGetSAD_NxN_SIMD<(int)16, (X86_VEXT)4>(DistParam const&)	[Unknown]	0x1b3d00
+reco_SSE<(X86_VEXT)4, (int)4>	0.303996	0.303996	0.0	0.303996	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void reco_SSE<(X86_VEXT)4, (int)4>(short const*, int, short const*, int, short*, int, int, int, ClpRng const&)	[Unknown]	0x19e140
+PreCalcValues::getMaxBtDepth	0.303982	0.303982	0.0	0.303982	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PreCalcValues::getMaxBtDepth(Slice const&, ChannelType) const	[Unknown]	0xbba70
+IbcHashMap::calHashBlkMatchPerc	0.299987	0.299987	0.0	0.299987	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IbcHashMap::calHashBlkMatchPerc(Area const&)	[Unknown]	0x3a9b30
+AreaBuf<short>::reconstruct	0.296023	0.296023	0.0	0.296023	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AreaBuf<short>::reconstruct(AreaBuf<short const> const&, AreaBuf<short const> const&, ClpRng const&)	[Unknown]	0x9d450
+TransformUnit::init	0.279997	0.279997	0.0	0.279997	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TransformUnit::init(int**, short**, bool**)	[Unknown]	0xd53e0
+EncCu::xCheckBestMode	0.275962	0.275962	0.0	0.275962	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncCu::xCheckBestMode(CodingStructure*&, CodingStructure*&, Partitioner&, EncTestMode const&)	[Unknown]	0x2e7ca0
+IntraPrediction::xGetPredValDc	0.271979	0.271979	0.0	0.271979	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::xGetPredValDc(AreaBuf<short const> const&, Size const&)	[Unknown]	0x3b1b30
+CodingStructure::getRecoBuf	0.268008	0.268008	0.0	0.268008	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getRecoBuf(UnitArea const&) const	[Unknown]	0xfc010
+func@0x8a3f0	0.267997	0.267997	0.0	0.267997	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	func@0x8a3f0	[Unknown]	0x8a3f0
+PU::isMIP	0.263979	0.263979	0.0	0.263979	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PU::isMIP(PredictionUnit const&, ChannelType const&)	[Unknown]	0xd6bb0
+CodingStructure::getPU	0.256005	0.256005	0.0	0.256005	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getPU(Position const&, ChannelType) const	[Unknown]	0xf3190
+CodingStructure::getPredBuf	0.256001	0.256001	0.0	0.256001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getPredBuf(CompArea const&)	[Unknown]	0xf4a80
+QpParam::QpParam	0.255989	0.255989	0.0	0.255989	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	QpParam::QpParam(int, ComponentID, int, int, int, ChromaFormat, int, SPS const*, bool)	[Unknown]	0x3cd0a0
+CodingUnit::isSepTree	0.252001	0.252001	0.0	0.252001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingUnit::isSepTree(void) const	[Unknown]	0xd4880
+Picture::getBuf	0.248003	0.248003	0.0	0.248003	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	Picture::getBuf(UnitArea const&, PictureType const&)	[Unknown]	0x125ba0
+CU::isIntra	0.248003	0.248003	0.0	0.248003	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::isIntra(CodingUnit const&)	[Unknown]	0xd6460
+CABACWriter::mts_idx	0.247994	0.247994	0.0	0.247994	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::mts_idx(CodingUnit const&, CUCtx*)	[Unknown]	0x2b7070
+IntraSearch::xSortISPCandList	0.240004	0.240004	0.0	0.240004	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xSortISPCandList(double, double, IntraSearch::ModeInfo)	[Unknown]	0x2754e0
+TU::isTSAllowed	0.235989	0.235989	0.0	0.235989	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TU::isTSAllowed(TransformUnit const&, ComponentID)	[Unknown]	0xda030
+MatrixIntraPrediction::predBlock	0.228040	0.228040	0.0	0.228040	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	MatrixIntraPrediction::predBlock(int*, int, bool, int, ComponentID)	[Unknown]	0x3cb510
+TU::setCbfAtDepth	0.216017	0.216017	0.0	0.216017	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TU::setCbfAtDepth(TransformUnit&, ComponentID const&, unsigned int const&, bool const&)	[Unknown]	0xda000
+CacheBlkInfoCtrl::getBlkInfo	0.216000	0.216000	0.0	0.216000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CacheBlkInfoCtrl::getBlkInfo(UnitArea const&)	[Unknown]	0x305f10
+CodingStructure::getResiBuf	0.204007	0.204007	0.0	0.204007	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getResiBuf(CompArea const&)	[Unknown]	0xf4cc0
+AlfCovariance::gnsTransposeBacksubstitution	0.204006	0.204006	0.0	0.204006	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AlfCovariance::gnsTransposeBacksubstitution(double (*)[13], double*, double*, int) const	[Unknown]	0x2c79a0
+CodingStructure::getRecoBuf	0.204000	0.204000	0.0	0.204000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getRecoBuf(CompArea const&)	[Unknown]	0xf4f00
+CABACWriter::transform_tree	0.203993	0.203993	0.0	0.203993	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::transform_tree(CodingStructure const&, Partitioner&, CUCtx&, PartSplit, int)	[Unknown]	0x2bf720
+CABACWriter::bdpcm_mode	0.203988	0.203988	0.0	0.203988	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::bdpcm_mode(CodingUnit const&, ComponentID)	[Unknown]	0x2b4950
+RdCost::xGetSSE64	0.199984	0.199984	0.0	0.199984	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	RdCost::xGetSSE64(DistParam const&)	[Unknown]	0x140400
+UnitArea::repositionTo	0.199982	0.199982	0.0	0.199982	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	UnitArea::repositionTo(UnitArea const&)	[Unknown]	0xd3fc0
+Picture::getRecoBuf	0.199981	0.199981	0.0	0.199981	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	Picture::getRecoBuf(CompArea const&, bool)	[Unknown]	0x125860
+TU::needsSqrt2Scale	0.196003	0.196003	0.0	0.196003	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TU::needsSqrt2Scale(TransformUnit const&, ComponentID const&)	[Unknown]	0xda110
+CodingStructure::getPredBuf	0.191976	0.191976	0.0	0.191976	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getPredBuf(UnitArea const&)	[Unknown]	0xf88b0
+CU::isISPLast	0.184017	0.184017	0.0	0.184017	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::isISPLast(CodingUnit const&, CompArea const&, ComponentID)	[Unknown]	0xdac90
+CS::getArea	0.179995	0.179995	0.0	0.179995	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CS::getArea(CodingStructure const&, UnitArea const&, ChannelType)	[Unknown]	0xd63b0
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string.isra.307	0.179981	0.179981	0.0	0.179981	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&).isra.307	[Unknown]	0x2e4500
+getNumModesMip	0.176017	0.176017	0.0	0.176017	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	getNumModesMip(Size const&)	[Unknown]	0xdfbb0
+func@0xe9e0	0.176009	0.176009	0.0	0.176009	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	func@0xe9e0	[Unknown]	0xe9e0
+IntraPrediction::xPredIntraDc	0.176006	0.176006	0.0	0.176006	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::xPredIntraDc(AreaBuf<short const> const&, AreaBuf<short>&, ChannelType, bool)	[Unknown]	0x3b2380
+EncModeCtrlMTnoRQT::checkSkipOtherLfnst	0.175995	0.175995	0.0	0.175995	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncModeCtrlMTnoRQT::checkSkipOtherLfnst(EncTestMode const&, CodingStructure*&, Partitioner&)	[Unknown]	0x307fb0
+CABACWriter::split_cu_mode	0.168001	0.168001	0.0	0.168001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::split_cu_mode(PartSplit, CodingStructure const&, Partitioner&)	[Unknown]	0x2b3f10
+AdaptiveDepthPartitioner::setMaxMinDepth	0.164005	0.164005	0.0	0.164005	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AdaptiveDepthPartitioner::setMaxMinDepth(unsigned int&, unsigned int&, CodingStructure const&) const	[Unknown]	0x3fddd0
+fastInverseDST7_B4	0.163996	0.163996	0.0	0.163996	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastInverseDST7_B4(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x3eb7a0
+TransformUnit::getCoeffs	0.163994	0.163994	0.0	0.163994	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TransformUnit::getCoeffs(ComponentID)	[Unknown]	0xd5480
+EncModeCtrlMTnoRQT::useModeResult	0.160016	0.160016	0.0	0.160016	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncModeCtrlMTnoRQT::useModeResult(EncTestMode const&, CodingStructure*&, Partitioner&)	[Unknown]	0x3080a0
+MatrixIntraPrediction::predictionUpsampling	0.159990	0.159990	0.0	0.159990	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	MatrixIntraPrediction::predictionUpsampling(int*, int const*) const	[Unknown]	0x3cab90
+TransformUnit::operator=	0.156001	0.156001	0.0	0.156001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TransformUnit::operator=(TransformUnit const&)	[Unknown]	0xd5cd0
+DeriveCtx::CtxQtCbf	0.151998	0.151998	0.0	0.151998	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DeriveCtx::CtxQtCbf(ComponentID, bool, int)	[Unknown]	0x1b7d20
+PreCalcValues::getMaxTtSize	0.148000	0.148000	0.0	0.148000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PreCalcValues::getMaxTtSize(Slice const&, ChannelType) const	[Unknown]	0xbbb90
+__memcmp_avx2_movbe	0.147994	0.147994	0.0	0.147994	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memcmp_avx2_movbe	memcmp-avx2-movbe.S	0x18ae10
+CU::canUseISP	0.147982	0.147982	0.0	0.147982	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::canUseISP(int, int, int)	[Unknown]	0xd68a0
+IbcHashMap::~IbcHashMap	0.135994	0.135994	0.0	0.135994	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IbcHashMap::~IbcHashMap(void)	[Unknown]	0x3a9570
+BestEncInfoCache::setFromCs	0.135980	0.135980	0.0	0.135980	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	BestEncInfoCache::setFromCs(CodingStructure const&, Partitioner const&)	[Unknown]	0x3074b0
+BitEstimatorBase::encodeBinEP	0.131995	0.131995	0.0	0.131995	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	BitEstimatorBase::encodeBinEP(unsigned int)	[Unknown]	0x2b3520
+CodingStructure::getCURestricted	0.131989	0.131989	0.0	0.131989	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getCURestricted(Position const&, Position, unsigned int, unsigned int, ChannelType) const	[Unknown]	0xf6110
+CodingStructure::getTU	0.128002	0.128002	0.0	0.128002	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getTU(Position const&, ChannelType, int) const	[Unknown]	0xf6740
+MatrixIntraPrediction::getMatrixData	0.128001	0.128001	0.0	0.128001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	MatrixIntraPrediction::getMatrixData(int) const	[Unknown]	0x3cac40
+PU::getWideAngle	0.127990	0.127990	0.0	0.127990	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PU::getWideAngle(TransformUnit const&, unsigned int, ComponentID)	[Unknown]	0xd6d30
+EncAdaptiveLoopFilter::getFrameStat	0.124007	0.124007	0.0	0.124007	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncAdaptiveLoopFilter::getFrameStat(AlfCovariance*, AlfCovariance**, unsigned char*, unsigned char*, int, int)	[Unknown]	0x2cc3b0
+CompArea::lumaSize	0.116014	0.116014	0.0	0.116014	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CompArea::lumaSize(void) const	[Unknown]	0xd3950
+CodingStructure::getOrgBuf	0.116006	0.116006	0.0	0.116006	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getOrgBuf(CompArea const&)	[Unknown]	0xf51c0
+AlfCovariance::calcErrorForCoeffs	0.116001	0.116001	0.0	0.116001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AlfCovariance::calcErrorForCoeffs(int const*, int const*, int, int) const	[Unknown]	0x2c6fa0
+AlfCovariance::optimizeFilter	0.115987	0.115987	0.0	0.115987	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AlfCovariance::optimizeFilter(AlfFilterShape const&, int*, double*, bool) const	[Unknown]	0x2c8120
+RdCost::xGetSAD_NxN_SIMD<(int)32, (X86_VEXT)4>	0.112011	0.112011	0.0	0.112011	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	unsigned long RdCost::xGetSAD_NxN_SIMD<(int)32, (X86_VEXT)4>(DistParam const&)	[Unknown]	0x1b3c20
+RdCost::setDistParam	0.112009	0.112009	0.0	0.112009	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	RdCost::setDistParam(DistParam&, AreaBuf<short const> const&, AreaBuf<short const> const&, int, ComponentID, bool)	[Unknown]	0x133e90
+CABACWriter::cu_residual	0.112002	0.112002	0.0	0.112002	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::cu_residual(CodingUnit const&, Partitioner&, CUCtx&)	[Unknown]	0x2c2540
+std::__introsort_loop<unsigned int*, long, __gnu_cxx::__ops::_Iter_less_iter>.isra.202	0.108004	0.108004	0.0	0.108004	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void std::__introsort_loop<unsigned int*, long, __gnu_cxx::__ops::_Iter_less_iter>(unsigned int*, unsigned int*, long, __gnu_cxx::__ops::_Iter_less_iter).isra.202	[Unknown]	0x2c3850
+Partitioner::getSplitSeries	0.107993	0.107993	0.0	0.107993	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	Partitioner::getSplitSeries(void) const	[Unknown]	0x3fdc10
+TransformUnit::copyComponentFrom	0.104029	0.104029	0.0	0.104029	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TransformUnit::copyComponentFrom(TransformUnit const&, ComponentID)	[Unknown]	0xd6050
+DQIntern::RateEstimator::initCtx	0.104013	0.104013	0.0	0.104013	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DQIntern::RateEstimator::initCtx(DQIntern::TUParameters const&, TransformUnit const&, ComponentID, FracBitsAccess const&)	[Unknown]	0x410840
+std::vector<std::pair<int, bool>, std::allocator<std::pair<int, bool>>>::emplace_back<std::pair<int, bool>>	0.104012	0.104012	0.0	0.104012	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void std::vector<std::pair<int, bool>, std::allocator<std::pair<int, bool>>>::emplace_back<std::pair<int, bool>>(std::pair<int, bool>&&)	[Unknown]	0x257050
+IbcHashMap::xxCalcBlockHash	0.104007	0.104007	0.0	0.104007	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IbcHashMap::xxCalcBlockHash(short const*, int, int, int, unsigned int)	[Unknown]	0x3a9640
+EncReshape::calcSeqStats	0.103997	0.103997	0.0	0.103997	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncReshape::calcSeqStats(Picture*, SeqInfo&)	[Unknown]	0x1ff920
+IntraPrediction::initIntraMip	0.096004	0.096004	0.0	0.096004	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::initIntraMip(PredictionUnit const&, CompArea const&)	[Unknown]	0x3ba810
+CU::divideTuInRows	0.096000	0.096000	0.0	0.096000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::divideTuInRows(CodingUnit const&)	[Unknown]	0xdaaf0
+CABACWriter::mip_pred_mode	0.096000	0.096000	0.0	0.096000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::mip_pred_mode(PredictionUnit const&)	[Unknown]	0x2baf70
+PreCalcValues::getMinTtSize	0.095999	0.095999	0.0	0.095999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PreCalcValues::getMinTtSize(Slice const&, ChannelType) const	[Unknown]	0xbbb70
+fastInverseDCT2_B2	0.095995	0.095995	0.0	0.095995	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastInverseDCT2_B2(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x3e1dc0
+DQIntern::RateEstimator::xSetSigSbbFracBits	0.095984	0.095984	0.0	0.095984	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DQIntern::RateEstimator::xSetSigSbbFracBits(FracBitsAccess const&, ChannelType)	[Unknown]	0x410610
+CacheBlkInfoCtrl::init	0.092023	0.092023	0.0	0.092023	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CacheBlkInfoCtrl::init(Slice const&)	[Unknown]	0x305e10
+TransformUnit::getCoeffs	0.092007	0.092007	0.0	0.092007	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TransformUnit::getCoeffs(ComponentID) const	[Unknown]	0xd54b0
+CABACWriter::extend_ref_line	0.091996	0.091996	0.0	0.091996	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::extend_ref_line(CodingUnit const&)	[Unknown]	0x2b4f50
+MatrixIntraPrediction::initPredBlockParams	0.091993	0.091993	0.0	0.091993	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	MatrixIntraPrediction::initPredBlockParams(Size const&)	[Unknown]	0x3ca530
+EncAdaptiveLoopFilter::getBlkStatsCcAlf	0.091991	0.091991	0.0	0.091991	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncAdaptiveLoopFilter::getBlkStatsCcAlf(AlfCovariance&, AlfFilterShape const&, UnitBuf<short> const&, UnitBuf<short> const&, UnitArea const&, UnitArea const&, ComponentID, int)	[Unknown]	0x2d1640
+CU::getISPSplitDim	0.088008	0.088008	0.0	0.088008	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::getISPSplitDim(int, int, PartSplit)	[Unknown]	0xdae20
+TUIntraSubPartitioner::splitCurrArea	0.088002	0.088002	0.0	0.088002	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TUIntraSubPartitioner::splitCurrArea(PartSplit, CodingStructure const&)	[Unknown]	0x405de0
+std::vector<EncTestMode, std::allocator<EncTestMode>>::_M_realloc_insert<EncTestMode>	0.088000	0.088000	0.0	0.088000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void std::vector<EncTestMode, std::allocator<EncTestMode>>::_M_realloc_insert<EncTestMode>(__gnu_cxx::__normal_iterator<EncTestMode*, std::vector<EncTestMode, std::allocator<EncTestMode>>>, EncTestMode&&)	[Unknown]	0x30df40
+TrQuant::xQuant	0.087986	0.087986	0.0	0.087986	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::xQuant(TransformUnit&, ComponentID const&, AreaBuf<int const> const&, int&, QpParam const&, Ctx const&)	[Unknown]	0x3d4960
+Picture::getPredBuf	0.087981	0.087981	0.0	0.087981	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	Picture::getPredBuf(CompArea const&)	[Unknown]	0x1257c0
+getMipSizeId	0.084006	0.084006	0.0	0.084006	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	getMipSizeId(Size const&)	[Unknown]	0xda2d0
+CodingStructure::getBuf	0.079998	0.079998	0.0	0.079998	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getBuf(CompArea const&, PictureType const&) const	[Unknown]	0xff6e0
+TU::getPrevTuCbfAtDepth	0.079996	0.079996	0.0	0.079996	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TU::getPrevTuCbfAtDepth(TransformUnit const&, ComponentID, int)	[Unknown]	0xdfb50
+IntraSearch::xSortISPCandListLFNST	0.079995	0.079995	0.0	0.079995	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xSortISPCandListLFNST(void)	[Unknown]	0x2666b0
+RdCost::xGetSSE	0.079987	0.079987	0.0	0.079987	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	RdCost::xGetSSE(DistParam const&)	[Unknown]	0x1318a0
+CU::isISPFirst	0.079987	0.079987	0.0	0.079987	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::isISPFirst(CodingUnit const&, CompArea const&, ComponentID)	[Unknown]	0xd6840
+BitEstimatorBase::encodeBinsEP	0.076007	0.076007	0.0	0.076007	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	BitEstimatorBase::encodeBinsEP(unsigned int, unsigned int)	[Unknown]	0x2b3530
+PreCalcValues::getMinBtSize	0.076003	0.076003	0.0	0.076003	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PreCalcValues::getMinBtSize(Slice const&, ChannelType) const	[Unknown]	0xbbae0
+func@0xef00	0.076002	0.076002	0.0	0.076002	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	func@0xef00	[Unknown]	0xef00
+CodingStructure::getPredBuf	0.075998	0.075998	0.0	0.075998	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::getPredBuf(UnitArea const&) const	[Unknown]	0xf7fb0
+std::vector<UnitArea, std::allocator<UnitArea>>::_M_fill_insert	0.071998	0.071998	0.0	0.071998	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	std::vector<UnitArea, std::allocator<UnitArea>>::_M_fill_insert(__gnu_cxx::__normal_iterator<UnitArea*, std::vector<UnitArea, std::allocator<UnitArea>>>, unsigned long, UnitArea const&)	[Unknown]	0x406390
+fastForwardDCT2_B2	0.071994	0.071994	0.0	0.071994	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastForwardDCT2_B2(int const*, int*, int, int, int, int)	[Unknown]	0x3e1b00
+BitEstimatorBase::encodeRemAbsEP	0.071988	0.071988	0.0	0.071988	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	BitEstimatorBase::encodeRemAbsEP(unsigned int, unsigned int, unsigned int, int)	[Unknown]	0x2b2c70
+AreaBuf<short>::scaleSignal	0.068020	0.068020	0.0	0.068020	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AreaBuf<short>::scaleSignal(int, bool, ClpRng const&)	[Unknown]	0x9e2c0
+CU::allLumaCBFsAreZero	0.068001	0.068001	0.0	0.068001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::allLumaCBFsAreZero(CodingUnit const&)	[Unknown]	0xdfa60
+std::vector<std::pair<int, int>, std::allocator<std::pair<int, int>>>::emplace_back<std::pair<int, int>>	0.067997	0.067997	0.0	0.067997	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void std::vector<std::pair<int, int>, std::allocator<std::pair<int, int>>>::emplace_back<std::pair<int, int>>(std::pair<int, int>&&)	[Unknown]	0x3e1950
+CABACWriter::intra_luma_pred_modes	0.064001	0.064001	0.0	0.064001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::intra_luma_pred_modes(CodingUnit const&)	[Unknown]	0x2c39e0
+EncModeCtrl::nextMode	0.064000	0.064000	0.0	0.064000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncModeCtrl::nextMode(CodingStructure const&, Partitioner&)	[Unknown]	0x3056d0
+TU::getCbf	0.064000	0.064000	0.0	0.064000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TU::getCbf(TransformUnit const&, ComponentID const&)	[Unknown]	0xdfa20
+TU::getPrevTU	0.063992	0.063992	0.0	0.063992	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TU::getPrevTU(TransformUnit const&, ComponentID)	[Unknown]	0xda200
+UnitBuf<short>::copyFrom.constprop.445	0.060004	0.060004	0.0	0.060004	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	UnitBuf<short>::copyFrom(UnitBuf<short const> const&, bool, bool).constprop.445	[Unknown]	0x2e6ba0
+Partitioner::getModeTypeSeries	0.060000	0.060000	0.0	0.060000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	Partitioner::getModeTypeSeries(void) const	[Unknown]	0x3fdca0
+Partitioner::setCUData	0.059998	0.059998	0.0	0.059998	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	Partitioner::setCUData(CodingUnit&)	[Unknown]	0x3fdd30
+IntraPrediction::setReferenceArrayLengths	0.059995	0.059995	0.0	0.059995	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::setReferenceArrayLengths(CompArea const&)	[Unknown]	0x3ae740
+EncSampleAdaptiveOffset::getBlkStats	0.059993	0.059993	0.0	0.059993	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncSampleAdaptiveOffset::getBlkStats(ComponentID, int, SAOStatData*, short*, short*, int, int, int, int, bool, bool, bool, bool, bool, bool, bool, bool, int*, int*, int, int)	[Unknown]	0x209db0
+CU::traverseTUs	0.059989	0.059989	0.0	0.059989	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::traverseTUs(CodingUnit const&)	[Unknown]	0xd69d0
+QTBTPartitioner::getImplicitSplit	0.056004	0.056004	0.0	0.056004	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	QTBTPartitioner::getImplicitSplit(CodingStructure const&)	[Unknown]	0x3fcd00
+CU::isInter	0.055999	0.055999	0.0	0.055999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::isInter(CodingUnit const&)	[Unknown]	0xd6470
+TransformUnit::getTbAreaAfterCoefZeroOut	0.055996	0.055996	0.0	0.055996	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TransformUnit::getTbAreaAfterCoefZeroOut(ComponentID) const	[Unknown]	0xd56f0
+__ieee754_log10	0.055992	0.055992	0.0	0.055992	0.0	0.0	0.0	0.0	0.0	libm.so.6	__ieee754_log10	e_log10.c	0x2c400
+CU::getSplitAtDepth	0.052004	0.052004	0.0	0.052004	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::getSplitAtDepth(CodingUnit const&, unsigned int)	[Unknown]	0xda7c0
+EncCu::xReuseCachedResult	0.051992	0.051992	0.0	0.051992	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncCu::xReuseCachedResult(CodingStructure*&, CodingStructure*&, Partitioner&)	[Unknown]	0x2effd0
+CU::canUseISP	0.048016	0.048016	0.0	0.048016	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::canUseISP(CodingUnit const&, ComponentID)	[Unknown]	0xd6910
+CU::addPUs	0.047999	0.047999	0.0	0.047999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::addPUs(CodingUnit&)	[Unknown]	0xd66b0
+PreCalcValues::getMaxBtSize	0.047996	0.047996	0.0	0.047996	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PreCalcValues::getMaxBtSize(Slice const&, ChannelType) const	[Unknown]	0xbbb00
+std::__insertion_sort<IntraSearch::ModeInfoWithCost*, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IntraSearch::ModeInfoWithCost, IntraSearch::ModeInfoWithCost)>>.constprop.268	0.044000	0.044000	0.0	0.044000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void std::__insertion_sort<IntraSearch::ModeInfoWithCost*, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IntraSearch::ModeInfoWithCost, IntraSearch::ModeInfoWithCost)>>(IntraSearch::ModeInfoWithCost*, IntraSearch::ModeInfoWithCost*, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IntraSearch::ModeInfoWithCost, IntraSearch::ModeInfoWithCost)>).constprop.268	[Unknown]	0x257ce0
+allowLfnstWithMip	0.043999	0.043999	0.0	0.043999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	allowLfnstWithMip(Size const&)	[Unknown]	0xda310
+EncModeCtrl::xGetMinMaxQP	0.043996	0.043996	0.0	0.043996	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncModeCtrl::xGetMinMaxQP(int&, int&, CodingStructure const&, Partitioner const&, int, SPS const&, PPS const&, PartSplit)	[Unknown]	0x305850
+EncModeCtrl::xExtractFeatures	0.043993	0.043993	0.0	0.043993	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncModeCtrl::xExtractFeatures(EncTestMode, CodingStructure&)	[Unknown]	0x307d90
+IntraSearch::findInterCUCost	0.040002	0.040002	0.0	0.040002	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::findInterCUCost(CodingUnit&)	[Unknown]	0x258390
+TrQuant::getLFNSTIntraMode	0.040002	0.040002	0.0	0.040002	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::getLFNSTIntraMode(int)	[Unknown]	0x3d45d0
+CodingStructure::releaseIntermediateData	0.040001	0.040001	0.0	0.040001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::releaseIntermediateData(void)	[Unknown]	0xf4750
+TransformUnit::initData	0.040000	0.040000	0.0	0.040000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TransformUnit::initData(void)	[Unknown]	0xd5270
+TUIntraSubPartitioner::canSplit	0.040000	0.040000	0.0	0.040000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TUIntraSubPartitioner::canSplit(PartSplit, CodingStructure const&)	[Unknown]	0x3ff360
+EncCu::xEncodeDontSplit	0.039997	0.039997	0.0	0.039997	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncCu::xEncodeDontSplit(CodingStructure&, Partitioner&)	[Unknown]	0x2e64b0
+AlfCovariance::calculateError	0.039990	0.039990	0.0	0.039990	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AlfCovariance::calculateError(int const*, double const*, int) const	[Unknown]	0x2c75c0
+InterSearch::resetSavedAffineMotion	0.039987	0.039987	0.0	0.039987	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	InterSearch::resetSavedAffineMotion(void)	[Unknown]	0x225660
+CU::getISPType	0.036003	0.036003	0.0	0.036003	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::getISPType(CodingUnit const&, ComponentID)	[Unknown]	0xdac50
+QTBTPartitioner::splitCurrArea	0.036000	0.036000	0.0	0.036000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	QTBTPartitioner::splitCurrArea(PartSplit, CodingStructure const&)	[Unknown]	0x401df0
+CodingStructure::setDecomp	0.036000	0.036000	0.0	0.036000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::setDecomp(CompArea const&, bool)	[Unknown]	0xf2680
+CABACWriter::adaptive_color_transform	0.035992	0.035992	0.0	0.035992	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::adaptive_color_transform(CodingUnit const&)	[Unknown]	0x2bc3a0
+Picture::getRecoBuf	0.035987	0.035987	0.0	0.035987	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	Picture::getRecoBuf(UnitArea const&, bool)	[Unknown]	0x125e00
+ComprCUCtx::get<bool>	0.032001	0.032001	0.0	0.032001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	bool ComprCUCtx::get<bool>(int) const	[Unknown]	0x30de90
+CABACWriter::intra_chroma_pred_modes	0.032001	0.032001	0.0	0.032001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::intra_chroma_pred_modes(CodingUnit const&)	[Unknown]	0x2bc330
+CU::isIBC	0.032001	0.032001	0.0	0.032001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::isIBC(CodingUnit const&)	[Unknown]	0xd6480
+TrQuant::getTransposeFlag	0.032000	0.032000	0.0	0.032000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::getTransposeFlag(unsigned int)	[Unknown]	0x3d45f0
+PU::isLMCMode	0.031999	0.031999	0.0	0.031999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PU::isLMCMode(unsigned int)	[Unknown]	0xd6a00
+CodingStructure::setDecomp	0.031998	0.031998	0.0	0.031998	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CodingStructure::setDecomp(UnitArea const&, bool)	[Unknown]	0xf2760
+CABACWriter::cu_pred_data	0.031997	0.031997	0.0	0.031997	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::cu_pred_data(CodingUnit const&)	[Unknown]	0x2c4020
+PelStorage::getBuf	0.031997	0.031997	0.0	0.031997	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PelStorage::getBuf(CompArea const&) const	[Unknown]	0x9dfc0
+Partitioner::isSepTree	0.031996	0.031996	0.0	0.031996	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	Partitioner::isSepTree(CodingStructure const&)	[Unknown]	0x3fdd80
+EncCu::xCheckDQP	0.031991	0.031991	0.0	0.031991	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncCu::xCheckDQP(CodingStructure&, Partitioner&, bool)	[Unknown]	0x2e7240
+IntraSearch::xFindAlreadyTestedNearbyIntraModes	0.028004	0.028004	0.0	0.028004	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xFindAlreadyTestedNearbyIntraModes(int, int, int*, int*, int*, ISPType, int)	[Unknown]	0x25e560
+BestEncInfoCache::create	0.028003	0.028003	0.0	0.028003	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	BestEncInfoCache::create(ChromaFormat)	[Unknown]	0x3067c0
+PartitionerImpl::getCUSubPartitions	0.028003	0.028003	0.0	0.028003	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PartitionerImpl::getCUSubPartitions(UnitArea const&, CodingStructure const&, PartSplit)	[Unknown]	0x3ffab0
+AreaBuf<short>::fill	0.027997	0.027997	0.0	0.027997	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AreaBuf<short>::fill(short const&)	[Unknown]	0x1fb0a0
+CU::isFirstTBInPredReg	0.027997	0.027997	0.0	0.027997	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::isFirstTBInPredReg(CodingUnit const&, ComponentID, CompArea const&)	[Unknown]	0xd9d50
+TUIntraSubPartitioner::nextPart	0.027995	0.027995	0.0	0.027995	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TUIntraSubPartitioner::nextPart(CodingStructure const&, bool)	[Unknown]	0x3fd220
+EncModeCtrl::tryModeMaster	0.027992	0.027992	0.0	0.027992	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncModeCtrl::tryModeMaster(EncTestMode const&, CodingStructure const&, Partitioner&)	[Unknown]	0x305670
+LoopFilter::loopFilterPic	0.024010	0.024010	0.0	0.024010	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	LoopFilter::loopFilterPic(CodingStructure&)	[Unknown]	0x3c8100
+CU::canUseLfnstWithISP	0.024006	0.024006	0.0	0.024006	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::canUseLfnstWithISP(CodingUnit const&, ChannelType)	[Unknown]	0xdb040
+__strcmp_sse2_unaligned	0.024004	0.024004	0.0	0.024004	0.0	0.0	0.0	0.0	0.0	libc.so.6	__strcmp_sse2_unaligned	strcmp-sse2-unaligned.S	0xa9ee0
+CABACWriter::residual_codingTS	0.024001	0.024001	0.0	0.024001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::residual_codingTS(TransformUnit const&, ComponentID)	[Unknown]	0x2ba130
+EncModeCtrl::currTestMode	0.024000	0.024000	0.0	0.024000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncModeCtrl::currTestMode(void) const	[Unknown]	0x3056a0
+IntraSearch::updateISPStatusFromRelCU	0.024000	0.024000	0.0	0.024000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::updateISPStatusFromRelCU(double, IntraSearch::ModeInfo, int&)	[Unknown]	0x264e90
+EncCu::xCheckChromaQPOffset	0.023999	0.023999	0.0	0.023999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncCu::xCheckChromaQPOffset(CodingStructure&, Partitioner&)	[Unknown]	0x2e78d0
+QTBTPartitioner::nextPart	0.023999	0.023999	0.0	0.023999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	QTBTPartitioner::nextPart(CodingStructure const&, bool)	[Unknown]	0x3fd040
+PPS::getTileIdx	0.023999	0.023999	0.0	0.023999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PPS::getTileIdx(unsigned int, unsigned int) const	[Unknown]	0x254aa0
+UnitArea::resizeTo	0.023999	0.023999	0.0	0.023999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	UnitArea::resizeTo(UnitArea const&)	[Unknown]	0xd3f70
+TUIntraSubPartitioner::exitCurrSplit	0.023997	0.023997	0.0	0.023997	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TUIntraSubPartitioner::exitCurrSplit(void)	[Unknown]	0x3ff0c0
+isTheSameNbHood.isra.96.part.97	0.023982	0.023982	0.0	0.023982	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	isTheSameNbHood(CodingUnit const&, CodingStructure const&, Partitioner const&, PredictionUnit const&, int, int).isra.96.part.97	[Unknown]	0x305340
+IntraPrediction::xGetLumaRecPixels	0.020004	0.020004	0.0	0.020004	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::xGetLumaRecPixels(PredictionUnit const&, CompArea)	[Unknown]	0x3bb0c0
+std::__insertion_sort<unsigned int*, __gnu_cxx::__ops::_Iter_less_iter>.isra.193	0.020002	0.020002	0.0	0.020002	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void std::__insertion_sort<unsigned int*, __gnu_cxx::__ops::_Iter_less_iter>(unsigned int*, unsigned int*, __gnu_cxx::__ops::_Iter_less_iter).isra.193	[Unknown]	0x2b3d70
+Ctx::operator=	0.020002	0.020002	0.0	0.020002	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	Ctx::operator=(Ctx const&)	[Unknown]	0x257200
+EncAdaptiveLoopFilter::mergeClasses	0.020002	0.020002	0.0	0.020002	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncAdaptiveLoopFilter::mergeClasses(AlfFilterShape const&, AlfCovariance*, AlfCovariance*, int (*)[25][13], int, short (*)[25])	[Unknown]	0x2cb4c0
+TransformUnit::TransformUnit	0.020001	0.020001	0.0	0.020001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TransformUnit::TransformUnit(UnitArea const&)	[Unknown]	0xd5290
+IntraSearch::xFinishISPModes	0.020001	0.020001	0.0	0.020001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xFinishISPModes(void)	[Unknown]	0x266bb0
+std::ostream::write	0.020000	0.020000	0.0	0.020000	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::ostream::write(char const*, long)	[Unknown]	0x113730
+_GLOBAL__sub_I_Rom.cpp	0.020000	0.020000	0.0	0.020000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	_GLOBAL__sub_I_Rom.cpp	[Unknown]	0x123e0
+CABACWriter::residual_coding_subblockTS	0.019999	0.019999	0.0	0.019999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::residual_coding_subblockTS(CoeffCodingContext&, int const*)	[Unknown]	0x2b8bd0
+CABACWriter::pred_mode	0.019999	0.019999	0.0	0.019999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::pred_mode(CodingUnit const&)	[Unknown]	0x2b45d0
+func@0xedb0	0.019999	0.019999	0.0	0.019999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	func@0xedb0	[Unknown]	0xedb0
+VideoIOYuv::read	0.019997	0.019997	0.0	0.019997	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	VideoIOYuv::read(UnitBuf<short>&, UnitBuf<short>&, InputColourSpaceConversion, int*, ChromaFormat, bool)	[Unknown]	0x384fa0
+Quant::xSetFlatScalingList	0.019993	0.019993	0.0	0.019993	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	Quant::xSetFlatScalingList(unsigned int, unsigned int, unsigned int, int)	[Unknown]	0x3cde00
+TrQuant::xDeQuant	0.016004	0.016004	0.0	0.016004	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TrQuant::xDeQuant(TransformUnit const&, AreaBuf<int>&, ComponentID const&, QpParam const&)	[Unknown]	0x3d3d60
+CABACWriter::mip_pred_modes	0.016001	0.016001	0.0	0.016001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CABACWriter::mip_pred_modes(CodingUnit const&)	[Unknown]	0x2bafe0
+std::vector<Position, std::allocator<Position>>::_M_realloc_insert<Position const&>	0.015995	0.015995	0.0	0.015995	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void std::vector<Position, std::allocator<Position>>::_M_realloc_insert<Position const&>(__gnu_cxx::__normal_iterator<Position*, std::vector<Position, std::allocator<Position>>>, Position const&&&)	[Unknown]	0x3ad510
+std::basic_filebuf<char, std::char_traits<char>>::close	0.013213	0.013213	0.0	0.013213	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::basic_filebuf<char, std::char_traits<char>>::close(void)	[Unknown]	0xf3530
+[Outside any known module]	0.012051	0.012051	0.0	0.012051	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+DecCu::xReconIntraQT	0.012017	0.012017	0.0	0.012017	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DecCu::xReconIntraQT(CodingUnit&)	[Unknown]	0x310b50
+EncAdaptiveLoopFilter::create	0.012009	0.012009	0.0	0.012009	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncAdaptiveLoopFilter::create(EncCfg const*, int, int, ChromaFormat, int, int, int, int const*, int const*)	[Unknown]	0x2d89b0
+SampleAdaptiveOffset::offsetBlock	0.012004	0.012004	0.0	0.012004	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	SampleAdaptiveOffset::offsetBlock(int, ClpRng const&, int, int*, short const*, short*, int, int, int, int, bool, bool, bool, bool, bool, bool, bool, bool, bool, int*, int*, int, int)	[Unknown]	0x155d50
+CU::isPredRegDiffFromTB	0.012002	0.012002	0.0	0.012002	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::isPredRegDiffFromTB(CodingUnit const&, ComponentID)	[Unknown]	0xd9d30
+BestEncInfoCache::init	0.012001	0.012001	0.0	0.012001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	BestEncInfoCache::init(Slice const&)	[Unknown]	0x306fd0
+func@0xe950	0.012001	0.012001	0.0	0.012001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	func@0xe950	[Unknown]	0xe950
+func@0xe990	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	func@0xe990	[Unknown]	0xe990
+DecCu::xIntraRecBlk	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DecCu::xIntraRecBlk(TransformUnit&, ComponentID)	[Unknown]	0x30eb80
+CU::getNumPUs	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::getNumPUs(CodingUnit const&)	[Unknown]	0xd6680
+AlfCovariance::gnsSolveByChol	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AlfCovariance::gnsSolveByChol(double (*)[13], double*, double*, int) const	[Unknown]	0x2c7b10
+DecCu::xIntraRecQT	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DecCu::xIntraRecQT(CodingUnit&, ChannelType)	[Unknown]	0x30f6c0
+fastInverseDCT8_B32	0.011998	0.011998	0.0	0.011998	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	fastInverseDCT8_B32(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x3f9290
+CU::isLastSubCUOfCtu	0.011996	0.011996	0.0	0.011996	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::isLastSubCUOfCtu(CodingUnit const&)	[Unknown]	0xd65a0
+DQIntern::DepQuant::dequant	0.011988	0.011988	0.0	0.011988	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	DQIntern::DepQuant::dequant(TransformUnit const&, AreaBuf<int>&, ComponentID, QpParam const&, bool, int*)	[Unknown]	0x411330
+QuantRDOQ::xSetErrScaleCoeff	0.010021	0.010021	0.0	0.010021	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	QuantRDOQ::xSetErrScaleCoeff(unsigned int, unsigned int, unsigned int, int, int const*, BitDepths const&)	[Unknown]	0x41b0e0
+simdFilter7x7Blk<(X86_VEXT)4>	0.010009	0.010009	0.0	0.010009	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void simdFilter7x7Blk<(X86_VEXT)4>(AlfClassifier**, UnitBuf<short> const&, UnitBuf<short const> const&, Area const&, Area const&, ComponentID, short const*, short const*, ClpRng const&, CodingStructure&, int, int)	[Unknown]	0x19a720
+__posix_memalign	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__posix_memalign	malloc.c	0x9ade0
+SaveLoadEncInfoSbt::destroy	0.008799	0.008799	0.0	0.008799	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	SaveLoadEncInfoSbt::destroy(void)	[Unknown]	0x3062e0
+simdDeriveClassificationBlk<(X86_VEXT)4>	0.008005	0.008005	0.0	0.008005	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void simdDeriveClassificationBlk<(X86_VEXT)4>(AlfClassifier**, int***, AreaBuf<short const> const&, Area const&, Area const&, int, int, int)	[Unknown]	0x19c350
+__memset_chk_avx2_unaligned_erms	0.008005	0.008005	0.0	0.008005	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_chk_avx2_unaligned_erms	memset-vec-unaligned-erms.S	0x18f1b0
+IntraPrediction::predIntraChromaLM	0.008004	0.008004	0.0	0.008004	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraPrediction::predIntraChromaLM(ComponentID, AreaBuf<short>&, PredictionUnit const&, CompArea const&, int)	[Unknown]	0x3ba470
+__popcountdi2	0.008004	0.008004	0.0	0.008004	0.0	0.0	0.0	0.0	0.0	libgcc_s.so.1	__popcountdi2	[Unknown]	0x3880
+EncSampleAdaptiveOffset::SAOProcess	0.008001	0.008001	0.0	0.008001	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncSampleAdaptiveOffset::SAOProcess(CodingStructure&, bool*, double const*, double, bool, double, double, bool, bool)	[Unknown]	0x211e10
+EncSlice::setJointCbCrModes	0.008000	0.008000	0.0	0.008000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncSlice::setJointCbCrModes(CodingStructure&, Position, Size)	[Unknown]	0x214660
+EncAdaptiveLoopFilter::deriveStatsForFiltering	0.008000	0.008000	0.0	0.008000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncAdaptiveLoopFilter::deriveStatsForFiltering(UnitBuf<short>&, UnitBuf<short>&, CodingStructure&)	[Unknown]	0x2d42e0
+EncAdaptiveLoopFilter::calcCovarianceCcAlf	0.008000	0.008000	0.0	0.008000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	EncAdaptiveLoopFilter::calcCovarianceCcAlf(short (*)[1], short const*, int, AlfFilterShape const&, int)	[Unknown]	0x2d1450
+IntraSearch::xRecurIntraChromaCodingQT	0.008000	0.008000	0.0	0.008000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	IntraSearch::xRecurIntraChromaCodingQT(CodingStructure&, Partitioner&, double, PartSplit)	[Unknown]	0x270350
+CU::traversePUs	0.008000	0.008000	0.0	0.008000	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::traversePUs(CodingUnit const&)	[Unknown]	0xd69a0
+CU::isMinWidthPredEnabledForBlkSize	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::isMinWidthPredEnabledForBlkSize(int, int)	[Unknown]	0xd9d10
+AlfCovariance::gnsSolveByChol	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	AlfCovariance::gnsSolveByChol(int const*, double*, int) const	[Unknown]	0x2c7df0
+dtrace_frame_blockwise<short const>	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	void dtrace_frame_blockwise<short const>(CDTrace*, DTRACE_CHANNEL, short const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)	[Unknown]	0x212f00
+CU::canUseLfnstWithISP	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	CU::canUseLfnstWithISP(CompArea const&, ISPType)	[Unknown]	0xdafe0
+QTBTPartitioner::exitCurrSplit	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	QTBTPartitioner::exitCurrSplit(void)	[Unknown]	0x3fe830
+ComprCUCtx::get<bool>.constprop.204	0.007998	0.007998	0.0	0.007998	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	bool ComprCUCtx::get<bool>(int) const.constprop.204	[Unknown]	0xff38
+TBinEncoder<BinProbModel_Std>::encodeBin	0.007996	0.007996	0.0	0.007996	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	TBinEncoder<BinProbModel_Std>::encodeBin(unsigned int, unsigned int)	[Unknown]	0x2b3ad0
+PartLevel::PartLevel	0.007989	0.007989	0.0	0.007989	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PartLevel::PartLevel(PartSplit, std::vector<UnitArea, std::allocator<UnitArea>>&&)	[Unknown]	0x3fd900
+PPS::getSubPicFromCU	0.007987	0.007987	0.0	0.007987	0.0	0.0	0.0	0.0	0.0	EncoderAppStatic	PPS::getSubPicFromCU(CodingUnit const&) const	[Unknown]	0xb9fd0

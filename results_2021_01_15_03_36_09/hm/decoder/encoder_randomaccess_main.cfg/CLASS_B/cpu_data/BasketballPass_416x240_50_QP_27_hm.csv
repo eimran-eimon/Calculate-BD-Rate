@@ -1,0 +1,4 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+TDecBinCABAC::decodeBin	0.012013	0.012013	0.0	0.012013	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecBinCABAC::decodeBin(unsigned int&, ContextModel&)	[Unknown]	0x2b980
+TComLoopFilter::loopFilterPic	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::loopFilterPic(TComPic*)	[Unknown]	0x620b0
+std::istream::get	0.007987	0.007987	0.0	0.007987	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
