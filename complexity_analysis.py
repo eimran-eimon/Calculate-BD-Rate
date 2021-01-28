@@ -4,7 +4,7 @@ import re
 import decode
 from datetime import datetime
 
-frames_to_encode = 2
+frames_to_encode = 20
 vtune_cmd = '/opt/intel/oneapi/vtune/2021.1.1/bin64/vtune'
 sudo_cmd = 'echo 555555 | sudo -S'
 qps = [27, 32]
@@ -41,27 +41,27 @@ if not os.path.exists(results_path):
 list_of_codecs = os.listdir(codec_path)
 list_of_class_sequences = os.listdir(sequences_path)
 
-for codec in list_of_codecs:  # list of provided codecs
-	enc_dec_path = f"{codec_path}/{codec}/"
+data_filename = f"{results_path}/encoder_summary.csv"
 
-	for enc_dec in os.listdir(enc_dec_path):  # encoder and decoder path
-		list_of_enc_dec = os.listdir(f"{enc_dec_path}/{enc_dec}/")
-		if len(list_of_enc_dec) != 1:
-			print("Only one encoder or decoder should be provided for a codec!")
-			break
+with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
+	# creating a csv writer object
+	csv_writer = csv.writer(csv_file)
+	csv_writer.writerow(data_fields)
+	for codec in list_of_codecs:  # list of provided codecs
+		enc_dec_path = f"{codec_path}/{codec}/"
 
-		if enc_dec == "decoder":
-			continue
+		for enc_dec in os.listdir(enc_dec_path):  # encoder and decoder path
+			list_of_enc_dec = os.listdir(f"{enc_dec_path}/{enc_dec}/")
+			if len(list_of_enc_dec) != 1:
+				print("Only one encoder or decoder should be provided for a codec!")
+				break
 
-		# summary_file_path = f"./{results_path}/{codec}/{enc_dec}"
-		data_filename = f"{results_path}/encoder_summary.csv"
-		# if not os.path.exists(summary_file_path):
-		# 	os.makedirs(summary_file_path)
+			if enc_dec == "decoder":
+				continue
 
-		with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
-			# creating a csv writer object
-			csv_writer = csv.writer(csv_file)
-			csv_writer.writerow(data_fields)
+			# summary_file_path = f"./{results_path}/{codec}/{enc_dec}"
+			# if not os.path.exists(summary_file_path):
+			# 	os.makedirs(summary_file_path)
 
 			list_of_config = os.listdir(f"{config_path}/{codec}")
 			for config in list_of_config:
@@ -125,9 +125,10 @@ for codec in list_of_codecs:  # list of provided codecs
 												# print('Found on line %s: %s' % (i + 1, match.group()))
 												desired_lines.append(line)
 
-										summary_line = str(desired_lines[1])
-										summary_data = summary_line.split()
-										bitrate = summary_data[2]
+										if desired_lines:
+											summary_line = str(desired_lines[1])
+											summary_data = summary_line.split()
+											bitrate = summary_data[2]
 
 										report_cmd = f' {sudo_cmd} {vtune_cmd} -report hotspots -r ./r000hs/ -format=csv'
 										remove_vtune_result_file = f'{sudo_cmd} rm -r r0*'

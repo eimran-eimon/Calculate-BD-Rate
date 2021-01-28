@@ -1,0 +1,9 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+_GLOBAL__sub_I_Rom.cpp	0.020006	0.020006	0.0	0.020006	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	_GLOBAL__sub_I_Rom.cpp	[Unknown]	0xccd0
+__memset_avx2_erms	0.019999	0.019999	0.0	0.019999	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18f190
+DecLib::DecLib	0.019999	0.019999	0.0	0.019999	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	DecLib::DecLib(void)	[Unknown]	0x1bd380
+std::istream::get	0.019997	0.019997	0.0	0.019997	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+BinDecoderBase::decodeBinsEP	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	BinDecoderBase::decodeBinsEP(unsigned int)	[Unknown]	0x20aaf0
+CU::traverseTUs	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CU::traverseTUs(CodingUnit&)	[Unknown]	0xaaba0
+[Outside any known module]	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+__memmove_avx_unaligned_erms	0.008000	0.008000	0.0	0.008000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ed40

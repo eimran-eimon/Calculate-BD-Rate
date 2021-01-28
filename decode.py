@@ -43,9 +43,9 @@ def start(codec_path, sudo_cmd, vtune_cmd, results_path):
 						for match in re.finditer(pattern, tmp_line):
 							# print('Found on line %s: %s' % (i + 1, match.group()))
 							desired_lines.append(tmp_line)
-
-					summary_line = str(desired_lines[0])
-					summary_data = summary_line.split()
+					if desired_lines:
+						summary_line = str(desired_lines[0])
+						summary_data = summary_line.split()
 
 					print(f"CPU time: {summary_data[-1]}")
 					report_cmd = f' {sudo_cmd} {vtune_cmd} -report hotspots -r ./r000hs/ -format=csv'

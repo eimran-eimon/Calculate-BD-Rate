@@ -1,0 +1,91 @@
+Function	Allocation/Deallocation Delta	Allocation Size	Deallocation Size	Allocations	Module
+CodingStructure::addPU	3457792.000000	3457792.000000		4156	DecoderAppStatic
+CodingStructure::addCU	2360608.000000	2360608.000000		4156	DecoderAppStatic
+CodingStructure::addTU	952640.000000	952640.000000		4580	DecoderAppStatic
+_byteStreamNALUnit	350880.000000	796692.000000	445812.000000	115	DecoderAppStatic
+func@0x8f3f0	72704.000000	72704.000000		1	libstdc++.so.6
+storeGeoMergeCtx	68744.000000	73624.000000	4880.000000	221	DecoderAppStatic
+CodingStructure::clearTUs	36640.000000	36640.000000		1	DecoderAppStatic
+CodingStructure::clearCUs	33248.000000	33248.000000		1	DecoderAppStatic
+CodingStructure::clearPUs	33248.000000	33248.000000		1	DecoderAppStatic
+__static_initialization_and_destruction_0.constprop.173	7576.000000	7722.000000	146.000000	69	DecoderAppStatic
+__static_initialization_and_destruction_0.constprop.844	7280.000000	7362.000000	82.000000	67	DecoderAppStatic
+__static_initialization_and_destruction_0.constprop.97	7280.000000	7362.000000	82.000000	67	DecoderAppStatic
+main	4096.000000	67669728.000000	67665632.000000	2	DecoderAppStatic
+ContextSetCfg::addCtxSet	1712.000000	3312.000000	1600.000000	16	DecoderAppStatic
+_GLOBAL__sub_I_Contexts.cpp	1136.000000	1136.000000		2	DecoderAppStatic
+__libc_csu_init	1040.000000	1040.000000		1	DecoderAppStatic
+__register_frame	528.000000	528.000000		11	libgcc_s.so.1
+_GLOBAL__sub_I_CommonDefX86.cpp	432.000000	432.000000		6	DecoderAppStatic
+AdaptiveLoopFilter::create	0.0	8312220.000000	8312220.000000	8	DecoderAppStatic
+CABACReader::cu_residual	0.0	12760.000000	12760.000000	145	DecoderAppStatic
+CDTrace::CDTrace	0.0	3216.000000	3216.000000	38	DecoderAppStatic
+CDTrace::update	0.0	2211336.000000	2211336.000000	30713	DecoderAppStatic
+ChromaQpMappingTable::derivedChromaQPMappingTables	0.0	3040.000000	3040.000000	76	DecoderAppStatic
+CodingStructure::createCoeffs	0.0	37324800.000000	37324800.000000	12	DecoderAppStatic
+CodingStructure::createInternals	0.0	17107200.000000	17107200.000000	18	DecoderAppStatic
+CtxStore<BinProbModel_Std>::CtxStore	0.0	2274.000000	2274.000000	1	DecoderAppStatic
+DecApp::decode	0.0	9320.000000	9320.000000	3	DecoderAppStatic
+DecAppCfg::parseCfg	0.0	2172.000000	2172.000000	26	DecoderAppStatic
+DecCu::initDecCuReshaper	0.0	112.000000	112.000000	1	DecoderAppStatic
+DecLib::create	0.0	7720.000000	7720.000000	1	DecoderAppStatic
+DecLib::updatePrevIRAPAndGDRSubpic	0.0	1080.000000	1080.000000	2	DecoderAppStatic
+DecLib::xActivateParameterSets	0.0	320.000000	320.000000	2	DecoderAppStatic
+DecLib::xDecodeAPS	0.0	9113.000000	9113.000000	7	DecoderAppStatic
+DecLib::xDecodePPS	0.0	656.000000	656.000000	2	DecoderAppStatic
+DecLib::xDecodeSPS	0.0	10175.000000	10175.000000	3	DecoderAppStatic
+DecLib::xDecodeSlice	0.0	1080.000000	1080.000000	2	DecoderAppStatic
+DecLib::xGetNewPicBuffer	0.0	5616.000000	5616.000000	2	DecoderAppStatic
+DecSlice::decompressSlice	0.0	115290.000000	115290.000000	14	DecoderAppStatic
+DepQuant::DepQuant	0.0	1706112.000000	1706112.000000	3	DecoderAppStatic
+HLSyntaxReader::parseSliceHeader	0.0	3240.000000	3240.000000	6	DecoderAppStatic
+InputBitstream::InputBitstream	0.0	31585.000000	31585.000000	2	DecoderAppStatic
+InputBitstream::extractSubstream	0.0	31712.000000	31712.000000	4	DecoderAppStatic
+InterPrediction::init	0.0	1897856.000000	1897856.000000	49	DecoderAppStatic
+IntraPrediction::init	0.0	558596.000000	558596.000000	14	DecoderAppStatic
+PPS::checkSliceMap	0.0	2160.000000	2160.000000	4	DecoderAppStatic
+PPS::initRectSliceMap	0.0	588.000000	588.000000	2	DecoderAppStatic
+PPS::initRectSlices	0.0	32.000000	32.000000	1	DecoderAppStatic
+PPS::initSubPic	0.0	2120.000000	2120.000000	7	DecoderAppStatic
+ParameterSetManager::getVPS	0.0	59832.000000	59832.000000	2	DecoderAppStatic
+PartitionerImpl::getCUSubPartitions	0.0	775280.000000	775280.000000	3355	DecoderAppStatic
+PartitionerImpl::getMaxTuTiling	0.0	5808.000000	5808.000000	28	DecoderAppStatic
+PartitionerImpl::getSbtTuTiling	0.0	34848.000000	34848.000000	198	DecoderAppStatic
+PartitionerImpl::getTUIntraSubPartitions	0.0	50864.000000	50864.000000	145	DecoderAppStatic
+PelStorage::create	0.0	78683648.000000	78683648.000000	63	DecoderAppStatic
+Picture::Picture	0.0	1152.000000	1152.000000	4	DecoderAppStatic
+Picture::allocateNewSlice	0.0	15440.000000	15440.000000	2	DecoderAppStatic
+Picture::finalInit	0.0	5096.000000	5096.000000	4	DecoderAppStatic
+QTBTPartitioner::initCtu	0.0	35640.000000	35640.000000	405	DecoderAppStatic
+Quant::xInitScalingList	0.0	18727200.000000	18727200.000000	1	DecoderAppStatic
+QuantRDOQ::xInitScalingList	0.0	18727200.000000	18727200.000000	1	DecoderAppStatic
+Reshape::createDec	0.0	4388.000000	4388.000000	8	DecoderAppStatic
+SPS::createRPLList0	0.0	16800.000000	16800.000000	1	DecoderAppStatic
+SPS::createRPLList1	0.0	16800.000000	16800.000000	1	DecoderAppStatic
+SampleAdaptiveOffset::offsetCTU	0.0	258.000000	258.000000	2	DecoderAppStatic
+ScalingList::ScalingList	0.0	16512.000000	16512.000000	78	DecoderAppStatic
+Slice::checkSubpicTypeConstraints	0.0	1080.000000	1080.000000	2	DecoderAppStatic
+SliceMap::addCtusToSlice	0.0	4032.000000	4032.000000	12	DecoderAppStatic
+TrQuant::init	0.0	768384.000000	768384.000000	3	DecoderAppStatic
+_Z28getListOfColourSpaceConvertsB5cxx11b	0.0	36.000000	36.000000	1	DecoderAppStatic
+detail::aligned_malloc<short>	0.0	1162016.000000	1162016.000000	30	DecoderAppStatic
+df::program_options_lite::ArgvParser::parseSHORT	0.0	154.000000	154.000000	2	DecoderAppStatic
+df::program_options_lite::OptionSpecific::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>	0.0	2223.000000	2223.000000	22	DecoderAppStatic
+df::program_options_lite::OptionWriter::storePair	0.0	744.000000	744.000000	4	DecoderAppStatic
+df::program_options_lite::Options::addOption	0.0	7339.000000	7339.000000	105	DecoderAppStatic
+initGeoTemplate	0.0	301568.000000	301568.000000	13	DecoderAppStatic
+initROM	0.0	3125160.000000	3125160.000000	381	DecoderAppStatic
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_construct<char*>.isra.45	0.0	1943.000000	1943.000000	23	DecoderAppStatic
+std::vector<AlfFilterShape, std::allocator<AlfFilterShape>>::_M_realloc_insert<AlfFilterShape>	0.0	256.000000	256.000000	4	DecoderAppStatic
+std::vector<Channel, std::allocator<Channel>>::_M_realloc_insert<Channel>	0.0	5080.000000	5080.000000	7	DecoderAppStatic
+std::vector<CodingUnit*, std::allocator<CodingUnit*>>::_M_realloc_insert<CodingUnit* const&>	0.0	163776.000000	163776.000000	22	DecoderAppStatic
+std::vector<DecLib::AccessUnitInfo, std::allocator<DecLib::AccessUnitInfo>>::_M_realloc_insert<DecLib::AccessUnitInfo const&>	0.0	144.000000	144.000000	2	DecoderAppStatic
+std::vector<DecLib::NalUnitInfo, std::allocator<DecLib::NalUnitInfo>>::_M_realloc_insert<DecLib::NalUnitInfo const&>	0.0	32.000000	32.000000	1	DecoderAppStatic
+std::vector<NalUnitType, std::allocator<NalUnitType>>::_M_realloc_insert<NalUnitType const&>	0.0	32.000000	32.000000	1	DecoderAppStatic
+std::vector<PredictionUnit*, std::allocator<PredictionUnit*>>::_M_realloc_insert<PredictionUnit* const&>	0.0	163776.000000	163776.000000	22	DecoderAppStatic
+std::vector<SubPic, std::allocator<SubPic>>::_M_realloc_insert<SubPic>	0.0	1288.000000	1288.000000	4	DecoderAppStatic
+std::vector<TransformUnit*, std::allocator<TransformUnit*>>::_M_realloc_insert<TransformUnit* const&>	0.0	163776.000000	163776.000000	22	DecoderAppStatic
+std::vector<int, std::allocator<int>>::_M_assign_aux<int const*>	0.0	792.000000	792.000000	12	DecoderAppStatic
+std::vector<unsigned int, std::allocator<unsigned int>>::emplace_back<unsigned int>	0.0	192.000000	192.000000	4	DecoderAppStatic
+tracing_init	0.0	1672.000000	1672.000000	2	DecoderAppStatic
+[Unknown]				1	[Unknown]

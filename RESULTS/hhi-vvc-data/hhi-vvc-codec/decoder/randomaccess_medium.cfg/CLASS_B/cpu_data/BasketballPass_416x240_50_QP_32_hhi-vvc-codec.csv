@@ -1,0 +1,8 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+BiOptFlowCoreSIMD<(X86_VEXT)4>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void BiOptFlowCoreSIMD<(X86_VEXT)4>(short const*, short const*, short const*, short const*, short const*, short const*, int, int, short*, long, int, int, int, ClpRngTemplate<short> const&, int)	[Unknown]	0xee370
+InterPrediction::xProcessDMVR	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	InterPrediction::xProcessDMVR(CodingUnit&, UnitBuf<short>&, ClpRngs const&, bool)	[Unknown]	0xa44f0
+OS_BARESYSCALL_DoCallAsmIntel64Linux	0.010000	0.010000	0.010000	0.0	0.0	0.0	0.0	0.0	0.0	libc-dynamic.so	OS_BARESYSCALL_DoCallAsmIntel64Linux	[Unknown]	0x777e8
+__malloc_trim	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__malloc_trim	malloc.c	0x9a5b0
+deriveScaledMotionTemporal	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	deriveScaledMotionTemporal(Slice const&, MotionInfo const&, Picture const*, RefPicList, Mv&, RefPicList)	[Unknown]	0xfae90
+simdFilter16xX_N8<(X86_VEXT)4, (bool)0>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter16xX_N8<(X86_VEXT)4, (bool)0>(ClpRngTemplate<short> const&, short const*, long, short*, long, int, int, short const*, short const*)	[Unknown]	0xd8e60
+simdInterpolateN2_2D<(X86_VEXT)4>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdInterpolateN2_2D<(X86_VEXT)4>(ClpRngTemplate<short> const&, short const*, long, short*, long, int, int, short const*, short const*)	[Unknown]	0xdb920

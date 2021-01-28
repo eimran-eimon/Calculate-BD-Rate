@@ -1,0 +1,11 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+DecLib::DecLib	0.039999	0.039999	0.0	0.039999	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	DecLib::DecLib(void)	[Unknown]	0x1bd380
+CABACReader::residual_coding_subblock	0.011997	0.011997	0.0	0.011997	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CABACReader::residual_coding_subblock(CoeffCodingContext&, int*, int, int&)	[Unknown]	0x211f70
+func@0x11350	0.011992	0.011992	0.0	0.011992	0.0	0.0	0.0	0.0	0.0	libgcc_s.so.1	func@0x11350	[Unknown]	0x11350
+IntraPrediction::IntraPrediction	0.011985	0.011985	0.0	0.011985	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	IntraPrediction::IntraPrediction(void)	[Unknown]	0x243d70
+_GLOBAL__sub_I_Rom.cpp	0.010024	0.010024	0.0	0.010024	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	_GLOBAL__sub_I_Rom.cpp	[Unknown]	0xccd0
+LoopFilter::xDeblockCU	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::xDeblockCU(CodingUnit&, DeblockEdgeDir)	[Unknown]	0x25c800
+[Outside any known module]	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+operator new	0.008004	0.008004	0.0	0.008004	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	operator new(unsigned long)	[Unknown]	0x93280
+DecCu::xIntraRecBlk	0.008003	0.008003	0.0	0.008003	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	DecCu::xIntraRecBlk(TransformUnit&, ComponentID)	[Unknown]	0x21b990
+std::istream::get	0.007996	0.007996	0.0	0.007996	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0

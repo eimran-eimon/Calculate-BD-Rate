@@ -1,0 +1,16 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+NoMallocThreadPool::findNextTask	0.030000	0.030000	0.0	0.030000	0.0	0.0	0.0	0.0	0.0	vvdecapp	NoMallocThreadPool::findNextTask(int, NoMallocThreadPool::ChunkedTaskQueue::Iterator)	[Unknown]	0x69fc0
+__memmove_avx_unaligned_erms	0.020000	0.020000	0.0	0.020000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
+[Outside any known module]	0.012034	0.012034	0.012034	0.0	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+simdFilter16xX_N8<(X86_VEXT)4, (bool)0>	0.012001	0.012001	0.0	0.0	0.012001	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter16xX_N8<(X86_VEXT)4, (bool)0>(ClpRngTemplate<short> const&, short const*, long, short*, long, int, int, short const*, short const*)	[Unknown]	0xd8e60
+DecLibRecon::ctuTask<(bool)0>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	bool DecLibRecon::ctuTask<(bool)0>(int, CtuTaskParam*)	[Unknown]	0x1068f0
+LoopFilter::loopFilterCTU.constprop.201	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	LoopFilter::loopFilterCTU(CodingStructure&, ChannelType, int, int, int, DeblockEdgeDir) const.constprop.201	[Unknown]	0x121270
+PU::spanMotionInfo.constprop.179	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	PU::spanMotionInfo(CodingUnit&, MergeCtx const&).constprop.179	[Unknown]	0x120f60
+__posix_memalign	0.010000	0.010000	0.010000	0.0	0.0	0.0	0.0	0.0	0.0	libc.so.6	__posix_memalign	malloc.c	0x9aeb0
+addAvg_SSE<(X86_VEXT)4, (int)8>	0.010000	0.010000	0.0	0.0	0.010000	0.0	0.0	0.0	0.0	vvdecapp	void addAvg_SSE<(X86_VEXT)4, (int)8>(short const*, long, short const*, long, short*, long, int, int, int, int, ClpRngTemplate<short> const&)	[Unknown]	0xe0420
+paddPicBorderBotSIMD<(X86_VEXT)4>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void paddPicBorderBotSIMD<(X86_VEXT)4>(short*, long, int, int, int)	[Unknown]	0x3eb60
+paddPicBorderTopSIMD<(X86_VEXT)4>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void paddPicBorderTopSIMD<(X86_VEXT)4>(short*, long, int, int, int)	[Unknown]	0x3ea20
+sched_yield	0.010000	0.0	0.0	0.0	0.0	0.0	0.0	0.010000	0.0	libc.so.6	sched_yield	syscall-template.S	0x103ef0
+xPelFilterLumaX86<(X86_VEXT)4>	0.010000	0.010000	0.0	0.0	0.010000	0.0	0.0	0.0	0.0	vvdecapp	void xPelFilterLumaX86<(X86_VEXT)4>(short*, long, long, int, bool, int, bool, bool, ClpRngTemplate<short> const&)	[Unknown]	0x401c0
+DecCu::TaskDeriveDMVRMotionInfo.constprop.174	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	vvdecapp	DecCu::TaskDeriveDMVRMotionInfo(CodingStructure&, UnitArea const&).constprop.174	[Unknown]	0x122770
+__malloc_trim	0.007966	0.007966	0.0	0.007966	0.0	0.0	0.0	0.0	0.0	libc.so.6	__malloc_trim	malloc.c	0x9a5b0

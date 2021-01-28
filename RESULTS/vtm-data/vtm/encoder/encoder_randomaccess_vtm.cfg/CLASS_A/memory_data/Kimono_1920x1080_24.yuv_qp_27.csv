@@ -1,0 +1,133 @@
+Function	Allocation/Deallocation Delta	Allocation Size	Deallocation Size	Allocations	Module
+BestEncInfoCache::init	1174569984.000000	1174569984.000000		2	EncoderAppStatic
+IbcHashMap::xxBuildPicHashMap<(ChromaFormat)1>	112296104.000000	141186760.000000	28890656.000000	2063161	EncoderAppStatic
+BestEncInfoCache::create	87238816.000000	87238816.000000		23569	EncoderAppStatic
+PelStorage::create	80995328.000000	162962240.000000	81966912.000000	3639	EncoderAppStatic
+CodingStructure::createCoeffs	23528704.000000	23528704.000000		1682	EncoderAppStatic
+Quant::xInitScalingList	18727200.000000	18727200.000000		1	EncoderAppStatic
+QuantRDOQ::xInitScalingList	18727200.000000	18727200.000000		1	EncoderAppStatic
+CodingStructure::createInternals	10779072.000000	10779072.000000		2091	EncoderAppStatic
+IbcHashMap::init	8303040.000000	8303040.000000		2	EncoderAppStatic
+initROM	3122120.000000	3125160.000000	3040.000000	381	EncoderAppStatic
+DQIntern::TUParameters::TUParameters	2708832.000000	2708832.000000		122	EncoderAppStatic
+main	2583536.000000	2588352.000000	4816.000000	8	EncoderAppStatic
+CacheBlkInfoCtrl::create	2529016.000000	2529016.000000		23569	EncoderAppStatic
+InterPrediction::init	1897856.000000	1897856.000000		49	EncoderAppStatic
+SaveLoadEncInfoSbt::create	1687808.000000	1687808.000000		6177	EncoderAppStatic
+detail::aligned_malloc<short>	1162016.000000	1162016.000000		30	EncoderAppStatic
+DepQuant::DepQuant	568704.000000	568704.000000		1	EncoderAppStatic
+IntraPrediction::init	558596.000000	558596.000000		14	EncoderAppStatic
+IntraSearch::init	393776.000000	393776.000000		185	EncoderAppStatic
+EncCu::create	335728.000000	335728.000000		182	EncoderAppStatic
+DQIntern::Rom::xInitScanArrays	334120.000000	334120.000000		241	EncoderAppStatic
+initGeoTemplate	301568.000000	301568.000000		13	EncoderAppStatic
+CodingStructure::addPU	294528.000000	294528.000000		354	EncoderAppStatic
+TrQuant::init	256128.000000	256128.000000		1	EncoderAppStatic
+InterSearch::init	211168.000000	211168.000000		6	EncoderAppStatic
+CodingStructure::addCU	201072.000000	201072.000000		354	EncoderAppStatic
+EncGOP::compressGOP	116875.000000	119035.000000	2160.000000	19	EncoderAppStatic
+CodingStructure::addTU	76544.000000	76544.000000		368	EncoderAppStatic
+func@0x8f3f0	72704.000000	72704.000000		1	libstdc++.so.6
+IntraSearch::estIntraPredLumaQT	60468.000000	12844140.000000	12783672.000000	145316	EncoderAppStatic
+SPS::createRPLList0	24864.000000	24864.000000		1	EncoderAppStatic
+SPS::createRPLList1	24864.000000	24864.000000		1	EncoderAppStatic
+VideoIOYuv::open	17488.000000	26232.000000	8744.000000	6	EncoderAppStatic
+IntraSearch::xRecurIntraCodingLumaQT	16686.000000	16686.000000		19	EncoderAppStatic
+df::program_options_lite::OptionWriter::storePair	16551.000000	51468.000000	34917.000000	81	EncoderAppStatic
+RdCost::initLumaLevelToWeightTableReshape	16384.000000	16384.000000		2	EncoderAppStatic
+EncCu::xCheckBestMode	15918.000000	15918.000000		7	EncoderAppStatic
+EncCu::xCompressCU	15918.000000	15918.000000		7	EncoderAppStatic
+EncLib::init	13096.000000	13096.000000		4	EncoderAppStatic
+EncCu::xCheckModeSplit	11690.000000	11690.000000		10	EncoderAppStatic
+EncCu::init	11264.000000	11264.000000		130	EncoderAppStatic
+ScalingList::ScalingList	11008.000000	11008.000000		52	EncoderAppStatic
+std::vector<Position, std::allocator<Position>>::_M_realloc_insert<Position const&>	9760.000000	15232.000000	5472.000000	216	EncoderAppStatic
+EncApp::createLib	9080.000000	9080.000000		5	EncoderAppStatic
+EncGOP::init	8192.000000	8192.000000		1	EncoderAppStatic
+Picture::allocateNewSlice	7720.000000	7720.000000		1	EncoderAppStatic
+__static_initialization_and_destruction_0.constprop.173	7640.000000	7722.000000	82.000000	69	EncoderAppStatic
+__static_initialization_and_destruction_0.constprop.312	7280.000000	7362.000000	82.000000	67	EncoderAppStatic
+__static_initialization_and_destruction_0.constprop.844	7280.000000	7362.000000	82.000000	67	EncoderAppStatic
+__static_initialization_and_destruction_0.constprop.97	7280.000000	7362.000000	82.000000	67	EncoderAppStatic
+std::vector<TransformUnit*, std::allocator<TransformUnit*>>::_M_realloc_insert<TransformUnit* const&>	6720.000000	11552.000000	4832.000000	106	EncoderAppStatic
+std::vector<CodingUnit*, std::allocator<CodingUnit*>>::_M_realloc_insert<CodingUnit* const&>	4896.000000	8832.000000	3936.000000	63	EncoderAppStatic
+std::vector<PredictionUnit*, std::allocator<PredictionUnit*>>::_M_realloc_insert<PredictionUnit* const&>	4896.000000	8832.000000	3936.000000	63	EncoderAppStatic
+CtxStore<BinProbModel_Std>::CtxStore	4548.000000	4548.000000		2	EncoderAppStatic
+EncLib::EncLib	4548.000000	4548.000000		2	EncoderAppStatic
+EncReshape::createEnc	4548.000000	4548.000000		9	EncoderAppStatic
+ChromaQpMappingTable::derivedChromaQPMappingTables	3040.000000	3040.000000		76	EncoderAppStatic
+ParameterSetMap<APS>::allocatePS	3024.000000	3024.000000		2	EncoderAppStatic
+EncApp::xCreateLib	2904.000000	2904.000000		33	EncoderAppStatic
+EncLib::xGetNewPicBuffer	2808.000000	2808.000000		1	EncoderAppStatic
+CDTrace::CDTrace	2664.000000	3216.000000	552.000000	38	EncoderAppStatic
+std::vector<Channel, std::allocator<Channel>>::_M_realloc_insert<Channel>	2560.000000	5080.000000	2520.000000	7	EncoderAppStatic
+Picture::finalInit	2548.000000	2548.000000		2	EncoderAppStatic
+PartitionerImpl::getCUSubPartitions	1760.000000	3748008.000000	3746248.000000	18549	EncoderAppStatic
+ContextSetCfg::addCtxSet	1712.000000	3312.000000	1600.000000	16	EncoderAppStatic
+BinCounter::BinCounter	1516.000000	1516.000000		1	EncoderAppStatic
+PPS::initSubPic	1128.000000	2120.000000	992.000000	7	EncoderAppStatic
+_GLOBAL__sub_I_InterSearch.cpp	1040.000000	1040.000000		1	EncoderAppStatic
+_GLOBAL__sub_I_RdCost.cpp	1040.000000	1040.000000		1	EncoderAppStatic
+__libc_csu_init	1040.000000	1040.000000		1	EncoderAppStatic
+CodingStructure::clearTUs	1024.000000	3552.000000	2528.000000	12	EncoderAppStatic
+SliceMap::addCtusToSlice	1024.000000	2016.000000	992.000000	6	EncoderAppStatic
+std::vector<EncTestMode, std::allocator<EncTestMode>>::_M_realloc_insert<EncTestMode>	960.000000	7739664.000000	7738704.000000	93047	EncoderAppStatic
+CodingStructure::clearCUs	888.000000	3440.000000	2552.000000	11	EncoderAppStatic
+CodingStructure::clearPUs	888.000000	3440.000000	2552.000000	11	EncoderAppStatic
+CDTrace::update	720.000000	3146965416.000000	3146964696.000000	43707853	EncoderAppStatic
+ParameterSetMap<PPS>::allocatePS	656.000000	656.000000		2	EncoderAppStatic
+std::vector<SubPic, std::allocator<SubPic>>::_M_realloc_insert<SubPic>	644.000000	644.000000		2	EncoderAppStatic
+PPS::initRectSliceMap	588.000000	588.000000		2	EncoderAppStatic
+Picture::Picture	576.000000	576.000000		2	EncoderAppStatic
+__register_frame	528.000000	528.000000		11	libgcc_s.so.1
+std::vector<Ctx*, std::allocator<Ctx*>>::_M_realloc_insert<Ctx* const&>	512.000000	992.000000	480.000000	5	EncoderAppStatic
+_GLOBAL__sub_I_CommonDefX86.cpp	432.000000	432.000000		6	EncoderAppStatic
+df::program_options_lite::Options::addOption	432.000000	342427.000000	341995.000000	4915	EncoderAppStatic
+tracing_init	192.000000	1672.000000	1480.000000	2	EncoderAppStatic
+EncAppCfg::parseCfg	184.000000	112089.000000	111905.000000	1144	EncoderAppStatic
+EncApp::xInitLibCfg	168.000000	336.000000	168.000000	2	EncoderAppStatic
+EncLib::xInitDCI	168.000000	336.000000	168.000000	2	EncoderAppStatic
+EncLib::xInitPPS	160.000000	160.000000		1	EncoderAppStatic
+EncTemporalFilter::init	140.000000	140.000000		3	EncoderAppStatic
+std::vector<unsigned int, std::allocator<unsigned int>>::emplace_back<unsigned int>	128.000000	192.000000	64.000000	4	EncoderAppStatic
+DecCu::initDecCuReshaper	112.000000	112.000000		1	EncoderAppStatic
+_GLOBAL__sub_I_Contexts.cpp	96.000000	96.000000		1	EncoderAppStatic
+df::program_options_lite::Option<std::map<int, double, std::less<int>, std::allocator<std::pair<int const, double>>>>::parse	96.000000	210.000000	114.000000	4	EncoderAppStatic
+QTBTPartitioner::initCtu	88.000000	1144.000000	1056.000000	13	EncoderAppStatic
+PPS::initRectSlices	32.000000	32.000000		1	EncoderAppStatic
+CABACWriter::cu_residual	0.0	226600.000000	226600.000000	2575	EncoderAppStatic
+CompStorage::create	0.0	294912.000000	294912.000000	144	EncoderAppStatic
+EncAppCfg::xCheckParameter	0.0	95.000000	95.000000	1	EncoderAppStatic
+EncCu::xCheckRDCostIntra	0.0	1056.000000	1056.000000	12	EncoderAppStatic
+EncLib::xInitVPS	0.0	7784.000000	7784.000000	1	EncoderAppStatic
+EncReshape::calcSeqStats	0.0	78784.000000	78784.000000	7	EncoderAppStatic
+EncReshape::deriveReshapeParametersSDR	0.0	320.000000	320.000000	3	EncoderAppStatic
+EncTemporalFilter::bilateralFilter	0.0	224.000000	224.000000	1	EncoderAppStatic
+EncTemporalFilter::filter	0.0	3110920.000000	3110920.000000	4	EncoderAppStatic
+EncTemporalFilter::motionEstimation	0.0	578880.000000	578880.000000	6	EncoderAppStatic
+PPS::checkSliceMap	0.0	1080.000000	1080.000000	2	EncoderAppStatic
+PartitionerImpl::getTUIntraSubPartitions	0.0	63785216.000000	63785216.000000	233015	EncoderAppStatic
+VideoIOYuv::read	0.0	11520.000000	11520.000000	9	EncoderAppStatic
+_Z28getListOfColourSpaceConvertsB5cxx11b	0.0	96.000000	96.000000	2	EncoderAppStatic
+df::program_options_lite::ArgvParser::parseSHORT	0.0	506.000000	506.000000	8	EncoderAppStatic
+df::program_options_lite::CfgStreamParser::scanLine	0.0	18556.000000	18556.000000	66	EncoderAppStatic
+df::program_options_lite::CfgStreamParser::scanStream	0.0	36706.000000	36706.000000	318	EncoderAppStatic
+df::program_options_lite::CfgStreamParser::where[abi:cxx11]	0.0	79998.000000	79998.000000	286	EncoderAppStatic
+df::program_options_lite::Option<GOPEntry>::parse	0.0	14717.000000	14717.000000	128	EncoderAppStatic
+df::program_options_lite::Option<double>::parse	0.0	114.000000	114.000000	2	EncoderAppStatic
+df::program_options_lite::OptionBase::OptionBase	0.0	1153.000000	1153.000000	9	EncoderAppStatic
+df::program_options_lite::OptionSpecific::operator()<SMultiValueInput<bool>>	0.0	1097.000000	1097.000000	10	EncoderAppStatic
+df::program_options_lite::OptionSpecific::operator()<SMultiValueInput<double>>	0.0	819.000000	819.000000	6	EncoderAppStatic
+df::program_options_lite::OptionSpecific::operator()<SMultiValueInput<int>>	0.0	3485.000000	3485.000000	39	EncoderAppStatic
+df::program_options_lite::OptionSpecific::operator()<SMultiValueInput<unsigned int>>	0.0	6378.000000	6378.000000	64	EncoderAppStatic
+df::program_options_lite::OptionSpecific::operator()<bool>.constprop.439	0.0	33364.000000	33364.000000	448	EncoderAppStatic
+df::program_options_lite::OptionSpecific::operator()<bool>.constprop.440	0.0	9796.000000	9796.000000	124	EncoderAppStatic
+df::program_options_lite::OptionSpecific::operator()<double>	0.0	5344.000000	5344.000000	60	EncoderAppStatic
+df::program_options_lite::OptionSpecific::operator()<int>	0.0	19999.000000	19999.000000	242	EncoderAppStatic
+df::program_options_lite::OptionSpecific::operator()<int>.constprop.437	0.0	15359.000000	15359.000000	193	EncoderAppStatic
+df::program_options_lite::OptionSpecific::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>	0.0	2960.000000	2960.000000	28	EncoderAppStatic
+df::program_options_lite::OptionSpecific::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>.constprop.438	0.0	34974.000000	34974.000000	442	EncoderAppStatic
+df::program_options_lite::OptionSpecific::operator()<unsigned int>	0.0	10512.000000	10512.000000	122	EncoderAppStatic
+df::program_options_lite::parseConfigFile	0.0	17574.000000	17574.000000	6	EncoderAppStatic
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_construct<char*>.isra.396	0.0	85.000000	85.000000	1	EncoderAppStatic
+[Unknown]				1	[Unknown]

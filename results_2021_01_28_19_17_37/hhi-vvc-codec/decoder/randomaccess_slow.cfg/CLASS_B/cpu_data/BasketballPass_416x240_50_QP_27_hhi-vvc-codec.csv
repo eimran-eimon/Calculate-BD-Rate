@@ -1,0 +1,7 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+LoopFilter::calcFilterStrengths	0.020000	0.020000	0.0	0.020000	0.0	0.0	0.0	0.0	0.0	vvdecapp	LoopFilter::calcFilterStrengths(CodingUnit const&)	[Unknown]	0xbb710
+__memmove_avx_unaligned_erms	0.020000	0.020000	0.0	0.020000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
+simdFilter7x7Blk<(X86_VEXT)4>	0.020000	0.020000	0.0	0.020000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter7x7Blk<(X86_VEXT)4>(AlfClassifier const*, UnitBuf<short> const&, UnitBuf<short const> const&, Area const&, ComponentID, short const*, short const*, ClpRngTemplate<short> const&, CodingStructure const&, int, int)	[Unknown]	0xea630
+[Outside any known module]	0.010000	0.010000	0.010000	0.0	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+addAvg_SSE<(X86_VEXT)4, (int)8>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void addAvg_SSE<(X86_VEXT)4, (int)8>(short const*, long, short const*, long, short*, long, int, int, int, int, ClpRngTemplate<short> const&)	[Unknown]	0xe0420
+paddPicBorderBotSIMD<(X86_VEXT)4>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void paddPicBorderBotSIMD<(X86_VEXT)4>(short*, long, int, int, int)	[Unknown]	0x3eb60

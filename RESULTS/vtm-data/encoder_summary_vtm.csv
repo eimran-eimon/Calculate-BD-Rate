@@ -1,0 +1,21 @@
+Seq Name,Codec Name,Config Name,QP,CPU Time
+RaceHorses_416x240_30.yuv,vtm,encoder_lowdelay_vtm.cfg,27,112.969s
+RaceHorses_416x240_30.yuv,vtm,encoder_lowdelay_vtm.cfg,32,74.300s
+Kimono_1920x1080_24.yuv,vtm,encoder_lowdelay_vtm.cfg,27,967.199s
+Kimono_1920x1080_24.yuv,vtm,encoder_lowdelay_vtm.cfg,32,554.600s
+BasketballPass_416x240_50.yuv,vtm,encoder_lowdelay_vtm.cfg,27,72.977s
+BasketballPass_416x240_50.yuv,vtm,encoder_lowdelay_vtm.cfg,32,53.040s
+,,,,
+RaceHorses_416x240_30.yuv,vtm,encoder_intra_vtm.cfg,27,71.040s
+RaceHorses_416x240_30.yuv,vtm,encoder_intra_vtm.cfg,32,58.220s
+Kimono_1920x1080_24.yuv,vtm,encoder_intra_vtm.cfg,27,454.996s
+Kimono_1920x1080_24.yuv,vtm,encoder_intra_vtm.cfg,32,289.629s
+BasketballPass_416x240_50.yuv,vtm,encoder_intra_vtm.cfg,27,64.010s
+BasketballPass_416x240_50.yuv,vtm,encoder_intra_vtm.cfg,32,47.160s
+,,,,
+RaceHorses_416x240_30.yuv,vtm,encoder_randomaccess_vtm.cfg,27,131.208s
+RaceHorses_416x240_30.yuv,vtm,encoder_randomaccess_vtm.cfg,32,112.039s
+Kimono_1920x1080_24.yuv,vtm,encoder_randomaccess_vtm.cfg,27,1122.753s
+Kimono_1920x1080_24.yuv,vtm,encoder_randomaccess_vtm.cfg,32,621.160s
+BasketballPass_416x240_50.yuv,vtm,encoder_randomaccess_vtm.cfg,27,109.086s
+BasketballPass_416x240_50.yuv,vtm,encoder_randomaccess_vtm.cfg,32,81.929s

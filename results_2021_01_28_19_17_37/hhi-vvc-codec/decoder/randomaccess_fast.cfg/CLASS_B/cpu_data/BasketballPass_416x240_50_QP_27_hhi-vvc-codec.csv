@@ -1,0 +1,6 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+simdFilter7x7Blk<(X86_VEXT)4>	0.060000	0.060000	0.0	0.060000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter7x7Blk<(X86_VEXT)4>(AlfClassifier const*, UnitBuf<short> const&, UnitBuf<short const> const&, Area const&, ComponentID, short const*, short const*, ClpRngTemplate<short> const&, CodingStructure const&, int, int)	[Unknown]	0xea630
+OS_BARESYSCALL_DoCallAsmIntel64Linux	0.012030	0.012030	0.012030	0.0	0.0	0.0	0.0	0.0	0.0	libc-dynamic.so	OS_BARESYSCALL_DoCallAsmIntel64Linux	[Unknown]	0x777e8
+__memset_avx2_unaligned_erms	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_unaligned_erms	memset-vec-unaligned-erms.S	0x18ee90
+simdFilter5x5Blk<(X86_VEXT)4>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter5x5Blk<(X86_VEXT)4>(AlfClassifier const*, UnitBuf<short> const&, UnitBuf<short const> const&, Area const&, ComponentID, short const*, short const*, ClpRngTemplate<short> const&, CodingStructure const&, int, int)	[Unknown]	0xf11b0
+__malloc_trim	0.007970	0.007970	0.0	0.007970	0.0	0.0	0.0	0.0	0.0	libc.so.6	__malloc_trim	malloc.c	0x9a5b0

@@ -1,0 +1,11 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+InterPrediction::xProcessDMVR	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	InterPrediction::xProcessDMVR(CodingUnit&, UnitBuf<short>&, ClpRngs const&, bool)	[Unknown]	0xa44f0
+OS_BARESYSCALL_DoCallAsmIntel64Linux	0.010000	0.010000	0.010000	0.0	0.0	0.0	0.0	0.0	0.0	libc-dynamic.so	OS_BARESYSCALL_DoCallAsmIntel64Linux	[Unknown]	0x777e8
+Partitioner::splitCurrArea	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	Partitioner::splitCurrArea(PartSplit, CodingStructure const&)	[Unknown]	0x155280
+__malloc_trim	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__malloc_trim	malloc.c	0x9a5b0
+fastInv_SSE<(X86_VEXT)4, (int)8>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void fastInv_SSE<(X86_VEXT)4, (int)8>(short const*, int const*, int*, unsigned int, unsigned int, unsigned int, unsigned int)	[Unknown]	0x3cf30
+paddingSimd2<(X86_VEXT)4>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void paddingSimd2<(X86_VEXT)4>(short*, long, int, int)	[Unknown]	0xd7540
+simdFilter8xX_N8<(X86_VEXT)4, (bool)0>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter8xX_N8<(X86_VEXT)4, (bool)0>(ClpRngTemplate<short> const&, short const*, long, short*, long, int, int, short const*, short const*)	[Unknown]	0xda900
+simdFilter<(X86_VEXT)4, (int)4, (bool)0, (bool)1, (bool)0>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter<(X86_VEXT)4, (int)4, (bool)0, (bool)1, (bool)0>(ClpRngTemplate<short> const&, short const*, long, short*, long, int, int, short const*, bool)	[Unknown]	0xebf50
+simdFilterCopy<(X86_VEXT)4, (bool)1, (bool)1>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdFilterCopy<(X86_VEXT)4, (bool)1, (bool)1>(ClpRngTemplate<short> const&, short const*, long, short*, long, int, int, bool)	[Unknown]	0xdd720
+xUseStrongFiltering.lto_priv.565	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	xUseStrongFiltering(short const*, long, int, int, int, bool, bool, int, int, bool).lto_priv.565	[Unknown]	0xb5ca0

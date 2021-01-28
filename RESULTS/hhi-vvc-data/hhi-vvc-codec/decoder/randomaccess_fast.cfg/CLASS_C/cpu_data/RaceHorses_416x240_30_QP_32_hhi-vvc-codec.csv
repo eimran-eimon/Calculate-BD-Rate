@@ -1,0 +1,12 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+[Outside any known module]	0.020000	0.020000	0.012038	0.007962	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+InterPrediction::motionCompensation	0.011998	0.011998	0.0	0.011998	0.0	0.0	0.0	0.0	0.0	vvdecapp	InterPrediction::motionCompensation(CodingUnit&, UnitBuf<short>&, bool, bool)	[Unknown]	0xaaba0
+copyBuffer_SSE<(X86_VEXT)4>	0.011998	0.011998	0.0	0.011998	0.0	0.0	0.0	0.0	0.0	vvdecapp	void copyBuffer_SSE<(X86_VEXT)4>(char const*, long, char*, long, int, int)	[Unknown]	0xee240
+BinDecoder::decodeBin	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	BinDecoder::decodeBin(unsigned int)	[Unknown]	0xc0b70
+InterPrediction::xPredInterUni.constprop.147	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	InterPrediction::xPredInterUni(CodingUnit const&, RefPicList const&, UnitBuf<short>&, bool const&, bool const&, bool, bool).constprop.147	[Unknown]	0x2f440
+InterPrediction::xProcessDMVR	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	InterPrediction::xProcessDMVR(CodingUnit&, UnitBuf<short>&, ClpRngs const&, bool)	[Unknown]	0xa44f0
+RdCost::xGetSAD_16xN_SIMD<(X86_VEXT)4>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	unsigned long RdCost::xGetSAD_16xN_SIMD<(X86_VEXT)4>(DistParam const&)	[Unknown]	0x3dd00
+RdCost::xGetSAD_NxN_SIMD<(int)8, (X86_VEXT)4>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	unsigned long RdCost::xGetSAD_NxN_SIMD<(int)8, (X86_VEXT)4>(DistParam const&)	[Unknown]	0x3df60
+simdFilter16xX_N8<(X86_VEXT)4, (bool)0>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter16xX_N8<(X86_VEXT)4, (bool)0>(ClpRngTemplate<short> const&, short const*, long, short*, long, int, int, short const*, short const*)	[Unknown]	0xd8e60
+__memmove_avx_unaligned_erms	0.008002	0.008002	0.0	0.008002	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
+simdFilter7x7Blk<(X86_VEXT)4>	0.008002	0.008002	0.0	0.008002	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter7x7Blk<(X86_VEXT)4>(AlfClassifier const*, UnitBuf<short> const&, UnitBuf<short const> const&, Area const&, ComponentID, short const*, short const*, ClpRngTemplate<short> const&, CodingStructure const&, int, int)	[Unknown]	0xea630

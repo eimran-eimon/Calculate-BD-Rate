@@ -1,0 +1,137 @@
+Function	Allocation/Deallocation Delta	Allocation Size	Deallocation Size	Allocations	Module
+vvenc::ScanOrderRom::initGeoTemplate	301568.000000	301568.000000		13	vvencFFapp
+vvenc::ScanOrderRom::initScanOrderRom	257984.000000	257984.000000		92	vvencFFapp
+func@0x8f3f0	72704.000000	72704.000000		1	libstdc++.so.6
+msgApp	4096.000000	4096.000000		1	vvencFFapp
+__libc_csu_init	3120.000000	3120.000000		3	vvencFFapp
+vvenc::ContextSetCfg::addCtxSet	1736.000000	3352.000000	1616.000000	16	vvencFFapp
+_GLOBAL__sub_I_Buffer.cpp	1040.000000	1040.000000		1	vvencFFapp
+_GLOBAL__sub_I__Z10setPresetsPN5vvenc6EncCfgEi	832.000000	832.000000		7	vvencFFapp
+__register_frame	528.000000	528.000000		11	libgcc_s.so.1
+_GLOBAL__sub_I_CommonDefX86.cpp	432.000000	432.000000		6	vvencFFapp
+main	224.000000	47528.000000	47304.000000	7	vvencFFapp
+_GLOBAL__sub_I_Contexts.cpp	96.000000	96.000000		1	vvencFFapp
+EncApp::encode	0.0	299520.000000	299520.000000	3	vvencFFapp
+EncApp::openFileIO	0.0	8744.000000	8744.000000	2	vvencFFapp
+EncAppCfg::parseCfg	0.0	27705.000000	27705.000000	82	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::CfgStreamParser::scanLine	0.0	18556.000000	18556.000000	66	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::CfgStreamParser::scanStream	0.0	38822.000000	38822.000000	300	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::CfgStreamParser::where[abi:cxx11]	0.0	70297.000000	70297.000000	250	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::Option<IStreamToRefVec<double>>::getDefault[abi:cxx11]	0.0	1026.000000	1026.000000	2	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::Option<vvenc::GOPEntry>::parse	0.0	14717.000000	14717.000000	128	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::OptionSpecific::operator()<IStreamToVec<int>>	0.0	792.000000	792.000000	9	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::OptionSpecific::operator()<bool>	0.0	8712.000000	8712.000000	99	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::OptionSpecific::operator()<double>	0.0	616.000000	616.000000	7	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::OptionSpecific::operator()<int>	0.0	10120.000000	10120.000000	115	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::OptionSpecific::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>	0.0	1008.000000	1008.000000	9	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::OptionSpecific::operator()<unsigned int>	0.0	2552.000000	2552.000000	29	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::OptionWriter::storePair	0.0	32262.000000	32262.000000	6	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::OptionWriter::storePair.constprop.108	0.0	254.000000	254.000000	3	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::Options::addOption	0.0	71932.000000	71932.000000	1127	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::doHelp	0.0	115535.000000	115535.000000	560	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::doHelpOpt.constprop.109	0.0	309852.000000	309852.000000	604	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::parseConfigFile	0.0	17580.000000	17580.000000	6	vvencFFapp
+VVCEncoderFFApp::df::program_options_lite::scanArgv[abi:cxx11]	0.0	600.000000	600.000000	8	vvencFFapp
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_construct<char const*>.isra.187	0.0	234.000000	234.000000	1	vvencFFapp
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_construct<char const*>.isra.99	0.0	28533.000000	28533.000000	400	vvencFFapp
+std::deque<vvenc::TemporalFilterSourcePicInfo, std::allocator<vvenc::TemporalFilterSourcePicInfo>>::_M_push_back_aux<vvenc::TemporalFilterSourcePicInfo>	0.0	912.000000	912.000000	2	vvencFFapp
+std::vector<double, std::allocator<double>>::emplace_back<double>	0.0	32.000000	32.000000	1	vvencFFapp
+std::vector<int, std::allocator<int>>::_M_assign_aux<int const*>	0.0	194652.000000	194652.000000	4626	vvencFFapp
+std::vector<vvenc::AlfFilterShape, std::allocator<vvenc::AlfFilterShape>>::_M_realloc_insert<vvenc::AlfFilterShape>	0.0	512.000000	512.000000	8	vvencFFapp
+std::vector<vvenc::CodingUnit*, std::allocator<vvenc::CodingUnit*>>::_M_realloc_insert<vvenc::CodingUnit* const&>	0.0	16640.000000	16640.000000	46	vvencFFapp
+std::vector<vvenc::Ctx*, std::allocator<vvenc::Ctx*>>::_M_realloc_insert<vvenc::Ctx* const&>	0.0	320.000000	320.000000	5	vvencFFapp
+std::vector<vvenc::Picture*, std::allocator<vvenc::Picture*>>::_M_realloc_insert<vvenc::Picture* const&>	0.0	4160.000000	4160.000000	50	vvencFFapp
+std::vector<vvenc::TransformUnit*, std::allocator<vvenc::TransformUnit*>>::_M_realloc_insert<vvenc::TransformUnit* const&>	0.0	16640.000000	16640.000000	46	vvencFFapp
+vvenc::AdaptiveLoopFilter::create	0.0	607328.000000	607328.000000	1074	vvencFFapp
+vvenc::BestEncInfoCache::create	0.0	23144736.000000	23144736.000000	44468	vvencFFapp
+vvenc::BestEncInfoCache::init	0.0	48940416.000000	48940416.000000	1	vvencFFapp
+vvenc::BinCounter::BinCounter	0.0	2952.000000	2952.000000	2	vvencFFapp
+vvenc::CacheBlkInfoCtrl::create	0.0	3061800.000000	3061800.000000	36450	vvencFFapp
+vvenc::ChromaQpMappingTable::setParams	0.0	1824.000000	1824.000000	6	vvencFFapp
+vvenc::CodingStructure::addCU	0.0	900896.000000	900896.000000	2396	vvencFFapp
+vvenc::CodingStructure::addTU	0.0	421696.000000	421696.000000	2396	vvencFFapp
+vvenc::CodingStructure::allocateVectorsAtPicLevel	0.0	2096640.000000	2096640.000000	40	vvencFFapp
+vvenc::CodingStructure::clearCUs	0.0	21408.000000	21408.000000	9	vvencFFapp
+vvenc::CodingStructure::clearTUs	0.0	21368.000000	21368.000000	8	vvencFFapp
+vvenc::CodingStructure::create	0.0	5120.000000	5120.000000	20	vvencFFapp
+vvenc::CodingStructure::createCoeffs	0.0	17142528.000000	17142528.000000	1350	vvencFFapp
+vvenc::CodingStructure::createInternals	0.0	4389504.000000	4389504.000000	716	vvencFFapp
+vvenc::CodingStructure::createTempBuffers	0.0	5712384.000000	5712384.000000	1688	vvencFFapp
+vvenc::CompStorage::create	0.0	8634880.000000	8634880.000000	73018	vvencFFapp
+vvenc::CtxStore::CtxStore	0.0	17712.000000	17712.000000	8	vvencFFapp
+vvenc::DQIntern::Rom::xInitScanArrays	0.0	378320.000000	378320.000000	362	vvencFFapp
+vvenc::DQIntern::TUParameters::TUParameters	0.0	2309120.000000	2309120.000000	184	vvencFFapp
+vvenc::DepQuant::DepQuant	0.0	1128272.000000	1128272.000000	2	vvencFFapp
+vvenc::EncAdaptiveLoopFilter::alfEncoder	0.0	4492.000000	4492.000000	4	vvencFFapp
+vvenc::EncAdaptiveLoopFilter::deriveCtbAlfEnableFlags	0.0	6770.000000	6770.000000	7	vvencFFapp
+vvenc::EncAdaptiveLoopFilter::deriveFilter	0.0	2246.000000	2246.000000	2	vvencFFapp
+vvenc::EncAdaptiveLoopFilter::init	0.0	14176456.000000	14176456.000000	258	vvencFFapp
+vvenc::EncCfg::initCfgParameter	0.0	233.000000	233.000000	2	vvencFFapp
+vvenc::EncCu::init	0.0	413952.000000	413952.000000	802	vvencFFapp
+vvenc::EncCu::xCheckBestMode	0.0	13284.000000	13284.000000	6	vvencFFapp
+vvenc::EncCu::xCheckModeSplitInternal	0.0	2246.000000	2246.000000	2	vvencFFapp
+vvenc::EncCu::xCheckRDCostIntra	0.0	9027304.000000	9027304.000000	34496	vvencFFapp
+vvenc::EncCu::xCompressCU	0.0	13284.000000	13284.000000	6	vvencFFapp
+vvenc::EncGOP::encodePicture	0.0	1624.000000	1624.000000	17	vvencFFapp
+vvenc::EncGOP::init	0.0	3833692.000000	3833692.000000	4	vvencFFapp
+vvenc::EncGOP::xCalculateAddPSNR	0.0	28626.000000	28626.000000	82	vvencFFapp
+vvenc::EncGOP::xInitFirstSlice	0.0	98560.000000	98560.000000	20	vvencFFapp
+vvenc::EncGOP::xWriteAPS	0.0	2113.000000	2113.000000	6	vvencFFapp
+vvenc::EncGOP::xWritePPS	0.0	408.000000	408.000000	1	vvencFFapp
+vvenc::EncGOP::xWritePictureSlices	0.0	29419.000000	29419.000000	40	vvencFFapp
+vvenc::EncGOP::xWriteSPS	0.0	408.000000	408.000000	1	vvencFFapp
+vvenc::EncLib::encodePicture	0.0	1624.000000	1624.000000	17	vvencFFapp
+vvenc::EncLib::initPass	0.0	2671136.000000	2671136.000000	13	vvencFFapp
+vvenc::EncLib::xDetectScreenC	0.0	1310080.000000	1310080.000000	220	vvencFFapp
+vvenc::EncLib::xGetNewPicBuffer	0.0	37280.000000	37280.000000	20	vvencFFapp
+vvenc::EncLib::xInitDCI	0.0	160.000000	160.000000	1	vvencFFapp
+vvenc::EncLib::xInitPPS	0.0	504.000000	504.000000	6	vvencFFapp
+vvenc::EncLib::xInitPPSforTiles	0.0	144.000000	144.000000	4	vvencFFapp
+vvenc::EncLib::xInitPicture	0.0	134400.000000	134400.000000	40	vvencFFapp
+vvenc::EncLib::xInitRPL	0.0	86944.000000	86944.000000	4	vvencFFapp
+vvenc::EncPicture::encodePicture	0.0	249600.000000	249600.000000	20	vvencFFapp
+vvenc::EncPicture::xWriteSliceData	0.0	640.000000	640.000000	20	vvencFFapp
+vvenc::EncSampleAdaptiveOffset::deriveLoopFilterBoundaryAvailibility	0.0	5120.000000	5120.000000	160	vvencFFapp
+vvenc::EncSlice::EncSlice	0.0	4428.000000	4428.000000	2	vvencFFapp
+vvenc::EncSlice::encodeSliceData	0.0	640.000000	640.000000	20	vvencFFapp
+vvenc::EncSlice::init	0.0	6437514.000000	6437514.000000	68	vvencFFapp
+vvenc::EncSlice::initPic	0.0	640.000000	640.000000	20	vvencFFapp
+vvenc::EncSlice::xProcessCtus	0.0	5120.000000	5120.000000	20	vvencFFapp
+vvenc::EncoderIf::initEncoderLib	0.0	165472.000000	165472.000000	1	vvencFFapp
+vvenc::HLSWriter::codeSliceHeader	0.0	640.000000	640.000000	20	vvencFFapp
+vvenc::InterPredInterpolation::init	0.0	4846336.000000	4846336.000000	122	vvencFFapp
+vvenc::InterSearch::init	0.0	393216.000000	393216.000000	8	vvencFFapp
+vvenc::InterSearch::predInterSearch	0.0	819840.000000	819840.000000	8540	vvencFFapp
+vvenc::IntraPrediction::init	0.0	66564.000000	66564.000000	2	vvencFFapp
+vvenc::IntraSearch::estIntraPredLumaQT	0.0	2246.000000	2246.000000	2	vvencFFapp
+vvenc::IntraSearch::init	0.0	193104.000000	193104.000000	186	vvencFFapp
+vvenc::IntraSearch::xEstimateLumaRdModeList	0.0	11230.000000	11230.000000	10	vvencFFapp
+vvenc::MCTF::MCTF	0.0	1728.000000	1728.000000	6	vvencFFapp
+vvenc::MCTF::bilateralFilter	0.0	1248.000000	1248.000000	7	vvencFFapp
+vvenc::MCTF::filter	0.0	810240.000000	810240.000000	46	vvencFFapp
+vvenc::OutputBitstream::write	0.0	188896.000000	188896.000000	305	vvencFFapp
+vvenc::ParameterSetMap<vvenc::APS>::allocatePS	0.0	135792.000000	135792.000000	138	vvencFFapp
+vvenc::Partitioner::initCtu	0.0	44352.000000	44352.000000	504	vvencFFapp
+vvenc::PartitionerFactory::get	0.0	460288.000000	460288.000000	496	vvencFFapp
+vvenc::PartitionerImpl::getCUSubPartitions	0.0	654016.000000	654016.000000	2263	vvencFFapp
+vvenc::PartitionerImpl::getMaxTuTiling	0.0	20768.000000	20768.000000	61	vvencFFapp
+vvenc::PelStorage::create	0.0	76429632.000000	76429632.000000	285	vvencFFapp
+vvenc::Picture::Picture	0.0	11520.000000	11520.000000	40	vvencFFapp
+vvenc::Picture::allocateNewSlice	0.0	116800.000000	116800.000000	20	vvencFFapp
+vvenc::Picture::finalInit	0.0	25440.000000	25440.000000	20	vvencFFapp
+vvenc::Quant::xInitScalingList	0.0	9280512.000000	9280512.000000	6192	vvencFFapp
+vvenc::QuantRDOQ2::xInitScalingList	0.0	4640256.000000	4640256.000000	3096	vvencFFapp
+vvenc::QuantRDOQ::xInitScalingList	0.0	9287424.000000	9287424.000000	3312	vvencFFapp
+vvenc::SampleAdaptiveOffset::init	0.0	258.000000	258.000000	2	vvencFFapp
+vvenc::TrQuant::TrQuant	0.0	393216.000000	393216.000000	6	vvencFFapp
+vvenc::TrQuant::init	0.0	520496.000000	520496.000000	2	vvencFFapp
+vvenc::YuvIO::open	0.0	17488.000000	17488.000000	4	vvencFFapp
+vvenc::detail::aligned_malloc<short>	0.0	13356832.000000	13356832.000000	1960	vvencFFapp
+vvenc::detail::aligned_malloc<vvenc::LoopFilterParam>	0.0	1497600.000000	1497600.000000	40	vvencFFapp
+vvenc::dynamic_cache<vvenc::Ctx>::get	0.0	64.000000	64.000000	2	vvencFFapp
+vvenc::print[abi:cxx11]	0.0	46524.000000	46524.000000	214	vvencFFapp
+vvenc::readYuvPlane	0.0	16640.000000	16640.000000	60	vvencFFapp
+vvenc::write	0.0	104025.000000	104025.000000	61	vvencFFapp
+vvenc::writeAnnexB	0.0	43132.000000	43132.000000	44	vvencFFapp
+vvenc::writeYuvPlane	0.0	33280.000000	33280.000000	60	vvencFFapp
+[Unknown]				1	[Unknown]
