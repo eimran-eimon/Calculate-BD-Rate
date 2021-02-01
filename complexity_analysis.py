@@ -13,14 +13,14 @@ matplotlib.rcParams.update({'font.size': 6})
 frames_to_encode = 2
 vtune_cmd = '/opt/intel/oneapi/vtune/2021.1.1/bin64/vtune'
 sudo_cmd = 'echo 555555 | sudo -S'
-# qps = [22, 27, 32, 37]
-qps = [37]
+qps = [22, 27, 32, 37]
+# qps = [37]
 codec_path = './codecs'
 config_path = './configs'
 sequences_path = './sequences'
 results_path = f"./results_{datetime.now().strftime('%Y_%m_%d_%H_%M_%S')}"
-# analyzing_types = {'hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration'}
-analyzing_types = {'hotspots'}
+analyzing_types = {'hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration'}
+# analyzing_types = {'hotspots'}
 rec_yuv_directory = './rec_yuv'
 bin_directory = './bin'
 
