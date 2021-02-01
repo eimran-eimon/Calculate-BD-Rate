@@ -1,8 +1,0 @@
-Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
-DecLib::DecLib	0.039984	0.039984	0.0	0.039984	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	DecLib::DecLib(void)	[Unknown]	0x1bd380
-_GLOBAL__sub_I_Rom.cpp	0.020023	0.020023	0.0	0.020023	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	_GLOBAL__sub_I_Rom.cpp	[Unknown]	0xccd0
-std::istream::get	0.019992	0.019992	0.0	0.019992	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
-TBinDecoder<BinProbModel_Std>::decodeBin	0.012002	0.012002	0.0	0.012002	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	TBinDecoder<BinProbModel_Std>::decodeBin(unsigned int)	[Unknown]	0x20b400
-__memmove_avx_unaligned_erms	0.011994	0.011994	0.0	0.011994	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ed40
-LoopFilter::loopFilterPic	0.008006	0.008006	0.0	0.008006	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::loopFilterPic(CodingStructure&)	[Unknown]	0x25db50
-TrQuant::xIT	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	TrQuant::xIT(TransformUnit const&, ComponentID const&, AreaBuf<int const> const&, AreaBuf<short>&)	[Unknown]	0x81da0

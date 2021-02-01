@@ -1,5 +1,0 @@
-Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
-TDecCu::xReconIntraQT	0.012016	0.012016	0.0	0.012016	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecCu::xReconIntraQT(TComDataCU*, unsigned int)	[Unknown]	0x3b9e0
-__memmove_avx_unaligned_erms	0.011997	0.011997	0.0	0.011997	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ed40
-TComSampleAdaptiveOffset::offsetBlock	0.008003	0.008003	0.0	0.008003	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComSampleAdaptiveOffset::offsetBlock(int, int, int*, short*, short*, int, int, int, int, bool, bool, bool, bool, bool, bool, bool, bool)	[Unknown]	0x505a0
-std::istream::get	0.007984	0.007984	0.0	0.007984	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0

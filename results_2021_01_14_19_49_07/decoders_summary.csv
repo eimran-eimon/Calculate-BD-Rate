@@ -1,8 +1,0 @@
-Seq Name,Codec Name,Config Name,Bitrate (kbps),CPU Time
-Kimono_1920x1080_24_QP_27_hm,hm,encoder_intra_main.cfg,111,0.330s
-Kimono_1920x1080_24_QP_32_hm,hm,encoder_intra_main.cfg,222,0.550s
-BasketballPass_416x240_50_QP_27_hm,hm,encoder_intra_main.cfg,333,0.030s
-BasketballPass_416x240_50_QP_32_hm,hm,encoder_intra_main.cfg,444,0.070s
-Kimono_1920x1080_24_QP_27_vtm,vtm,encoder_lowdelay_vtm.cfg,555,0.940s
-RaceHorses_416x240_30_QP_27_vtm,vtm,encoder_lowdelay_vtm.cfg,666,0.230s
-RaceHorses_416x240_30_QP_32_vtm,vtm,encoder_lowdelay_vtm.cfg,777,0.210s
