@@ -1,0 +1,8 @@
+Class,CPU Time (%)
+parseCoeffNxN,24.626
+decodeBinsEP,9.238
+"filter<(int)4, (bool)0, (bool)1, (bool)0>",9.234
+getQtRootCbf,9.229
+copyToPicYuv,6.148
+istream,6.148
+calcPatternSigCtx,6.142

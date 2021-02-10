@@ -1,0 +1,11 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+__memmove_avx_unaligned_erms	0.011997	0.011997	0.0	0.011997	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
+TDecCu::xIntraRecBlk	0.011996	0.011996	0.0	0.011996	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecCu::xIntraRecBlk(TComYuv*, TComYuv*, TComYuv*, ComponentID, TComTU&)	[Unknown]	0x35000
+fillReferenceSamples	0.011991	0.011991	0.0	0.011991	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	fillReferenceSamples(int, short const*, short*, bool const*, int, int, int, int, int, unsigned int, unsigned int, int)	[Unknown]	0x6b150
+TComInterpolationFilter::filter<(int)8, (bool)1, (bool)0, (bool)0>	0.011987	0.011987	0.0	0.011987	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	void TComInterpolationFilter::filter<(int)8, (bool)1, (bool)0, (bool)0>(int, short const*, int, short*, int, int, int, short const*)	[Unknown]	0xa2f20
+TComDataCU::getPULeft	0.010016	0.010016	0.0	0.010016	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComDataCU::getPULeft(unsigned int&, unsigned int, bool, bool) const	[Unknown]	0x582d0
+TComLoopFilter::loopFilterPic	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::loopFilterPic(TComPic*)	[Unknown]	0x620b0
+__memset_avx2_unaligned_erms	0.008013	0.008013	0.0	0.008013	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_unaligned_erms	memset-vec-unaligned-erms.S	0x18ee90
+__libc_calloc	0.008003	0.008003	0.0	0.008003	0.0	0.0	0.0	0.0	0.0	libc.so.6	__libc_calloc	malloc.c	0x9a170
+partialButterflyInverse16	0.008003	0.008003	0.0	0.008003	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	partialButterflyInverse16(int*, int*, int, int, int, int)	[Unknown]	0x8bea0
+std::istream::get	0.007995	0.007995	0.0	0.007995	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0

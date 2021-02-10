@@ -1,0 +1,11 @@
+Class,CPU Time (%)
+istream,8.695
+xEdgeFilterLuma,8.693
+nextSection,5.22
+loopFilterPic,5.22
+getPUAbove,5.218
+xPredIntraAng,3.477
+xReconIntraQT,3.476
+initIntraPatternChType,3.476
+predIntraAng,3.476
+parseCoeffNxN,3.474

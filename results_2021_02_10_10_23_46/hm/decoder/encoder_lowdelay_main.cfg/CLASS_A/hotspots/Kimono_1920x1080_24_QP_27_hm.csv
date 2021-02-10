@@ -1,0 +1,15 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+partialButterflyInverse32	0.031998	0.031998	0.0	0.031998	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	partialButterflyInverse32(int*, int*, int, int, int, int)	[Unknown]	0x8daa0
+__memmove_avx_unaligned_erms	0.030001	0.030001	0.0	0.030001	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
+TDecCu::xReconIntraQT	0.027996	0.027996	0.0	0.027996	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecCu::xReconIntraQT(TComDataCU*, unsigned int)	[Unknown]	0x3b9e0
+__libc_calloc	0.024047	0.024047	0.0	0.024047	0.0	0.0	0.0	0.0	0.0	libc.so.6	__libc_calloc	malloc.c	0x9a170
+TComLoopFilter::xEdgeFilterLuma	0.017999	0.017999	0.0	0.017999	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::xEdgeFilterLuma(TComDataCU*, unsigned int, unsigned int, DeblockEdgeDir, int)	[Unknown]	0x606d0
+operator new	0.015968	0.015968	0.0	0.015968	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	operator new(unsigned long)	[Unknown]	0x93280
+TComYuv::addClip	0.012002	0.012002	0.0	0.012002	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComYuv::addClip(TComYuv const*, TComYuv const*, unsigned int, unsigned int, BitDepths const&)	[Unknown]	0x4c500
+TComLoopFilter::loopFilterPic	0.012001	0.012001	0.0	0.012001	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::loopFilterPic(TComPic*)	[Unknown]	0x620b0
+TDecBinCABAC::decodeBin	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecBinCABAC::decodeBin(unsigned int&, ContextModel&)	[Unknown]	0x2b980
+TComTrQuant::calcPatternSigCtx	0.011988	0.011988	0.0	0.011988	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComTrQuant::calcPatternSigCtx(unsigned int const*, unsigned int, unsigned int, unsigned int, unsigned int)	[Unknown]	0x936a0
+std::istream::get	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+TComSampleAdaptiveOffset::offsetBlock	0.008002	0.008002	0.0	0.008002	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComSampleAdaptiveOffset::offsetBlock(int, int, int*, short*, short*, int, int, int, int, bool, bool, bool, bool, bool, bool, bool, bool)	[Unknown]	0x505a0
+TComPrediction::xPredIntraAng	0.008002	0.008002	0.0	0.008002	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComPrediction::xPredIntraAng(int, short const*, int, short*, int, unsigned int, unsigned int, ChannelType, unsigned int, bool)	[Unknown]	0x75d30
+TComInterpolationFilter::filter<(int)8, (bool)1, (bool)0, (bool)0>	0.007997	0.007997	0.0	0.007997	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	void TComInterpolationFilter::filter<(int)8, (bool)1, (bool)0, (bool)0>(int, short const*, int, short*, int, int, int, short const*)	[Unknown]	0xa2f20

@@ -1,0 +1,14 @@
+Class,CPU Time (%)
+addAvg,6.002
+parseCoeffNxN,6.002
+xDecodeTransform,6.0
+xSetEdgefilterTU,6.0
+xPredIntraAng,5.999
+decodeBinsEP,5.998
+"filter<(int)8, (bool)0, (bool)1, (bool)0>",4.002
+clearMvField,4.0
+decodeBinEP,3.999
+xEdgeFilterLuma,3.999
+istream,3.998
+loopFilterPic,3.997
+TComTU,3.987

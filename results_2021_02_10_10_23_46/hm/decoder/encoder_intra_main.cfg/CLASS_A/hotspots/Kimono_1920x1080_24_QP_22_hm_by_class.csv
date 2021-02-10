@@ -1,0 +1,14 @@
+Class,CPU Time (%)
+xIntraRecBlk,11.994
+xEdgeFilterLuma,10.666
+xDeQuant,10.662
+parseCoeffNxN,4.0
+getPUBelowLeft,4.0
+istream,4.0
+xReconIntraQT,3.999
+decodeBin,3.999
+offsetBlock,2.668
+setCbfSubParts,2.667
+getPUAboveRight,2.666
+loopFilterPic,2.666
+xDecodeTransform,2.665

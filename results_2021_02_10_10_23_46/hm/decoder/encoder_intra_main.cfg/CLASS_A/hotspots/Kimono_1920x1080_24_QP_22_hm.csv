@@ -1,0 +1,19 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+partialButterflyInverse32	0.052000	0.052000	0.0	0.052000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	partialButterflyInverse32(int*, int*, int, int, int, int)	[Unknown]	0x8daa0
+TDecCu::xIntraRecBlk	0.035981	0.035981	0.0	0.035981	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecCu::xIntraRecBlk(TComYuv*, TComYuv*, TComYuv*, ComponentID, TComTU&)	[Unknown]	0x35000
+TComLoopFilter::xEdgeFilterLuma	0.031998	0.031998	0.0	0.031998	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::xEdgeFilterLuma(TComDataCU*, unsigned int, unsigned int, DeblockEdgeDir, int)	[Unknown]	0x606d0
+TComTrQuant::xDeQuant	0.031986	0.031986	0.0	0.031986	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComTrQuant::xDeQuant(TComTU&, int const*, int*, ComponentID, QpParam const&)	[Unknown]	0x91730
+__libc_calloc	0.018046	0.018046	0.0	0.018046	0.0	0.0	0.0	0.0	0.0	libc.so.6	__libc_calloc	malloc.c	0x9a170
+TDecSbac::parseCoeffNxN	0.012001	0.012001	0.0	0.012001	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecSbac::parseCoeffNxN(TComTU&, ComponentID)	[Unknown]	0x472a0
+TComDataCU::getPUBelowLeft	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComDataCU::getPUBelowLeft(unsigned int&, unsigned int, unsigned int, bool) const	[Unknown]	0x585d0
+__GI___libc_malloc	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__GI___libc_malloc	malloc.c	0x97140
+std::istream::get	0.011999	0.011999	0.0	0.011999	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+TDecCu::xReconIntraQT	0.011998	0.011998	0.0	0.011998	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecCu::xReconIntraQT(TComDataCU*, unsigned int)	[Unknown]	0x3b9e0
+TDecBinCABAC::decodeBin	0.011998	0.011998	0.0	0.011998	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecBinCABAC::decodeBin(unsigned int&, ContextModel&)	[Unknown]	0x2b980
+[Outside any known module]	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+TComSampleAdaptiveOffset::offsetBlock	0.008003	0.008003	0.0	0.008003	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComSampleAdaptiveOffset::offsetBlock(int, int, int*, short*, short*, int, int, int, int, bool, bool, bool, bool, bool, bool, bool, bool)	[Unknown]	0x505a0
+__memmove_avx_unaligned_erms	0.008000	0.008000	0.0	0.008000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
+TComDataCU::setCbfSubParts	0.008000	0.008000	0.0	0.008000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComDataCU::setCbfSubParts(unsigned int, ComponentID, unsigned int, unsigned int)	[Unknown]	0x59650
+TComDataCU::getPUAboveRight	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComDataCU::getPUAboveRight(unsigned int&, unsigned int, unsigned int, bool) const	[Unknown]	0x58770
+TComLoopFilter::loopFilterPic	0.007997	0.007997	0.0	0.007997	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::loopFilterPic(TComPic*)	[Unknown]	0x620b0
+TDecEntropy::xDecodeTransform	0.007994	0.007994	0.0	0.007994	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecEntropy::xDecodeTransform(bool&, bool&, TComTU&, int)	[Unknown]	0x42f10

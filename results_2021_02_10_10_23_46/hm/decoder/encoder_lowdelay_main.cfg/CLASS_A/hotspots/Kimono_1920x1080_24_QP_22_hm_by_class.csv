@@ -1,0 +1,17 @@
+Class,CPU Time (%)
+"filter<(int)8, (bool)0, (bool)1, (bool)0>",7.143
+xDeQuant,7.14
+xEdgeFilterChroma,4.287
+xEdgeFilterLuma,4.286
+initIntraPatternChType,4.286
+xIntraRecBlk,4.286
+"filter<(int)8, (bool)1, (bool)0, (bool)1>",4.286
+xDecompressCU,4.285
+xReconIntraQT,2.86
+istream,2.857
+"filter<(int)4, (bool)0, (bool)1, (bool)0>",2.857
+compress,2.856
+loopFilterPic,2.856
+decodeBinsEP,2.856
+parseCoeffNxN,2.856
+xSetLoopfilterParam,2.855

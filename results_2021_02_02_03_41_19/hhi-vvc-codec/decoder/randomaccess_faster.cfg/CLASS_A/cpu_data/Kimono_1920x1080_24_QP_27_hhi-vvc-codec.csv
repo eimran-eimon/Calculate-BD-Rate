@@ -1,0 +1,13 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+NoMallocThreadPool::findNextTask	0.059974	0.059974	0.0	0.059974	0.0	0.0	0.0	0.0	0.0	vvdecapp	NoMallocThreadPool::findNextTask(int, NoMallocThreadPool::ChunkedTaskQueue::Iterator)	[Unknown]	0x69fc0
+BinDecoder::decodeBin	0.012010	0.012010	0.0	0.012010	0.0	0.0	0.0	0.0	0.0	vvdecapp	BinDecoder::decodeBin(unsigned int)	[Unknown]	0xc0b70
+DecLibRecon::ctuTask<(bool)1>	0.011986	0.011986	0.0	0.011986	0.0	0.0	0.0	0.0	0.0	vvdecapp	bool DecLibRecon::ctuTask<(bool)1>(int, CtuTaskParam*)	[Unknown]	0x100e50
+BinDecoderBase::decodeBinsEP	0.010007	0.010007	0.0	0.010007	0.0	0.0	0.0	0.0	0.0	vvdecapp	BinDecoderBase::decodeBinsEP(unsigned int)	[Unknown]	0xc07d0
+LoopFilter::xGetBoundaryStrengthSingle<(DeblockEdgeDir)0>.constprop.205	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void LoopFilter::xGetBoundaryStrengthSingle<(DeblockEdgeDir)0>(LoopFilterParam&, CodingUnit const&, Position const&, CodingUnit const&, CtuData&, bool) const.constprop.205	[Unknown]	0x127b90
+TrQuant::invTransformNxN	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	TrQuant::invTransformNxN(TransformUnit&, ComponentID const&, AreaBuf<short>&, QpParam const&)	[Unknown]	0x157900
+__memset_avx2_erms	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18ee60
+fastInv_SSE<(X86_VEXT)4, (int)8>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void fastInv_SSE<(X86_VEXT)4, (int)8>(short const*, int const*, int*, unsigned int, unsigned int, unsigned int, unsigned int)	[Unknown]	0x3cf30
+linTf_SSE_entry<(X86_VEXT)4, (int)8>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void linTf_SSE_entry<(X86_VEXT)4, (int)8>(short const*, long, short*, long, int, int, int, int, int, ClpRngTemplate<short> const&, bool)	[Unknown]	0xef600
+xPelFilterLumaX86<(X86_VEXT)4>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void xPelFilterLumaX86<(X86_VEXT)4>(short*, long, long, int, bool, int, bool, bool, ClpRngTemplate<short> const&)	[Unknown]	0x401c0
+sched_yield	0.008014	0.0	0.0	0.0	0.0	0.0	0.0	0.008014	0.0	libc.so.6	sched_yield	syscall-template.S	0x103ef0
+cpyResi_SSE<(X86_VEXT)4, (int)8>	0.008010	0.008010	0.0	0.008010	0.0	0.0	0.0	0.0	0.0	vvdecapp	void cpyResi_SSE<(X86_VEXT)4, (int)8>(int const*, short*, long, unsigned int, unsigned int)	[Unknown]	0x3d950

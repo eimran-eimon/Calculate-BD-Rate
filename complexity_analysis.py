@@ -7,6 +7,7 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 import numpy as np
 import weasyprint
+import csv_process
 
 matplotlib.rcParams.update({'font.size': 6})
 
@@ -14,7 +15,6 @@ frames_to_encode = 2
 vtune_cmd = '/opt/intel/oneapi/vtune/2021.1.1/bin64/vtune'
 sudo_cmd = 'echo 555555 | sudo -S'
 qps = [22, 27, 32, 37]
-# qps = [37]
 codec_path = './codecs'
 config_path = './configs'
 sequences_path = './sequences'
@@ -156,7 +156,7 @@ with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
 										if not os.path.exists(result_dir):
 											os.makedirs(result_dir)
 
-										os.system(f'{report_cmd} >> {result_dir}/{seq}_qp_{qp}.tsv')
+										os.system(f'{report_cmd} >> {result_dir}/{seq}_qp_{qp}.csv')
 										os.system(remove_vtune_result_file)
 
 										bin_file_directories.write(
@@ -168,6 +168,7 @@ with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
 										real_time_indicator = (frames_to_encode/float(cpu_time[:-1])) / int(seq.split("_")[2].split(".")[0])
 
 										csv_writer.writerows([[seq, codec, config, qp, bitrate, y_psnr, cpu_time, round(real_time_indicator, 3)]])
+										csv_process.write_cpu_consuming_classes(f"{result_dir}/{seq}_qp_{qp}.csv", float(cpu_time[:-1]))
 
 									elif analyzing_type == 'memory-consumption':
 										report_cmd = f' {sudo_cmd} {vtune_cmd} -report hotspots -r ./r000mc/ -format=csv'
@@ -177,8 +178,9 @@ with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
 										if not os.path.exists(result_dir):
 											os.makedirs(result_dir)
 
-										os.system(f'{report_cmd} >> {result_dir}/{seq}_qp_{qp}.tsv')
+										os.system(f'{report_cmd} >> {result_dir}/{seq}_qp_{qp}.csv')
 										os.system(remove_vtune_result_file)
+
 									else:
 										if analyzing_type == 'performance-snapshot':
 											report_cmd = f' {sudo_cmd} {vtune_cmd} -report summary -r ./r000ps/ -format=html'

@@ -1,0 +1,4 @@
+Class,CPU Time (%)
+istream,29.965
+parseCoeffNxN,25.037
+xGetBoundaryStrengthSingle,19.997

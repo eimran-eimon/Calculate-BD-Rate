@@ -1,0 +1,5 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+std::istream::get	0.011986	0.011986	0.0	0.011986	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+TDecSbac::parseCoeffNxN	0.010015	0.010015	0.0	0.010015	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecSbac::parseCoeffNxN(TComTU&, ComponentID)	[Unknown]	0x472a0
+__memset_avx2_erms	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18ee60
+TComLoopFilter::xGetBoundaryStrengthSingle	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::xGetBoundaryStrengthSingle(TComDataCU*, DeblockEdgeDir, unsigned int)	[Unknown]	0x60270

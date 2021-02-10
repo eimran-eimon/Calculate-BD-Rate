@@ -1,0 +1,6 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+CABACReader::residual_coding	0.012016	0.012016	0.0	0.012016	0.0	0.0	0.0	0.0	0.0	vvdecapp	CABACReader::residual_coding(TransformUnit&, ComponentID, CUCtx&)	[Unknown]	0xc0cd0
+LoopFilter::loopFilterCTU.constprop.201	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	LoopFilter::loopFilterCTU(CodingStructure&, ChannelType, int, int, int, DeblockEdgeDir) const.constprop.201	[Unknown]	0x121270
+[Outside any known module]	0.010000	0.010000	0.010000	0.0	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+xPelFilterLumaX86<(X86_VEXT)4>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void xPelFilterLumaX86<(X86_VEXT)4>(short*, long, long, int, bool, int, bool, bool, ClpRngTemplate<short> const&)	[Unknown]	0x401c0
+BinDecoder::decodeBin	0.007984	0.007984	0.0	0.007984	0.0	0.0	0.0	0.0	0.0	vvdecapp	BinDecoder::decodeBin(unsigned int)	[Unknown]	0xc0b70

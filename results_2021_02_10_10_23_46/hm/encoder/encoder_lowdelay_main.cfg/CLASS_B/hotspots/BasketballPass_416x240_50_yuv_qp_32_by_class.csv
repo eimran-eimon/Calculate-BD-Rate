@@ -1,0 +1,55 @@
+Class,CPU Time (%)
+xRateDistOptQuant,18.706
+"filter<(int)8, (bool)1, (bool)0, (bool)1>",4.891
+filterCopy,3.741
+xEstimateInterResidualQT,3.165
+xPredIntraAng,2.878
+initIntraPatternChType,2.302
+xGetInterPredictionError,1.727
+xDeQuant,1.727
+xQuant,1.726
+xGetSSE8,1.439
+"filter<(int)8, (bool)0, (bool)1, (bool)0>",1.439
+xEncCoeffQT,1.439
+xT,1.151
+xGetSSE16,1.151
+xCalcHADs4x4,1.151
+copyState,1.15
+xPatternSearch,0.864
+"filter<(int)4, (bool)1, (bool)0, (bool)0>",0.864
+setAllMvField,0.864
+UseDPCMForFirstPassIntraEstimation,0.863
+resetBits,0.863
+xGetSSE32,0.863
+getIntraDirPredictor,0.863
+xGetSSE64,0.863
+getPUBelowLeft,0.863
+codeCoeffNxN,0.863
+xRecurIntraChromaCodingQT,0.863
+codeCrossComponentPrediction,0.863
+"filter<(int)8, (bool)1, (bool)1, (bool)1>",0.863
+xPredInterUni,0.863
+xGetSAD16,0.863
+xTransformSkip,0.863
+estIntraPredChromaQT,0.863
+encodeBin,0.863
+setMergeFlagSubParts,0.863
+"filter<(int)4, (bool)0, (bool)1, (bool)1>",0.863
+xPatternRefinement,0.863
+xIT,0.863
+getNumPartitions,0.863
+setAllRefIdx,0.863
+getBlkStats,0.719
+estLastSignificantPositionBit,0.576
+countNonZeroCoeffs,0.576
+addAvg,0.576
+estBit,0.576
+xMergeEstimation,0.576
+xGetSAD4,0.576
+"filter<(int)4, (bool)1, (bool)0, (bool)1>",0.576
+xGetHADs,0.575
+estIntraPredLumaQT,0.575
+xGetExpGolombNumberOfBits,0.575
+xGetSSE4,0.575
+getSigCtxInc,0.575
+xTZSearchHelp,0.575

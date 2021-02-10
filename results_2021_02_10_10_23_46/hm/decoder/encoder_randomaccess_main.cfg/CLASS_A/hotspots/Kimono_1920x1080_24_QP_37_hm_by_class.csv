@@ -1,0 +1,7 @@
+Class,CPU Time (%)
+xIntraRecBlk,18.182
+xDeQuant,10.924
+offsetBlock,10.905
+istream,10.904
+xSetEdgefilterTU,9.091
+xEdgeFilterLuma,7.282

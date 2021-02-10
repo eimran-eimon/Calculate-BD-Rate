@@ -1,0 +1,15 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+simdFilter7x7Blk<(X86_VEXT)4>	0.083969	0.083969	0.0	0.015991	0.007987	0.059991	0.0	0.0	0.0	vvdecapp	void simdFilter7x7Blk<(X86_VEXT)4>(AlfClassifier const*, UnitBuf<short> const&, UnitBuf<short const> const&, Area const&, ComponentID, short const*, short const*, ClpRngTemplate<short> const&, CodingStructure const&, int, int)	[Unknown]	0xea630
+NoMallocThreadPool::findNextTask	0.042014	0.042014	0.0	0.020006	0.010005	0.012003	0.0	0.0	0.0	vvdecapp	NoMallocThreadPool::findNextTask(int, NoMallocThreadPool::ChunkedTaskQueue::Iterator)	[Unknown]	0x69fc0
+simdDeriveClassificationBlk<(X86_VEXT)4>	0.032000	0.032000	0.0	0.020000	0.0	0.012000	0.0	0.0	0.0	vvdecapp	void simdDeriveClassificationBlk<(X86_VEXT)4>(AlfClassifier*, AreaBuf<short const> const&, Area const&, int, int, int)	[Unknown]	0xef7d0
+[Outside any known module]	0.020000	0.020000	0.012797	0.007203	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+LoopFilter::loopFilterCTU.constprop.201	0.015994	0.015994	0.0	0.0	0.0	0.015994	0.0	0.0	0.0	vvdecapp	LoopFilter::loopFilterCTU(CodingStructure&, ChannelType, int, int, int, DeblockEdgeDir) const.constprop.201	[Unknown]	0x121270
+__memmove_avx_unaligned_erms	0.014006	0.014006	0.0	0.0	0.014006	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
+__memset_avx2_unaligned_erms	0.012019	0.012019	0.0	0.012019	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_unaligned_erms	memset-vec-unaligned-erms.S	0x18ee90
+cpyResi_SSE<(X86_VEXT)4, (int)8>	0.012008	0.012008	0.0	0.0	0.0	0.012008	0.0	0.0	0.0	vvdecapp	void cpyResi_SSE<(X86_VEXT)4, (int)8>(int const*, short*, long, unsigned int, unsigned int)	[Unknown]	0x3d950
+BinDecoder::decodeBin	0.012006	0.012006	0.0	0.0	0.0	0.012006	0.0	0.0	0.0	vvdecapp	BinDecoder::decodeBin(unsigned int)	[Unknown]	0xc0b70
+LoopFilter::xEdgeFilterLuma<(DeblockEdgeDir)1>	0.010003	0.010003	0.0	0.010003	0.0	0.0	0.0	0.0	0.0	vvdecapp	void LoopFilter::xEdgeFilterLuma<(DeblockEdgeDir)1>(CodingStructure&, Position const&, LoopFilterParam const&) const	[Unknown]	0xb5e80
+LoopFilter::calcFilterStrengths	0.010003	0.010003	0.0	0.010003	0.0	0.0	0.0	0.0	0.0	vvdecapp	LoopFilter::calcFilterStrengths(CodingUnit const&)	[Unknown]	0xbb710
+simdFilter16xX_N8<(X86_VEXT)4, (bool)1>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter16xX_N8<(X86_VEXT)4, (bool)1>(ClpRngTemplate<short> const&, short const*, long, short*, long, int, int, short const*, short const*)	[Unknown]	0xd8460
+PU::spanMotionInfo.constprop.179	0.007997	0.007997	0.0	0.007997	0.0	0.0	0.0	0.0	0.0	vvdecapp	PU::spanMotionInfo(CodingUnit&, MergeCtx const&).constprop.179	[Unknown]	0x120f60
+CABACReader::coding_tree	0.007981	0.007981	0.0	0.007981	0.0	0.0	0.0	0.0	0.0	vvdecapp	CABACReader::coding_tree(CodingStructure&, Partitioner&, CUCtx&)	[Unknown]	0xc92b0

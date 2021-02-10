@@ -1,0 +1,14 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+NoMallocThreadPool::findNextTask	0.065960	0.065960	0.0	0.022004	0.011998	0.031957	0.0	0.0	0.0	vvdecapp	NoMallocThreadPool::findNextTask(int, NoMallocThreadPool::ChunkedTaskQueue::Iterator)	[Unknown]	0x69fc0
+__memmove_avx_unaligned_erms	0.036008	0.036008	0.0	0.028006	0.008002	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
+simdFilter7x7Blk<(X86_VEXT)4>	0.020000	0.020000	0.0	0.020000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter7x7Blk<(X86_VEXT)4>(AlfClassifier const*, UnitBuf<short> const&, UnitBuf<short const> const&, Area const&, ComponentID, short const*, short const*, ClpRngTemplate<short> const&, CodingStructure const&, int, int)	[Unknown]	0xea630
+xPredIntraPlanar_SIMD<(X86_VEXT)4>	0.012004	0.012004	0.0	0.012004	0.0	0.0	0.0	0.0	0.0	vvdecapp	void xPredIntraPlanar_SIMD<(X86_VEXT)4>(AreaBuf<short const> const&, AreaBuf<short>&, SPS const&)	[Unknown]	0x40ed0
+__memset_avx2_erms	0.011998	0.011998	0.0	0.0	0.011998	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18ee60
+DecSlice::parseSlice	0.011994	0.011994	0.0	0.0	0.011994	0.0	0.0	0.0	0.0	vvdecapp	DecSlice::parseSlice(Slice*, InputBitstream*, int)	[Unknown]	0x101b80
+PPS::ctuToTileCol	0.010004	0.010004	0.0	0.010004	0.0	0.0	0.0	0.0	0.0	vvdecapp	PPS::ctuToTileCol(int) const	[Unknown]	0x760b0
+IntraPredSampleFilter_SIMD<(X86_VEXT)4, (int)16>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void IntraPredSampleFilter_SIMD<(X86_VEXT)4, (int)16>(short*, long, AreaBuf<short>&, unsigned int, ClpRngTemplate<short> const&)	[Unknown]	0x499b0
+[Outside any known module]	0.010000	0.010000	0.010000	0.0	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+simdFilter4x4_N6<(X86_VEXT)4, (bool)0>	0.008037	0.008037	0.0	0.008037	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter4x4_N6<(X86_VEXT)4, (bool)0>(ClpRngTemplate<short> const&, short const*, long, short*, long, int, int, short const*, short const*)	[Unknown]	0xdd2d0
+__GI___libc_malloc	0.008001	0.008001	0.0	0.0	0.0	0.008001	0.0	0.0	0.0	libc.so.6	__GI___libc_malloc	malloc.c	0x97140
+simdDeriveClassificationBlk<(X86_VEXT)4>	0.007997	0.007997	0.0	0.007997	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdDeriveClassificationBlk<(X86_VEXT)4>(AlfClassifier*, AreaBuf<short const> const&, Area const&, int, int, int)	[Unknown]	0xef7d0
+LoopFilter::loopFilterCTU.constprop.201	0.007996	0.007996	0.0	0.0	0.0	0.007996	0.0	0.0	0.0	vvdecapp	LoopFilter::loopFilterCTU(CodingStructure&, ChannelType, int, int, int, DeblockEdgeDir) const.constprop.201	[Unknown]	0x121270

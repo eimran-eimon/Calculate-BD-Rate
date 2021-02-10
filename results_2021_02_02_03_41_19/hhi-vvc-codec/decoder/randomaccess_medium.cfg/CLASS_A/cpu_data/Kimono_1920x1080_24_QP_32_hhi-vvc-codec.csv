@@ -1,0 +1,20 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+NoMallocThreadPool::findNextTask	0.056002	0.056002	0.0	0.032002	0.024000	0.0	0.0	0.0	0.0	vvdecapp	NoMallocThreadPool::findNextTask(int, NoMallocThreadPool::ChunkedTaskQueue::Iterator)	[Unknown]	0x69fc0
+__memmove_avx_unaligned_erms	0.048003	0.048003	0.0	0.036012	0.0	0.011991	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
+simdFilter7x7Blk<(X86_VEXT)4>	0.042009	0.042009	0.0	0.018003	0.0	0.024006	0.0	0.0	0.0	vvdecapp	void simdFilter7x7Blk<(X86_VEXT)4>(AlfClassifier const*, UnitBuf<short> const&, UnitBuf<short const> const&, Area const&, ComponentID, short const*, short const*, ClpRngTemplate<short> const&, CodingStructure const&, int, int)	[Unknown]	0xea630
+BinDecoder::decodeBin	0.020000	0.020000	0.0	0.020000	0.0	0.0	0.0	0.0	0.0	vvdecapp	BinDecoder::decodeBin(unsigned int)	[Unknown]	0xc0b70
+[Outside any known module]	0.020000	0.020000	0.012000	0.008000	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+__memset_avx2_erms	0.019994	0.019994	0.0	0.0	0.011997	0.007997	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18ee60
+xPredIntraPlanar_SIMD<(X86_VEXT)4>	0.016045	0.016045	0.0	0.0	0.007999	0.008046	0.0	0.0	0.0	vvdecapp	void xPredIntraPlanar_SIMD<(X86_VEXT)4>(AreaBuf<short const> const&, AreaBuf<short>&, SPS const&)	[Unknown]	0x40ed0
+GetLumaRecPixel420SIMD<(X86_VEXT)4>	0.012001	0.012001	0.0	0.012001	0.0	0.0	0.0	0.0	0.0	vvdecapp	void GetLumaRecPixel420SIMD<(X86_VEXT)4>(int, int, short const*, long, short*, long)	[Unknown]	0x40980
+LoopFilter::xEdgeFilterLuma<(DeblockEdgeDir)0>	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	vvdecapp	void LoopFilter::xEdgeFilterLuma<(DeblockEdgeDir)0>(CodingStructure&, Position const&, LoopFilterParam const&) const	[Unknown]	0xb8230
+CABACReader::coding_tree	0.011999	0.011999	0.0	0.0	0.011999	0.0	0.0	0.0	0.0	vvdecapp	CABACReader::coding_tree(CodingStructure&, Partitioner&, CUCtx&)	[Unknown]	0xc92b0
+sched_yield	0.011996	0.0	0.0	0.0	0.0	0.0	0.0	0.011996	0.0	libc.so.6	sched_yield	syscall-template.S	0x103ef0
+DecCu::xDeriveCUMV	0.011994	0.011994	0.0	0.0	0.011994	0.0	0.0	0.0	0.0	vvdecapp	DecCu::xDeriveCUMV(CodingUnit&, MotionHist&)	[Unknown]	0x344c0
+reco_SSE<(X86_VEXT)4, (int)8>	0.011993	0.011993	0.0	0.0	0.011993	0.0	0.0	0.0	0.0	vvdecapp	void reco_SSE<(X86_VEXT)4, (int)8>(short const*, long, short const*, long, short*, long, int, int, ClpRngTemplate<short> const&)	[Unknown]	0xd7f90
+LoopFilter::xGetBoundaryStrengthSingle<(DeblockEdgeDir)1>.constprop.204	0.011956	0.011956	0.0	0.0	0.011956	0.0	0.0	0.0	0.0	vvdecapp	void LoopFilter::xGetBoundaryStrengthSingle<(DeblockEdgeDir)1>(LoopFilterParam&, CodingUnit const&, Position const&, CodingUnit const&, CtuData&, bool) const.constprop.204	[Unknown]	0x128810
+IntraPrediction::xGetLumaRecPixels	0.010001	0.010001	0.0	0.010001	0.0	0.0	0.0	0.0	0.0	vvdecapp	IntraPrediction::xGetLumaRecPixels(CodingUnit const&, CompArea)	[Unknown]	0x96440
+PaddBIO_SIMD<(X86_VEXT)4>	0.010000	0.010000	0.0	0.0	0.010000	0.0	0.0	0.0	0.0	vvdecapp	void PaddBIO_SIMD<(X86_VEXT)4>(short const*, short*, unsigned int, int)	[Unknown]	0xee2c0
+simdFilter16xX_N8<(X86_VEXT)4, (bool)1>	0.008009	0.008009	0.0	0.0	0.008009	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter16xX_N8<(X86_VEXT)4, (bool)1>(ClpRngTemplate<short> const&, short const*, long, short*, long, int, int, short const*, short const*)	[Unknown]	0xd8460
+cpyResi_SSE<(X86_VEXT)4, (int)8>	0.008000	0.008000	0.0	0.0	0.008000	0.0	0.0	0.0	0.0	vvdecapp	void cpyResi_SSE<(X86_VEXT)4, (int)8>(int const*, short*, long, unsigned int, unsigned int)	[Unknown]	0x3d950
+applyLut_SIMD<(X86_VEXT)4>	0.007998	0.007998	0.0	0.0	0.007998	0.0	0.0	0.0	0.0	vvdecapp	void applyLut_SIMD<(X86_VEXT)4>(short*, long, int, int, short const*)	[Unknown]	0xef1a0
