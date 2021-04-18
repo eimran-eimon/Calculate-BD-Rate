@@ -1,0 +1,24 @@
+\contentsline {section}{\numberline {1}Analysis Summary}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Encoding Summary}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Decoding Summary}{4}{subsection.1.2}
+\contentsline {section}{\numberline {2}Complexity Analysis {-} (Codec Name: HM)}{8}{section.2}
+\contentsline {subsection}{\numberline {2.1}HM ENCODER's Complexity}{8}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Config Name: encoder\_intra\_main.cfg, Class Name: CLASS\_A}{11}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Config Name: encoder\_intra\_main.cfg, Class Name: CLASS\_B}{18}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Config Name: encoder\_intra\_main.cfg, Class Name: CLASS\_C}{25}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Config Name: encoder\_lowdelay\_main.cfg, Class Name: CLASS\_A}{32}{subsubsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.5}Config Name: encoder\_lowdelay\_main.cfg, Class Name: CLASS\_B}{39}{subsubsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.6}Config Name: encoder\_lowdelay\_main.cfg, Class Name: CLASS\_C}{46}{subsubsection.2.1.6}
+\contentsline {subsubsection}{\numberline {2.1.7}Config Name: encoder\_randomaccess\_main.cfg, Class Name: CLASS\_A}{53}{subsubsection.2.1.7}
+\contentsline {subsubsection}{\numberline {2.1.8}Config Name: encoder\_randomaccess\_main.cfg, Class Name: CLASS\_B}{60}{subsubsection.2.1.8}
+\contentsline {subsubsection}{\numberline {2.1.9}Config Name: encoder\_randomaccess\_main.cfg, Class Name: CLASS\_C}{67}{subsubsection.2.1.9}
+\contentsline {subsection}{\numberline {2.2}HM DECODER's Complexity}{74}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Config Name: encoder\_intra\_main.cfg, Class Name: CLASS\_A}{74}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Config Name: encoder\_intra\_main.cfg, Class Name: CLASS\_B}{81}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Config Name: encoder\_intra\_main.cfg, Class Name: CLASS\_C}{88}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}Config Name: encoder\_lowdelay\_main.cfg, Class Name: CLASS\_A}{95}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.5}Config Name: encoder\_lowdelay\_main.cfg, Class Name: CLASS\_B}{102}{subsubsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.6}Config Name: encoder\_lowdelay\_main.cfg, Class Name: CLASS\_C}{109}{subsubsection.2.2.6}
+\contentsline {subsubsection}{\numberline {2.2.7}Config Name: encoder\_randomaccess\_main.cfg, Class Name: CLASS\_A}{116}{subsubsection.2.2.7}
+\contentsline {subsubsection}{\numberline {2.2.8}Config Name: encoder\_randomaccess\_main.cfg, Class Name: CLASS\_B}{123}{subsubsection.2.2.8}
+\contentsline {subsubsection}{\numberline {2.2.9}Config Name: encoder\_randomaccess\_main.cfg, Class Name: CLASS\_C}{130}{subsubsection.2.2.9}

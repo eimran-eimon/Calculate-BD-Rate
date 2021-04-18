@@ -6,7 +6,6 @@ import csv
 import math
 import html_to_dict
 
-analyzing_types = ['hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration']
 codecs_parts = ['encoder', 'decoder']
 seq_class_names = ['CLASS_A', 'CLASS_B', 'CLASS_C']
 
@@ -117,7 +116,7 @@ def sort_sub_list(sub_li, column_idx):
 	return sorted(sub_li, key=lambda x: x[column_idx])
 
 
-def generate_pdf():
+def generate_pdf(result_path, analyzing_types):
 	geometry_options = {
 		"landscape": True,
 		"margin": "0.5in",
@@ -145,7 +144,6 @@ def generate_pdf():
 	doc.append(NoEscape(r'\fancyhead[R]{\thepage}'))
 	
 	doc.append(NewPage())
-	result_path = "/home/ridi/Desktop/Research_VVC_HM/results_2021_02_10_10_23_46"
 	
 	# summary section
 	with doc.create(Section('Analysis Summary')):
@@ -307,4 +305,7 @@ def hotspots_analysis(analyzer_type, doc, path, no_of_column, caption):
 	doc.append(NewPage())
 
 
-generate_pdf()
+if __name__ == "__main__":
+	analyzing_types = ['hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration']
+	result_path = "/home/ridi/Desktop/Research_VVC_HM/results_2021_02_10_10_23_46"
+	generate_pdf(result_path, analyzing_types)

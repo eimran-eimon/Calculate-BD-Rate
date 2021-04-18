@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import weasyprint
 import csv_process
+import post_processing_results
 
 matplotlib.rcParams.update({'font.size': 6})
 
@@ -19,7 +20,7 @@ codec_path = './codecs'
 config_path = './configs'
 sequences_path = './sequences'
 results_path = f"./results_{datetime.now().strftime('%Y_%m_%d_%H_%M_%S')}"
-analyzing_types = {'hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration'}
+analyzing_types = ['hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration']
 # analyzing_types = {'hotspots'}
 rec_yuv_directory = './rec_yuv'
 bin_directory = './bin'
@@ -253,3 +254,4 @@ with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
 
 bin_file_directories.close()
 decode.start(codec_path, sudo_cmd, vtune_cmd, results_path)
+post_processing_results.generate_pdf(results_path, analyzing_types)
