@@ -1,0 +1,71 @@
+Class,CPU Time (%)
+xRateDistOptQuant,27.599
+codeCoeffNxN,8.693
+getSigCtxInc,4.621
+encodeBin,2.675
+xEstimateInterResidualQT,2.432
+estBit,2.067
+xPredIntraAng,2.067
+"filter<(int)8, (bool)0, (bool)1, (bool)0>",1.824
+xIntraCodingTUBlock,1.824
+xCalcHADs4x4,1.58
+xGetSAD8,1.216
+"filter<(int)8, (bool)1, (bool)0, (bool)1>",1.216
+xGetExpGolombNumberOfBits,1.216
+resetBits,1.094
+xGetSSE32,0.973
+estIntraPredLumaQT,0.973
+xGetSSE8,0.973
+xWriteCoefRemainExGolomb,0.972
+getIntraDirPredictor,0.73
+estSignificantMapBit,0.73
+"filter<(int)4, (bool)1, (bool)0, (bool)0>",0.729
+xTZSearchHelp,0.729
+copyState,0.729
+xEncSubdivCbfQT,0.729
+xEncodeInterResidualQT,0.729
+useDST,0.608
+filterCopy,0.608
+getTEncBinCABAC,0.608
+predInterSearch,0.608
+initIntraPatternChType,0.608
+getDistPart,0.608
+TComTU,0.487
+getSigCoeffGroupCtxInc,0.486
+codeLastSignificantXY,0.486
+setTrIdxSubParts,0.365
+encodeBinsEP,0.365
+getQuadtreeTULog2MinSizeInCU,0.365
+copyToPicYuv,0.365
+"filter<(int)8, (bool)1, (bool)1, (bool)0>",0.365
+"filter<(int)8, (bool)1, (bool)1, (bool)1>",0.365
+deriveRightBottomIdx,0.365
+"filter<(int)8, (bool)0, (bool)1, (bool)1>",0.365
+xGetSSE16,0.365
+xTransformSkip,0.365
+xGetSAD12,0.365
+load,0.365
+xIT,0.365
+codeQtCbfZero,0.365
+xEncIntraHeader,0.365
+xPredInterUni,0.365
+xPatternSearch,0.365
+nextSection,0.365
+invTransformNxN,0.365
+xRecurIntraChromaCodingQT,0.365
+filterVer,0.365
+xAddMVPCandUnscaled,0.243
+transformNxN,0.243
+UseDPCMForFirstPassIntraEstimation,0.243
+QpParam,0.243
+xDeQuant,0.243
+xGetSSE4,0.243
+xT,0.243
+copyPartToPartComponent,0.243
+estLastSignificantPositionBit,0.243
+xGetHADs,0.243
+invRdpcmNxN,0.243
+xEncodeTransform,0.243
+getAddr,0.243
+getCoefScanIdx,0.243
+encodeCoeffNxN,0.243

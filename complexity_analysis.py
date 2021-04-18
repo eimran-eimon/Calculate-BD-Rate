@@ -168,7 +168,7 @@ with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
 
 										real_time_indicator = (frames_to_encode/float(cpu_time[:-1])) / int(seq.split("_")[2].split(".")[0])
 
-										csv_writer.writerows([[seq.split(".")[:-1], codec, config.split(".")[0], qp, bitrate, y_psnr, cpu_time, round(real_time_indicator, 3)]])
+										csv_writer.writerows([["_".join(seq.split(".")[:-1]), codec, config.split(".")[0], qp, bitrate, y_psnr, cpu_time, round(real_time_indicator, 3)]])
 										csv_process.write_cpu_consuming_classes(f"{result_dir}/{seq}_qp_{qp}.csv", float(cpu_time[:-1]))
 
 									elif analyzing_type == 'memory-consumption':
@@ -196,10 +196,10 @@ with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
 										if not os.path.exists(result_dir):
 											os.makedirs(result_dir)
 
-										os.system(f'{report_cmd} >> {result_dir}/{seq}_qp_{qp}.html')
+										os.system(f'{report_cmd} >> {result_dir}/{seq}_qp_{qp}_{codec}.html')
 										remove_vtune_result_file = f'{sudo_cmd} rm -r r0*'
 										os.system(remove_vtune_result_file)
-										pdf = weasyprint.HTML(f"{result_dir}/{seq}_qp_{qp}.html").write_pdf()
+										pdf = weasyprint.HTML(f"{result_dir}/{seq}_qp_{qp}_{codec}.html").write_pdf()
 										open(f"{result_dir}/{seq}_qp_{qp}.pdf", "wb").write(pdf)
 
 							# RD-Plot
@@ -254,4 +254,5 @@ with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
 
 bin_file_directories.close()
 decode.start(codec_path, sudo_cmd, vtune_cmd, results_path)
+post_processing_results.generate_pdf(results_path, analyzing_types)
 post_processing_results.generate_pdf(results_path, analyzing_types)

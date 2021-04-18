@@ -7,7 +7,7 @@ import csv_process
 
 analyzing_types = {'hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration'}
 # analyzing_types = {'hotspots'}
-data_fields = ['Seq Name', 'Codec Name', 'Config Name', 'Bitrate (kbps)', 'CPU Time', 'Power Consumption (in W)']
+data_fields = ['Seq', 'Codec', 'Cfg', 'Bitrate (kbps)', 'CPU Time', ' Average Power (mW)', 'Total Energy (mJ)']
 no_of_samples = 20
 
 
@@ -67,12 +67,12 @@ def start(codec_path, sudo_cmd, vtune_cmd, results_path):
 
 					only_dec_cmd = f"{decoder_path}{decoder} " \
 								   f" -b {line.split('*')[0]}.bin"
-					decoding_power = power_analysis.get_avg_power_and_total_energy(sudo_cmd, only_dec_cmd)
+					decoding_avg_power, decoding_energy = power_analysis.get_avg_power_and_total_energy(sudo_cmd, only_dec_cmd)
 
-					print(f"Decoding Power: {decoding_power}")
-					csv_writer.writerows([[line.split("/")[-1].split("*")[0].split("_")[:-1], bin_info[2], bin_info[3],
-										line.split('*')[1], summary_data[-1],
-										round((decoding_power), 5)]])
+					print(f"Decoding Power: {decoding_avg_power}")
+					csv_writer.writerows([["_".join(line.split("/")[-1].split("*")[0].split("_")[:-1]), bin_info[2], bin_info[3],
+					                       line.split('*')[1], summary_data[-1],
+					                       round(decoding_avg_power, 5), round(decoding_energy, 5)]])
 					csv_process.write_cpu_consuming_classes(f"{result_dir}/{bin_info[-1].split('*')[0]}.csv", float(summary_data[-1][:-1]))
 
 				elif analyzing_type == 'memory-consumption':
@@ -111,5 +111,5 @@ if __name__ == "__main__":
 	codec_path_m = './codecs'
 	vtune_cmd_m = '/opt/intel/oneapi/vtune/2021.1.1/bin64/vtune'
 	sudo_cmd_m = 'echo 555555 | sudo -S'
-	results_path_m = f"results_2021_02_10_10_23_46"
+	results_path_m = f"results_2021_04_19_02_36_13"
 	start(codec_path_m, sudo_cmd_m, vtune_cmd_m, results_path_m)

@@ -1,0 +1,14 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+std::istream::get	0.021999	0.021999	0.0	0.021999	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+TComPrediction::xPredInterUni	0.008001	0.008001	0.0	0.008001	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComPrediction::xPredInterUni(TComDataCU*, unsigned int, int, int, RefPicList, TComYuv*, bool)	[Unknown]	0x76c30
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+std::istream::get	0.019977	0.019977	0.0	0.019977	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+TDecBinCABAC::decodeBin	0.010023	0.010023	0.0	0.010023	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecBinCABAC::decodeBin(unsigned int&, ContextModel&)	[Unknown]	0x2b980
+TDecBinCABAC::decodeBinEP	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecBinCABAC::decodeBinEP(unsigned int&)	[Unknown]	0x2bcc0
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+std::istream::get	0.011987	0.011987	0.0	0.011987	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+TDecBinCABAC::decodeBinEP	0.010002	0.010002	0.0	0.010002	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecBinCABAC::decodeBinEP(unsigned int&)	[Unknown]	0x2bcc0
+TDecSbac::parseQtCbf	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecSbac::parseQtCbf(TComTU&, ComponentID, bool)	[Unknown]	0x452d0
+func@0x11350	0.008012	0.008012	0.0	0.008012	0.0	0.0	0.0	0.0	0.0	libgcc_s.so.1	func@0x11350	[Unknown]	0x11350
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+std::istream::get	0.020000	0.020000	0.0	0.020000	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0

@@ -22,7 +22,10 @@ def get_data_from_html(url, selected_metrics):
 	for metric in metric_names:
 		metric_name = metric.text.strip()[:-1]
 		if metric_name in selected_metrics:
-			metric_value = metric.find_next('span').contents[0]
+			if metric.find_next('span').contents:
+				metric_value = metric.find_next('span').contents[0]
+			else:
+				metric_value = 'NONE'
 			selected_metrics_value[metric_name] = metric_value
 		else:
 			other_metrics_name.append(metric_name)

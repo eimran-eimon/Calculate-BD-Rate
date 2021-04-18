@@ -1,0 +1,6 @@
+Class,CPU Time (%)
+istream,369.815
+decodeBinEP,100.01
+decodeBin,50.115
+parseQtCbf,50.0
+xPredInterUni,40.005

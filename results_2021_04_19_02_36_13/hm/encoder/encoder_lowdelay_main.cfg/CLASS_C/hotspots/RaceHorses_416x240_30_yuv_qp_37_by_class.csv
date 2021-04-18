@@ -1,0 +1,42 @@
+Class,CPU Time (%)
+xRateDistOptQuant,23.236
+encodeBin,3.53
+"filter<(int)8, (bool)1, (bool)0, (bool)1>",3.235
+xEstimateInterResidualQT,2.941
+xT,2.648
+"filter<(int)8, (bool)0, (bool)1, (bool)0>",2.059
+estLastSignificantPositionBit,1.765
+"filter<(int)4, (bool)1, (bool)0, (bool)1>",1.765
+getPartPosition,1.764
+xGetSSE4,1.764
+transformNxN,1.471
+xPredIntraAng,1.471
+codeCoeffNxN,1.47
+xIntraCodingTUBlock,1.47
+xCalcHADs4x4,1.177
+xGetSAD12,1.177
+getSigCtxInc,1.176
+xIT,1.176
+encodeBinsEP,0.883
+useDST,0.882
+countNonZeroCoeffs,0.882
+filterCopy,0.882
+xGetSAD16,0.882
+estIntraPredLumaQT,0.882
+getCoefScanIdx,0.88
+getBlkStats,0.589
+codeQtCbfZero,0.589
+subtract,0.588
+xGetIntraBitsQT,0.588
+xRecurIntraChromaCodingQT,0.588
+xPredInterBi,0.588
+predInterSearch,0.588
+xPatternRefinement,0.588
+xTransformSkip,0.588
+getPUAboveLeft,0.588
+addAvg,0.588
+getAddr,0.588
+xTZSearchHelp,0.588
+xPredIntraPlanar,0.588
+xRecurIntraCodingLumaQT,0.588
+xCheckRDCostInter,0.587

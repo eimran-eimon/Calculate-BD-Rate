@@ -113,7 +113,7 @@ def sort_sub_list(sub_li, column_idx):
 	# reverse = None (Sorts in Ascending order)
 	# key is set to sort using second element of
 	# sublist lambda has been used
-	return sorted(sub_li, key=lambda x: x[column_idx])
+	return sorted(sub_li, key=lambda x: x[column_idx], reverse=True)
 
 
 def generate_pdf(result_path, analyzing_types):
@@ -151,7 +151,7 @@ def generate_pdf(result_path, analyzing_types):
 			url = result_path + '/encoder_summary.csv'
 			split_csv_to_pdf_table(doc, csv_to_list(url), "Encoding Combination Used", "Encoding Results", 4,
 			                       empty_row_after=4)
-		
+		doc.append(NewPage())
 		with doc.create(Subsection('Decoding Summary')):
 			url = result_path + '/decoders_summary.csv'
 			split_csv_to_pdf_table(doc, csv_to_list(url), "Decoding Combination Used", "Decoding Results", 3,
@@ -191,23 +191,23 @@ def generate_pdf(result_path, analyzing_types):
 											                  caption=f"Memory Consumption\n {sub_sub_section_name}")
 										
 										if analyzer_type == 'performance-snapshot':
-											selected_metrics = ['IPC', 'Effective Logical Core Utilization',
+											selected_metrics = ['Elapsed Time', 'IPC', 'Effective Logical Core Utilization',
 											                    'Effective Physical Core Utilization',
-											                    'Microarchitecture Usage', 'Vectorization',
+											                    'Microarchitecture Usage',
 											                    'GPU Active Time']
 											html_file_to_tables(analyzer_type, doc, path, selected_metrics,
 											                    column_idx_to_sort=1,
 											                    caption=f'Performance Snapshot\n {sub_sub_section_name}')
 											
-											selected_metrics = ['SP FLOPs', 'DP FLOPs', 'x87 FLOPs', 'Non-FP',
+											selected_metrics = ['Elapsed Time', 'SP FLOPs', 'DP FLOPs', 'x87 FLOPs', 'Non-FP',
 											                    'FP Arith/Mem Rd Instr. Ratio',
 											                    'FP Arith/Mem Wr Instr. Ratio']
 											html_file_to_tables(analyzer_type, doc, path, selected_metrics,
-											                    column_idx_to_sort=5,
+											                    column_idx_to_sort=1,
 											                    caption=f'Instruction Mix\n {sub_sub_section_name}')
 											
 											doc.append(NewPage())
-											selected_metrics = ['GPU Utilization when Busy', 'Active', 'Stalled',
+											selected_metrics = ['Elapsed Time', 'GPU Utilization when Busy', 'Active', 'Stalled',
 											                    'Idle',
 											                    'Occupancy']
 											html_file_to_tables(analyzer_type, doc, path, selected_metrics,
@@ -220,27 +220,27 @@ def generate_pdf(result_path, analyzing_types):
 											                    'Store Bound', 'LLC Miss Count',
 											                    'Average Latency (cycles)']
 											html_file_to_tables(analyzer_type, doc, path, selected_metrics,
-											                    column_idx_to_sort=7,
+											                    column_idx_to_sort=1,
 											                    caption=f'Memory Access Analysis\n {sub_sub_section_name}')
 											
 											doc.append(NewPage())
 										
 										if analyzer_type == 'uarch-exploration':
-											selected_metrics = ['Clockticks', 'Instructions Retired',
+											selected_metrics = ['Elapsed Time', 'Clockticks', 'Instructions Retired',
 											                    'CPI Rate', 'Bad Speculation', 'Branch Mispredict',
 											                    'Vector Capacity Usage (FPU)']
 											html_file_to_tables(analyzer_type, doc, path, selected_metrics,
 											                    column_idx_to_sort=1,
 											                    caption=f'Micro Architecture Exploration\n {sub_sub_section_name}')
 											
-											selected_metrics = ['Front-End Bound', 'Front-End Latency', 'ICache Misses',
+											selected_metrics = ['Elapsed Time', 'Front-End Bound', 'Front-End Latency', 'ICache Misses',
 											                    'ITLB Overhead', 'Branch Resteers',
 											                    'Front-End Bandwidth']
 											html_file_to_tables(analyzer_type, doc, path, selected_metrics,
 											                    column_idx_to_sort=1,
 											                    caption=f'Front-End Bound Analysis\n {sub_sub_section_name}')
 											doc.append(NewPage())
-											selected_metrics = ['Back-End Bound', 'L1 Bound',
+											selected_metrics = ['Elapsed Time', 'Back-End Bound', 'L1 Bound',
 											                    'L2 Bound', 'L3 Bound', 'DRAM Bound', 'Store Bound',
 											                    'Store Latency']
 											html_file_to_tables(analyzer_type, doc, path, selected_metrics,
@@ -273,7 +273,7 @@ def html_file_to_tables(analyzer_type, doc, path, selected_metrics, column_idx_t
 			metric_value_list = list(metric_value.values())
 			split_html_name = html_file.split('_')
 			# print(split_html_name)
-			seq_name = split_html_name[0] + '\n QP = ' + split_html_name[-1].split('.')[0]
+			seq_name = split_html_name[0] + '\n QP = ' + split_html_name[-2].split('.')[0]
 			metric_value_list.insert(0, seq_name)
 			metrics_list.append(metric_value_list)
 		# print(url + html_file)
@@ -295,7 +295,7 @@ def hotspots_analysis(analyzer_type, doc, path, no_of_column, caption):
 		
 		p = hotspots_csv[0].split('.')[:-1]
 		by_class_csv_name = '_'.join(p) + '_by_class.csv'
-		by_class_csv_path = path + '/' + analyzer_type + '/by_class/' + by_class_csv_name
+		by_class_csv_path = path + '/' + analyzer_type + '/' + by_class_csv_name
 		by_class_data_list = csv_to_list(by_class_csv_path)
 		csv_to_pdf_table(doc, by_class_data_list, f'Hotpots By Class ({name})',
 		                 no_of_rows=20, empty_row_after=4)
@@ -307,5 +307,5 @@ def hotspots_analysis(analyzer_type, doc, path, no_of_column, caption):
 
 if __name__ == "__main__":
 	analyzing_types = ['hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration']
-	result_path = "/home/ridi/Desktop/Research_VVC_HM/results_2021_02_10_10_23_46"
+	result_path = "/home/ridi/Desktop/Research_VVC_HM/results_2021_04_19_02_36_13"
 	generate_pdf(result_path, analyzing_types)

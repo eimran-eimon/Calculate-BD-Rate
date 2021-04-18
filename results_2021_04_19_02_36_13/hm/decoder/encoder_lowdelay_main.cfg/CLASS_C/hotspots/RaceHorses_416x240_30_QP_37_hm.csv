@@ -1,0 +1,8 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+std::istream::get	0.011994	0.011994	0.0	0.011994	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+__memset_avx2_erms	0.010006	0.010006	0.0	0.010006	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18ee60
+__memmove_avx_unaligned_erms	0.008000	0.008000	0.0	0.008000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+std::istream::get	0.011985	0.011985	0.0	0.011985	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+TDecSbac::parseLastSignificantXY	0.010014	0.010014	0.0	0.010014	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecSbac::parseLastSignificantXY(unsigned int&, unsigned int&, int, int, ComponentID, unsigned int)	[Unknown]	0x46fa0
+TComInterpolationFilter::filter<(int)8, (bool)0, (bool)1, (bool)0>	0.008001	0.008001	0.0	0.008001	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	void TComInterpolationFilter::filter<(int)8, (bool)0, (bool)1, (bool)0>(int, short const*, int, short*, int, int, int, short const*)	[Unknown]	0x9d1e0

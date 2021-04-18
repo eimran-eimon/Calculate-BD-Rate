@@ -1,0 +1,4 @@
+Class,CPU Time (%)
+istream,79.93
+parseLastSignificantXY,33.38
+"filter<(int)8, (bool)0, (bool)1, (bool)0>",26.67

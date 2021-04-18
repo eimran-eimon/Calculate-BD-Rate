@@ -1,0 +1,6 @@
+Class,CPU Time (%)
+istream,49.985
+xSetEdgefilterTU,29.988
+parseCoeffNxN,29.932
+getPUAbove,20.005
+loopFilterPic,19.977

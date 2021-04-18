@@ -13,10 +13,10 @@ def write_cpu_consuming_classes(path, total_cpu_time):
 			key, *values = row
 			class_name = key.split("::")
 			if len(class_name) > 1:
-				if class_name[1] not in csv_dict:
-					csv_dict[class_name[1]] = float(values[1])
-				elif class_name[1] in csv_dict:
-					csv_dict[class_name[1]] = float(csv_dict[class_name[1]]) + float(values[1])
+				if class_name[0] not in csv_dict:
+					csv_dict[class_name[0]] = float(values[1])
+				elif class_name[0] in csv_dict:
+					csv_dict[class_name[1]] = float(csv_dict[class_name[0]]) + float(values[1])
 
 	for key in csv_dict:
 		csv_dict[key] = round((csv_dict[key] / total_cpu_time) * 100, 3)
