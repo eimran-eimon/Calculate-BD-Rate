@@ -1,0 +1,45 @@
+Class,CPU Time (%)
+xRateDistOptQuant,25.62
+codeCoeffNxN,9.673
+getSigCtxInc,3.922
+encodeBin,2.877
+xPredIntraAng,2.614
+xIntraCodingTUBlock,2.352
+xGetSSE16,2.094
+"filter<(int)8, (bool)1, (bool)0, (bool)1>",1.829
+xGetHADs,1.569
+estIntraPredLumaQT,1.568
+xGetSSE4,1.567
+xGetSAD12,1.308
+xGetExpGolombNumberOfBits,1.307
+nextSection,1.307
+xCalcHADs4x4,1.176
+xEncodeInterResidualQT,1.046
+xGetSAD16,1.045
+xWriteCoefRemainExGolomb,0.785
+estSignificantMapBit,0.785
+xDeQuant,0.785
+"filter<(int)8, (bool)0, (bool)1, (bool)1>",0.785
+estLastSignificantPositionBit,0.785
+copyState,0.785
+predInterSearch,0.785
+filterCopy,0.785
+removeHighFreq,0.784
+xLoadIntraResultQT,0.784
+codeLastSignificantXY,0.784
+transformNxN,0.784
+xTZ8PointDiamondSearch,0.523
+xGetIntraBitsQT,0.523
+codeQtCbf,0.523
+resetBits,0.523
+"filter<(int)8, (bool)0, (bool)1, (bool)0>",0.523
+getAddr,0.523
+getTEncBinCABAC,0.523
+copyPartToPartComponent,0.523
+xEstimateInterResidualQT,0.523
+rdpcmNxN,0.523
+getIntraDirPredictor,0.523
+getNumWrittenBits,0.523
+xAddMVPCandUnscaled,0.523
+estBit,0.522
+getPUBelowLeft,0.521

@@ -1,0 +1,37 @@
+Class,CPU Time (%)
+xRateDistOptQuant,19.597
+"filter<(int)8, (bool)1, (bool)0, (bool)1>",6.399
+xPredIntraAng,4.8
+filterCopy,3.601
+xIntraCodingTUBlock,3.598
+xGetSSE4,3.597
+getSigCtxInc,3.198
+estSignificantMapBit,2.001
+xCalcHADs4x4,2.0
+"filter<(int)8, (bool)0, (bool)1, (bool)0>",2.0
+estLastSignificantPositionBit,1.999
+xGetSSE8,1.6
+getAddr,1.201
+xRecurIntraChromaCodingQT,1.201
+xEstimateInterResidualQT,1.2
+xGetHADs,1.2
+initIntraPatternChType,1.2
+TComTU,1.2
+isLosslessCoded,1.2
+xIT,1.2
+nextSection,1.2
+xGetSAD8,1.2
+estBit,1.2
+xQuant,1.2
+getIntraDirPredictor,1.2
+QpParam,1.2
+loadIntraDirMode,1.2
+initEstData,0.801
+xT,0.8
+xTZSearchHelp,0.8
+load,0.8
+xLoadIntraResultQT,0.8
+getNumWrittenBits,0.8
+copyToPartYuv,0.8
+codeIntraDirLumaAng,0.799
+xPredInterUni,0.799

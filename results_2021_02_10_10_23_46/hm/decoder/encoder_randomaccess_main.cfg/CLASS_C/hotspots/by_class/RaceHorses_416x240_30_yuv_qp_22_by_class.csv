@@ -1,0 +1,87 @@
+Class,CPU Time (%)
+xRateDistOptQuant,27.632
+codeCoeffNxN,7.246
+getSigCtxInc,4.541
+encodeBin,3.092
+"filter<(int)8, (bool)1, (bool)0, (bool)1>",2.898
+xCalcHADs4x4,2.126
+xIntraCodingTUBlock,1.739
+xPredIntraAng,1.642
+xEstimateInterResidualQT,1.546
+xWriteCoefRemainExGolomb,1.449
+xGetSSE32,1.353
+estBit,1.256
+xGetSSE8,1.063
+xDeQuant,1.063
+xTransformSkip,0.966
+countNonZeroCoeffs,0.87
+"filter<(int)8, (bool)0, (bool)1, (bool)0>",0.87
+filterCopy,0.869
+codeLastSignificantXY,0.869
+nextSection,0.773
+xT,0.773
+estIntraPredLumaQT,0.773
+xIT,0.677
+predInterSearch,0.676
+fillMvpCand,0.58
+store,0.58
+subtract,0.58
+xPatternSearch,0.58
+xRecurIntraChromaCodingQT,0.58
+initIntraPatternChType,0.483
+estLastSignificantPositionBit,0.483
+xGetSAD12,0.483
+xGetExpGolombNumberOfBits,0.483
+addClip,0.483
+rdpcmNxN,0.483
+xTZSearchHelp,0.387
+encodeBinsEP,0.387
+load,0.386
+xGetHADs,0.386
+getDistPart,0.29
+xEncCoeffQT,0.29
+"filter<(int)4, (bool)1, (bool)0, (bool)1>",0.29
+copyState,0.29
+xGetColMVP,0.29
+predIntraAng,0.29
+getIntraDirPredictor,0.29
+xPatternSearchFracDIF,0.29
+setTransformSkipPartRange,0.29
+initEstData,0.29
+"filter<(int)4, (bool)0, (bool)1, (bool)0>",0.29
+getQuadtreeTULog2MinSizeInCU,0.29
+getPUBelowLeft,0.29
+"filter<(int)4, (bool)1, (bool)0, (bool)0>",0.29
+xGetSSE4,0.29
+xCompressCU,0.29
+codeQtCbf,0.29
+xMergeEstimation,0.29
+getAddr,0.29
+setMergeIndexSubParts,0.29
+calcRdCost,0.29
+filterVer,0.29
+xGetSAD8,0.29
+xCheckDQP,0.29
+xEncSubdivCbfQT,0.193
+getTEncBinCABAC,0.193
+copyToPicYuv,0.193
+deriveModeNewRDO,0.193
+"filter<(int)8, (bool)1, (bool)1, (bool)1>",0.193
+UseDPCMForFirstPassIntraEstimation,0.193
+xEncodeInterResidualQT,0.193
+copyPartToPartComponent,0.193
+"filter<(int)8, (bool)0, (bool)1, (bool)1>",0.193
+addAvg,0.193
+estSignificantMapBit,0.193
+setCrossComponentPredictionAlphaPartRange,0.193
+resetBits,0.193
+copyToPicComponent,0.193
+getInterMergeCandidates,0.193
+transformNxN,0.193
+QpParam,0.193
+copyPartToPartYuv,0.193
+estimateBit,0.193
+GetEquivalentLog2TrSize,0.193
+codeIntraDirLumaAng,0.193
+getSigCoeffGroupCtxInc,0.193
+"filter<(int)8, (bool)1, (bool)0, (bool)0>",0.193

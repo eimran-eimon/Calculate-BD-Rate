@@ -1,0 +1,43 @@
+
+--------------------------------------------------------------------------
+Intel(R) SoC Watch for Linux* OS Version 2020.1 [Nov  6 2019]
+Build Ref: b7dc96108297f336745671af1c4f1fc9f2f6f744
+Post Processed using SoC Watch for Linux* OS Version 2020.1 [Nov  6 2019]
+Post Processed Build Ref: b7dc96108297f336745671af1c4f1fc9f2f6f744
+Copyright (c) 2019 Intel Corporation. All Rights Reserved.
+Platform power analysis tool for use with Intel processors/chipsets/platforms.
+*Other names and brands may be claimed as the property of others. 
+--------------------------------------------------------------------------
+
+Command line options: --feature power --result sum --program ./socwatch/cmd.sh 
+
+Program Started: 2021-04-18 20:24:17 GMT
+Data Collection Started: 2021-04-18 20:24:17 GMT
+Collection duration (sec):0.000490752
+
+CPU: Kaby Lake
+CPU ID (family.model.stepping): 0x6.0x8e.0xa
+Platform ID: 0b000
+Integrated GPU Device ID: 0x5917
+PCH:  (0x9d4e)
+EDRAM Present: No 
+Total # of packages: 1 
+Total # of cores: 4 
+Total # of logical processors: 8
+
+=============
+Package Power
+=============
+
+Note: For Die based platforms, package power includes die-level power.
+
+Package Power Summary: Average Rate and Total
+Component, Metric Type, Average Rate (mW), Total (mJ)
+---------, -----------, -----------------, ----------
+Die_0    , Power      , 0.00             , 0.00      
+
+Package Power Summary: Total Samples Received
+Component, Total # of samples, Min sampling interval (msec), Max sampling interval (msec), Avg sampling interval (msec)
+---------, ------------------, ----------------------------, ----------------------------, ----------------------------
+Die_0    , 2                 , 0.34                        , 0.34                        , 0.34                        
+

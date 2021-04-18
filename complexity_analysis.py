@@ -24,7 +24,7 @@ analyzing_types = {'hotspots', 'memory-consumption', 'performance-snapshot', 'me
 rec_yuv_directory = './rec_yuv'
 bin_directory = './bin'
 
-data_fields = ['Seq Name', 'Codec Name', 'Config Name', 'QP', 'Bitrate', 'Y-PSNR', 'CPU Time', 'Encoding_FPS/Frame_Rate']
+data_fields = ['Seq Name', 'Codec Name', 'Config Name', 'QP', 'Bitrate', 'Y-PSNR', 'CPU Time', 'Enc_FPS/FR']
 
 os.system(f'{sudo_cmd} rm -r r0*')
 os.system(f'{sudo_cmd} rm -r {bin_directory}')
@@ -167,7 +167,7 @@ with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
 
 										real_time_indicator = (frames_to_encode/float(cpu_time[:-1])) / int(seq.split("_")[2].split(".")[0])
 
-										csv_writer.writerows([[seq, codec, config, qp, bitrate, y_psnr, cpu_time, round(real_time_indicator, 3)]])
+										csv_writer.writerows([[seq.split(".")[:-1], codec, config.split(".")[0], qp, bitrate, y_psnr, cpu_time, round(real_time_indicator, 3)]])
 										csv_process.write_cpu_consuming_classes(f"{result_dir}/{seq}_qp_{qp}.csv", float(cpu_time[:-1]))
 
 									elif analyzing_type == 'memory-consumption':

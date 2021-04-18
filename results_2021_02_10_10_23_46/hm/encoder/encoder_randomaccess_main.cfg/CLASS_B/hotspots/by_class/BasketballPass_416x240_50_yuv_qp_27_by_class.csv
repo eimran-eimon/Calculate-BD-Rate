@@ -1,0 +1,49 @@
+Class,CPU Time (%)
+xRateDistOptQuant,21.523
+xCalcHADs4x4,3.864
+codeCoeffNxN,3.035
+xGetSSE32,2.76
+transformNxN,2.757
+xEstimateInterResidualQT,2.483
+xGetSSE16,1.932
+"filter<(int)8, (bool)1, (bool)0, (bool)1>",1.932
+xPredInterUni,1.929
+xGetExpGolombNumberOfBits,1.929
+resetBits,1.656
+getSigCtxInc,1.655
+xGetSAD8,1.655
+filterCopy,1.653
+setCrossComponentPredictionAlphaPartRange,1.38
+encodeBin,1.38
+"filter<(int)8, (bool)0, (bool)1, (bool)0>",1.379
+codeIntraDirLumaAng,1.379
+xGetHADs,1.104
+predInterSearch,1.103
+xGetSSE64,0.832
+xITransformSkip,0.828
+xPatternSearch,0.828
+getBlkStats,0.828
+xDeQuant,0.828
+initIntraPatternChType,0.828
+codeLastSignificantXY,0.828
+xIntraCodingTUBlock,0.828
+getTEncBinCABAC,0.828
+setMergeFlagSubParts,0.828
+invTransformNxN,0.827
+estLastSignificantPositionBit,0.827
+nextSection,0.827
+setCbfPartRange,0.827
+getPULeft,0.691
+xGetSSE8,0.553
+xT,0.552
+xMergeEstimation,0.552
+estBit,0.552
+xExtDIFUpSamplingH,0.552
+xRecurIntraChromaCodingQT,0.552
+xIT,0.552
+getPUAboveRight,0.551
+copyState,0.551
+filteringIntraReferenceSamples,0.551
+xPredIntraAng,0.551
+copyPartToPartComponent,0.551
+"filter<(int)4, (bool)1, (bool)0, (bool)1>",0.551

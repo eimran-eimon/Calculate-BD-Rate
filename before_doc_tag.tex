@@ -1,0 +1,37 @@
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage[some]{background}
+\usepackage{lipsum}
+\usepackage{color}%
+\usepackage{hyperref}
+\usepackage{tikz}%
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\usepackage{float}
+
+\DeclareFixedFont{\bigsf}{T1}{phv}{b}{n}{1.5cm}
+
+\backgroundsetup{
+scale=1,
+angle=0,
+opacity=1,
+contents={\begin{tikzpicture}[remember picture,overlay]
+ \path [fill=titlepagecolor] (-0.5\paperwidth,5) rectangle (0.5\paperwidth,10);
+\end{tikzpicture}}
+}
+\author{%
+    MD EIMRAN HOSSAIN EIMON \\
+    \texttt{mdeimranhossaineimon@gmail.com}\vspace{40pt} \\
+
+    }
+\makeatletter
+\def\printauthor{%
+    {\large \@author}}
+\makeatother
+
+
+\hypersetup{
+    colorlinks=true, %set true if you want colored links
+    linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=blue,  %choose some color if you want links to stand out
+}

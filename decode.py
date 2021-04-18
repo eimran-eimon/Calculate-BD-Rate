@@ -65,18 +65,14 @@ def start(codec_path, sudo_cmd, vtune_cmd, results_path):
 					os.system(f'{report_cmd} >> {result_dir}/{bin_info[-1].split("*")[0]}.csv')
 					os.system(remove_vtune_result_file)
 
-					idle_power = power_analysis.get_avg_power_consumption(sudo_cmd,
-																		  f"sleep {float(summary_data[-1][:-1])}",
-																		  no_of_samples)
-
 					only_dec_cmd = f"{decoder_path}{decoder} " \
 								   f" -b {line.split('*')[0]}.bin"
-					decoding_power = power_analysis.get_avg_power_consumption(sudo_cmd, only_dec_cmd, no_of_samples)
+					decoding_power = power_analysis.get_avg_power_and_total_energy(sudo_cmd, only_dec_cmd)
 
-					print(f"Idle power: {idle_power},\n Decoding Power: {decoding_power}")
-					csv_writer.writerows([[line.split("/")[-1].split("*")[0], bin_info[2], bin_info[3],
+					print(f"Decoding Power: {decoding_power}")
+					csv_writer.writerows([[line.split("/")[-1].split("*")[0].split("_")[:-1], bin_info[2], bin_info[3],
 										line.split('*')[1], summary_data[-1],
-										round((decoding_power - idle_power), 5)]])
+										round((decoding_power), 5)]])
 					csv_process.write_cpu_consuming_classes(f"{result_dir}/{bin_info[-1].split('*')[0]}.csv", float(summary_data[-1][:-1]))
 
 				elif analyzing_type == 'memory-consumption':

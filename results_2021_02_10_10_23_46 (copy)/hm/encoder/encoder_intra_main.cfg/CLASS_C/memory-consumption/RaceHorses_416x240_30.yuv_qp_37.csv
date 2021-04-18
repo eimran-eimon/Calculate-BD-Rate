@@ -1,0 +1,70 @@
+Function	Allocation/Deallocation Delta	Allocation Size	Deallocation Size	Allocations	Module
+func@0x8f3f0	72704.000000	72704.000000		1	libstdc++.so.6
+main	4096.000000	4096.000000		1	TAppEncoderStatic
+__libc_csu_init	1040.000000	1040.000000		1	TAppEncoderStatic
+__static_initialization_and_destruction_0.constprop.69	1040.000000	1250.000000	210.000000	5	TAppEncoderStatic
+EnvVar::EnvVar	690.000000	690.000000		10	TAppEncoderStatic
+__register_frame	480.000000	480.000000		10	libgcc_s.so.1
+_GLOBAL__sub_I__ZN3SEI19prefix_sei_messagesE	212.000000	212.000000		2	TAppEncoderStatic
+indentNewLines	210.000000	636.000000	426.000000	10	TAppEncoderStatic
+TAppEncCfg::parseCfg	0.0	51884.000000	51884.000000	450	TAppEncoderStatic
+TAppEncCfg::xCheckParameter	0.0	95.000000	95.000000	1	TAppEncoderStatic
+TAppEncTop::encode	0.0	8864.000000	8864.000000	3	TAppEncoderStatic
+TAppEncTop::xGetBuffer	0.0	120.000000	120.000000	1	TAppEncoderStatic
+TComCUMvField::create	0.0	528128.000000	528128.000000	704	TAppEncoderStatic
+TComDataCU::create	0.0	2706816.000000	2706816.000000	2328	TAppEncoderStatic
+TComLoopFilter::create	0.0	1024.000000	1024.000000	4	TAppEncoderStatic
+TComOutputBitstream::addSubstream	0.0	65408.000000	65408.000000	36	TAppEncoderStatic
+TComOutputBitstream::write	0.0	32832.000000	32832.000000	22	TAppEncoderStatic
+TComPic::create	0.0	480.000000	480.000000	4	TAppEncoderStatic
+TComPic::prepareForReconstruction	0.0	240.000000	240.000000	2	TAppEncoderStatic
+TComPicSym::TComPicSym	0.0	1152.000000	1152.000000	4	TAppEncoderStatic
+TComPicSym::allocateNewSlice	0.0	22080.000000	22080.000000	4	TAppEncoderStatic
+TComPicSym::create	0.0	124192.000000	124192.000000	12	TAppEncoderStatic
+TComPicSym::prepareForReconstruction	0.0	69456.000000	69456.000000	172	TAppEncoderStatic
+TComPicSym::xInitTiles	0.0	64.000000	64.000000	2	TAppEncoderStatic
+TComPicYuv::create	0.0	27264.000000	27264.000000	48	TAppEncoderStatic
+TComPicYuv::createWithoutCUInfo	0.0	8294400.000000	8294400.000000	36	TAppEncoderStatic
+TComPrediction::initTempBuff	0.0	201870.000000	201870.000000	7	TAppEncoderStatic
+TComSampleAdaptiveOffset::create	0.0	120.000000	120.000000	1	TAppEncoderStatic
+TComScalingList::TComScalingList	0.0	29952.000000	29952.000000	144	TAppEncoderStatic
+TComTrQuant::TComTrQuant	0.0	800640.000000	800640.000000	434	TAppEncoderStatic
+TComYuv::create	0.0	542272.000000	542272.000000	171	TAppEncoderStatic
+TEncCu::create	0.0	6432.000000	6432.000000	45	TAppEncoderStatic
+TEncGOP::compressGOP	0.0	19010.000000	19010.000000	16	TAppEncoderStatic
+TEncGOP::xCalculateAddPSNR	0.0	8409.000000	8409.000000	2	TAppEncoderStatic
+TEncGOP::xWritePPS	0.0	800.000000	800.000000	2	TAppEncoderStatic
+TEncGOP::xWriteSPS	0.0	800.000000	800.000000	2	TAppEncoderStatic
+TEncGOP::xWriteVPS	0.0	800.000000	800.000000	2	TAppEncoderStatic
+TEncSampleAdaptiveOffset::SAOProcess	0.0	23536.000000	23536.000000	2	TAppEncoderStatic
+TEncSampleAdaptiveOffset::createEncData	0.0	240736.000000	240736.000000	97	TAppEncoderStatic
+TEncSampleAdaptiveOffset::getBlkStats	0.0	130.000000	130.000000	2	TAppEncoderStatic
+TEncSearch::init	0.0	330632.000000	330632.000000	51	TAppEncoderStatic
+TEncTop::create	0.0	148880.000000	148880.000000	72	TAppEncoderStatic
+TEncTop::init	0.0	10800.000000	10800.000000	4	TAppEncoderStatic
+TEncTop::xGetNewPicBuffer	0.0	22000.000000	22000.000000	2	TAppEncoderStatic
+TEncTop::xInitRPS	0.0	832.000000	832.000000	1	TAppEncoderStatic
+TVideoIOYuv::open	0.0	17488.000000	17488.000000	4	TAppEncoderStatic
+TVideoIOYuv::read	0.0	1664.000000	1664.000000	6	TAppEncoderStatic
+TVideoIOYuv::write	0.0	1664.000000	1664.000000	6	TAppEncoderStatic
+_Z28getListOfColourSpaceConvertsB5cxx11b	0.0	96.000000	96.000000	2	TAppEncoderStatic
+df::program_options_lite::CfgStreamParser::scanStream	0.0	6945.000000	6945.000000	84	TAppEncoderStatic
+df::program_options_lite::OptionBase::OptionBase	0.0	1088.000000	1088.000000	7	TAppEncoderStatic
+df::program_options_lite::OptionSpecific::operator()<SMultiValueInput<bool>>	0.0	2006.000000	2006.000000	21	TAppEncoderStatic
+df::program_options_lite::OptionSpecific::operator()<SMultiValueInput<int>>	0.0	3130.000000	3130.000000	35	TAppEncoderStatic
+df::program_options_lite::OptionSpecific::operator()<SMultiValueInput<unsigned int>>	0.0	4120.000000	4120.000000	44	TAppEncoderStatic
+df::program_options_lite::OptionSpecific::operator()<bool>.constprop.267	0.0	5486.000000	5486.000000	69	TAppEncoderStatic
+df::program_options_lite::OptionSpecific::operator()<bool>.constprop.268	0.0	17877.000000	17877.000000	225	TAppEncoderStatic
+df::program_options_lite::OptionSpecific::operator()<double>	0.0	4583.000000	4583.000000	52	TAppEncoderStatic
+df::program_options_lite::OptionSpecific::operator()<int>	0.0	20647.000000	20647.000000	250	TAppEncoderStatic
+df::program_options_lite::OptionSpecific::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>	0.0	2278.000000	2278.000000	21	TAppEncoderStatic
+df::program_options_lite::OptionSpecific::operator()<unsigned int>	0.0	4415.000000	4415.000000	53	TAppEncoderStatic
+df::program_options_lite::Options::addOption	0.0	101170.000000	101170.000000	1615	TAppEncoderStatic
+df::program_options_lite::parseConfigFile	0.0	8780.000000	8780.000000	3	TAppEncoderStatic
+df::program_options_lite::scanArgv[abi:cxx11]	0.0	436.000000	436.000000	7	TAppEncoderStatic
+initROM	0.0	94848.000000	94848.000000	180	TAppEncoderStatic
+lineWrap	0.0	210.000000	210.000000	4	TAppEncoderStatic
+splitOnSettings	0.0	210.000000	210.000000	4	TAppEncoderStatic
+write	0.0	50786.000000	50786.000000	20	TAppEncoderStatic
+writeAnnexB	0.0	16818.000000	16818.000000	4	TAppEncoderStatic
+[Unknown]				1	[Unknown]
