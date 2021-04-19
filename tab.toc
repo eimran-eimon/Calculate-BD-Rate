@@ -1,8 +1,0 @@
-\contentsline {section}{\numberline {1}Analysis Summary}{2}{section.1}
-\contentsline {subsection}{\numberline {1.1}Encoding Summary}{2}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Decoding Summary}{3}{subsection.1.2}
-\contentsline {section}{\numberline {2}Complexity Analysis {-} (Codec Name: HM)}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}HM ENCODER's Complexity}{4}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Config Name: encoder\_lowdelay\_main.cfg, Class Name: CLASS\_C}{5}{subsubsection.2.1.1}
-\contentsline {subsection}{\numberline {2.2}HM DECODER's Complexity}{12}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Config Name: encoder\_lowdelay\_main.cfg, Class Name: CLASS\_C}{12}{subsubsection.2.2.1}
