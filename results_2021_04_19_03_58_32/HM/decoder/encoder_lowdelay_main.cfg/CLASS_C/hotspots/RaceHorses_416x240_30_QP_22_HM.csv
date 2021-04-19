@@ -1,0 +1,6 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+std::istream::get	0.012011	0.012011	0.0	0.012011	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+__memmove_avx_unaligned_erms	0.007989	0.007989	0.0	0.007989	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+func@0x11350	0.012007	0.012007	0.0	0.012007	0.0	0.0	0.0	0.0	0.0	libgcc_s.so.1	func@0x11350	[Unknown]	0x11350
+TDecSbac::parseCoeffNxN	0.007993	0.007993	0.0	0.007993	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecSbac::parseCoeffNxN(TComTU&, ComponentID)	[Unknown]	0x472a0

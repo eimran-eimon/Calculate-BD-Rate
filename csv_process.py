@@ -2,6 +2,7 @@ import csv
 
 
 def write_cpu_consuming_classes(path, total_cpu_time):
+	exclude_from_class_name = ["vvenc", "vvdec"]
 	print(f"Path: {path}")
 	with open(f"{path}") as f:
 
@@ -11,13 +12,21 @@ def write_cpu_consuming_classes(path, total_cpu_time):
 		csv_dict = {}
 		for row in data:
 			key, *values = row
-			class_name = key.split("::")
+			class_name = key.split("::", 1)
+			
 			if len(class_name) > 1:
-				if class_name[0] not in csv_dict:
-					csv_dict[class_name[0]] = float(values[1])
-				elif class_name[0] in csv_dict:
-					csv_dict[class_name[1]] = float(csv_dict[class_name[0]]) + float(values[1])
-
+				if class_name[0] in exclude_from_class_name:
+					cls_name = class_name[1]
+				else:
+					cls_name = class_name[0]
+			else:
+				cls_name = key
+				
+			if cls_name not in csv_dict:
+				csv_dict[cls_name] = float(values[1])
+			elif cls_name in csv_dict:
+				csv_dict[cls_name] = float(csv_dict[cls_name]) + float(values[1])
+				
 	for key in csv_dict:
 		csv_dict[key] = round((csv_dict[key] / total_cpu_time) * 100, 3)
 

@@ -1,0 +1,21 @@
+Class,CPU Time (%)
+BitEstimator,21.691
+CoeffCodingContext,18.304
+Partitioner,17.629
+IntraPredAngleLumaCore_SIMD<(vvenc,17.627
+IntraAnglePDPC_SIMD<(vvenc,16.949
+QuantRDOQ2,16.272
+CacheBlkInfoCtrl,16.27
+fastInv_SSE<(vvenc,16.27
+fastFwd_SSE<(vvenc,16.27
+DeQuantCoreSIMD<(vvenc,16.269
+QuantRDOQ,16.269
+CABACWriter,15.593
+CS,15.593
+dynamic_cache<vvenc,15.593
+simdInterpolateVerM16_AVX2<(vvenc,15.593
+IntraSearch,15.592
+IntraPrediction,15.592
+RdCost,15.592
+CodingStructure,15.591
+vvenc,14.237

@@ -1,0 +1,50 @@
+Class,CPU Time (%)
+getSigCtxInc,25.398
+transformNxN,24.416
+xTransformSkip,23.926
+xIT,23.925
+TComTrQuant,23.189
+xIntraCodingTUBlock,8.344
+estBit,7.359
+estLastSignificantPositionBit,6.625
+resetBits,5.644
+estSignificantMapBit,5.644
+codeLastSignificantXY,5.644
+"filter<(int)8, (bool)0, (bool)1, (bool)0>",5.399
+store,5.398
+xWriteCoefRemainExGolomb,5.398
+xRecurIntraCodingLumaQT,5.154
+xEncCoeffQT,5.154
+predInterSearch,5.154
+xPatternRefinement,4.908
+TEncSbac,4.907
+"filter<(int)4, (bool)1, (bool)0, (bool)1>",4.663
+TEncSearch,4.418
+filterCopy,4.417
+"filter<(int)8, (bool)0, (bool)1, (bool)1>",4.172
+"filter<(int)4, (bool)0, (bool)1, (bool)0>",4.172
+xGetSSE16,4.171
+"filter<(int)8, (bool)1, (bool)0, (bool)0>",3.926
+getDistPart,3.681
+xGetSSE64,3.68
+TComInterpolationFilter,3.435
+xGetSSE8,3.435
+xGetSSE32,3.435
+xGetSAD12,3.435
+xGetSAD32,3.435
+TComRdCost,2.944
+predIntraAng,1.964
+TComPrediction,1.473
+TEncBinCABACCounter,1.473
+getInterMergeCandidates,1.472
+getIntraDirPredictor,1.227
+copyPartToPartYuv,1.227
+countNonZeroCoeffs,1.227
+addAvg,1.227
+getAddr,1.227
+xCheckRDCostIntra.part.107,0.982
+TEncEntropy,0.736
+TComYuv,0.736
+TComDataCU,0.736
+TEncCu,0.491
+TEncBinCABAC,0.49

@@ -30,6 +30,7 @@ def split_csv_to_pdf_table(doc, data_list, caption_1, caption_2, split_index, no
 		second_list.append(l2)
 	
 	csv_to_pdf_table(doc, first_list, caption_1, no_of_rows, empty_row_after)
+	doc.append(NewPage())
 	csv_to_pdf_table(doc, second_list, caption_2, no_of_rows, empty_row_after)
 
 
@@ -149,12 +150,12 @@ def generate_pdf(result_path, analyzing_types):
 	with doc.create(Section('Analysis Summary')):
 		with doc.create(Subsection('Encoding Summary')):
 			url = result_path + '/encoder_summary.csv'
-			split_csv_to_pdf_table(doc, csv_to_list(url), "Encoding Combination Used", "Encoding Results", 4,
+			split_csv_to_pdf_table(doc, csv_to_list(url), "Encoding Combinations", "Encoding Results", 4,
 			                       empty_row_after=4)
 		doc.append(NewPage())
 		with doc.create(Subsection('Decoding Summary')):
 			url = result_path + '/decoders_summary.csv'
-			split_csv_to_pdf_table(doc, csv_to_list(url), "Decoding Combination Used", "Decoding Results", 3,
+			split_csv_to_pdf_table(doc, csv_to_list(url), "Decoding Combinations", "Decoding Results", 3,
 			                       empty_row_after=4)
 	
 	# Complexity Analysis
@@ -248,7 +249,7 @@ def generate_pdf(result_path, analyzing_types):
 											                    caption=f'Back-End Bound Analysis\n {sub_sub_section_name}')
 											
 											doc.append(NewPage())
-	doc.generate_pdf("tab", clean_tex=False)
+	doc.generate_pdf(f"{result_path}", clean_tex=False)
 
 
 def add_figures(codec, codec_part, doc, result_path):
@@ -266,7 +267,7 @@ def html_file_to_tables(analyzer_type, doc, path, selected_metrics, column_idx_t
 	url = path + analyzer_type
 	metrics_list = []
 	for html_file in os.listdir(url):
-		if (html_file.split('.')[-1]) == 'html':
+		if (html_file.split('.')[-1]) == 'html' and os.stat(f"{url}/{html_file}").st_size > 0:
 			# print(url + '/' + html_file)
 			metric_value = html_to_dict.get_data_from_html(url + '/' + html_file,
 			                                               selected_metrics)
@@ -279,13 +280,17 @@ def html_file_to_tables(analyzer_type, doc, path, selected_metrics, column_idx_t
 		# print(url + html_file)
 		# print(metric_value)
 	selected_metrics.insert(0, 'Seq Name')
-	
+	metrics_list = sort_sub_list(metrics_list, 1)
 	dict_to_pdf_table(doc, caption, selected_metrics, metrics_list)
 
 
 def hotspots_analysis(analyzer_type, doc, path, no_of_column, caption):
 	hotspots_csv = os.listdir(path + '/' + analyzer_type)
-	data_list = csv_to_list(url=f"{path}/{analyzer_type}/{hotspots_csv[0]}",
+	for csv_file in hotspots_csv:
+		if csv_file.split("_")[-1] != "class":
+			filename = csv_file
+			break
+	data_list = csv_to_list(url=f"{path}/{analyzer_type}/{filename}",
 	                        delimiter='\t')
 	data_list = split_list(data_list, 0, no_of_column)
 	split_csv_name = hotspots_csv[0].split('_')
@@ -293,7 +298,7 @@ def hotspots_analysis(analyzer_type, doc, path, no_of_column, caption):
 	
 	if analyzer_type == 'hotspots':  # add memory consumption too
 		
-		p = hotspots_csv[0].split('.')[:-1]
+		p = filename.split('.')[:-1]
 		by_class_csv_name = '_'.join(p) + '_by_class.csv'
 		by_class_csv_path = path + '/' + analyzer_type + '/' + by_class_csv_name
 		by_class_data_list = csv_to_list(by_class_csv_path)
@@ -307,5 +312,5 @@ def hotspots_analysis(analyzer_type, doc, path, no_of_column, caption):
 
 if __name__ == "__main__":
 	analyzing_types = ['hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration']
-	result_path = "/home/ridi/Desktop/Research_VVC_HM/results_2021_04_19_02_36_13"
+	result_path = "/home/ridi/Desktop/Research_VVC_HM/results_2021_04_19_03_58_32"
 	generate_pdf(result_path, analyzing_types)

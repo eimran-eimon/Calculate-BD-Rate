@@ -1,0 +1,6 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+std::istream::get	0.012013	0.012013	0.0	0.012013	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+operator new	0.007987	0.007987	0.0	0.007987	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	operator new(unsigned long)	[Unknown]	0x93280
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+TComInterpolationFilter::filter<(int)8, (bool)0, (bool)1, (bool)0>	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	void TComInterpolationFilter::filter<(int)8, (bool)0, (bool)1, (bool)0>(int, short const*, int, short*, int, int, int, short const*)	[Unknown]	0x9d1e0
+TDecSbac::parseCoeffNxN	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecSbac::parseCoeffNxN(TComTU&, ComponentID)	[Unknown]	0x472a0

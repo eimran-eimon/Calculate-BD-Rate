@@ -1,0 +1,27 @@
+Class,CPU Time (%)
+updateCandList<vvenc,15.758
+fastFwd_SSE<(vvenc,15.154
+IntraPredAngleLumaCore_SIMD<(vvenc,15.151
+BitEstimator,15.151
+IntraAnglePDPC_SIMD<(vvenc,15.15
+motionErrorLumaFrac_SIMD<(vvenc,15.15
+fastInv_SSE<(vvenc,14.547
+QuantRDOQ2,13.941
+IntraPrediction,13.94
+IntraHorVerPDPC_SIMD<(vvenc,13.94
+xCalcHAD16x16_AVX2,13.94
+CoeffCodingContext,13.94
+CacheBlkInfoCtrl,13.94
+InterSearch,13.94
+QuantRDOQ,13.939
+EncAdaptiveLoopFilter,13.637
+AreaBuf<short>,13.334
+CodingStructure,13.333
+CABACWriter,13.333
+IntraSearch,13.333
+EncCu,13.333
+AlfCovariance,13.333
+roundClip_SSE<(vvenc,13.333
+CtxStore,13.333
+PartitionerImpl,13.333
+vvenc,12.122

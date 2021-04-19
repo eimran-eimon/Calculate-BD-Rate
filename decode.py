@@ -111,5 +111,5 @@ if __name__ == "__main__":
 	codec_path_m = './codecs'
 	vtune_cmd_m = '/opt/intel/oneapi/vtune/2021.1.1/bin64/vtune'
 	sudo_cmd_m = 'echo 555555 | sudo -S'
-	results_path_m = f"results_2021_04_19_02_36_13"
+	results_path_m = f"results_2021_04_19_03_58_32"
 	start(codec_path_m, sudo_cmd_m, vtune_cmd_m, results_path_m)

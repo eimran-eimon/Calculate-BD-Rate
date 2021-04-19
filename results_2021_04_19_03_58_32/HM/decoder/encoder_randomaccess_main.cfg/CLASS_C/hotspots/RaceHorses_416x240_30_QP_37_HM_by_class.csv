@@ -1,0 +1,7 @@
+Class,CPU Time (%)
+istream,79.973
+std,39.99
+TComTURecurse,33.343
+TDecCu,33.17
+TComInterpolationFilter,26.667
+TComTrQuant,26.653

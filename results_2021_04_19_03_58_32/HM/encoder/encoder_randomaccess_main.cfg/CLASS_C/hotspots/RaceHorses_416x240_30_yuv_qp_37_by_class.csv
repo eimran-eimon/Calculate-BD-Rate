@@ -1,0 +1,50 @@
+Class,CPU Time (%)
+xQuant,15.322
+xTransformSkip,14.999
+TComTrQuant,14.355
+initIntraPatternChType,7.097
+xIntraCodingTUBlock,6.775
+motionCompensation,6.774
+TComPrediction,6.129
+xPatternRefinement,6.129
+xPatternSearch,6.129
+xEncodeInterResidualQT,6.129
+xRecurIntraCodingLumaQT,6.129
+predInterSearch,6.129
+xTZSearchHelp,5.807
+estIntraPredChromaQT,5.807
+xEncCoeffQT,5.807
+encodeResAndCalcRdInterCU,5.806
+TEncSearch,5.162
+estBit,5.161
+estSignificantMapBit,4.193
+xWriteCoefRemainExGolomb,4.192
+xGetSSE32,3.871
+xCalcHADs4x4,3.55
+resetBits,3.549
+TEncSbac,3.548
+xGetSAD16,3.227
+xGetSSE4,3.226
+xGetSAD8,3.226
+xGetSSE8,3.226
+xGetSAD32,3.226
+xGetSAD12,2.904
+xGetExpGolombNumberOfBits,2.904
+xGetHADs,2.904
+getPartIndexAndSize,2.903
+xAddMVPCandUnscaled,2.903
+TEncBinCABAC,2.581
+copyPartToPartComponent,2.581
+"filter<(int)8, (bool)0, (bool)1, (bool)1>",2.581
+initEstData,2.581
+setMVPIdxSubParts,2.581
+"filter<(int)8, (bool)1, (bool)0, (bool)0>",2.58
+setCrossComponentPredictionAlphaPartRange,2.58
+TComRdCost,2.259
+"filter<(int)8, (bool)0, (bool)1, (bool)0>",2.258
+addClip,2.258
+filterHor,2.258
+TComDataCU,1.935
+TComInterpolationFilter,1.613
+TComYuv,1.613
+TEncSampleAdaptiveOffset,0.806

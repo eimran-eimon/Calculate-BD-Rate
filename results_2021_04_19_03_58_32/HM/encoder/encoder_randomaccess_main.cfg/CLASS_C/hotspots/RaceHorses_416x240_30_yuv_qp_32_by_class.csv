@@ -1,0 +1,59 @@
+Class,CPU Time (%)
+getSigCtxInc,26.453
+xDeQuant,24.7
+rdpcmNxN,24.381
+getSigCoeffGroupCtxInc,23.903
+xTransformSkip,23.903
+xT,23.903
+TComTrQuant,23.584
+xPatternSearch,5.1
+xGetSSE8,5.098
+"filter<(int)8, (bool)0, (bool)1, (bool)0>",4.781
+xGetSSE32,4.779
+estIntraPredLumaQT,4.622
+xRecurIntraChromaCodingQT,4.622
+filterCopy,4.542
+xGetSSE16,4.461
+xMergeEstimation,4.304
+xLoadIntraResultQT,4.303
+xExtDIFUpSamplingQ,4.303
+xGetIntraBitsQT,4.144
+predInterSearch,4.144
+xTZSearchHelp,4.144
+estBit,4.143
+getDistPart,4.142
+xGetSAD8,4.142
+xGetExpGolombNumberOfBits,3.983
+setDistParam,3.983
+xGetSAD16,3.983
+xGetSAD32,3.983
+TEncSearch,3.825
+estLastSignificantPositionBit,3.824
+"filter<(int)4, (bool)1, (bool)0, (bool)1>",3.824
+TComRdCost,3.664
+"filter<(int)8, (bool)1, (bool)1, (bool)1>",3.505
+"filter<(int)4, (bool)1, (bool)1, (bool)1>",3.346
+"filter<(int)8, (bool)0, (bool)1, (bool)1>",3.346
+xPredInterUni,3.345
+initIntraPatternChType,3.345
+"filter<(int)4, (bool)1, (bool)0, (bool)0>",3.188
+xWriteCoefRemainExGolomb,3.187
+"filter<(int)4, (bool)0, (bool)1, (bool)0>",3.187
+TComPrediction,3.027
+TComInterpolationFilter,2.868
+TEncSbac,2.868
+TEncBinCABACCounter,2.709
+getInterMergeCandidates,0.956
+initSubCU,0.956
+getIntraDirPredictor,0.797
+copyToPicYuv,0.797
+getAddr,0.797
+encodePredInfo,0.797
+clear,0.797
+initEstData,0.797
+getCoefScanIdx,0.796
+TComDataCU,0.478
+TEncEntropy,0.478
+TComYuv,0.478
+TComTURecurse,0.319
+TEncBinCABAC,0.319

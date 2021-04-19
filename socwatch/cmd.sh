@@ -1,2 +1,2 @@
 #!/bin/sh
-./codecs/hm/decoder/TAppDecoderStatic  -b ./bin/hm/encoder_lowdelay_main.cfg/CLASS_C/RaceHorses_416x240_30_QP_37_hm.bin
+./codecs/HHI-VVC/decoder/vvdecapp  -b ./bin/HHI-VVC/randomaccess_fast.cfg/CLASS_C/RaceHorses_416x240_30_QP_32_HHI-VVC.bin

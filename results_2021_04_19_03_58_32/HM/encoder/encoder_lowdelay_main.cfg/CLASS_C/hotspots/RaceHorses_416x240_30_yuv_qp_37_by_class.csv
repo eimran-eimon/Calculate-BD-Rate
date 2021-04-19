@@ -1,0 +1,47 @@
+Class,CPU Time (%)
+transformNxN,21.76
+xQuant,20.481
+rdpcmNxN,20.48
+getSigCtxInc,20.48
+xT,20.48
+TComTrQuant,19.84
+"filter<(int)8, (bool)1, (bool)0, (bool)1>",8.641
+filterCopy,5.44
+"filter<(int)8, (bool)0, (bool)1, (bool)1>",5.44
+"filter<(int)4, (bool)1, (bool)0, (bool)1>",5.12
+estBit,4.8
+TComInterpolationFilter,4.48
+xGetSAD8,4.163
+xGetSSE32,4.16
+xRecurIntraChromaCodingQT,4.159
+xCalcHADs4x4,3.84
+predIntraAng,3.683
+xGetHADs,3.52
+estLastSignificantPositionBit,3.52
+xGetSSE8,3.2
+xExtDIFUpSamplingH,3.199
+xIntraCodingTUBlock,3.199
+xPredInterUni,3.042
+initIntraPatternChType,3.042
+getNumWrittenBits,2.88
+predInterSearch,2.88
+copyPartToPartYuv,2.879
+xTZSearchHelp,2.879
+xGetIntraBitsQT,2.879
+TEncSbac,2.56
+addClip,2.559
+removeHighFreq,2.559
+copyToPartYuv,2.559
+TComPrediction,2.402
+TComRdCost,2.24
+TEncSearch,2.24
+initEstData,2.24
+setCrossComponentPredictionAlphaPartRange,2.24
+TEncBinCABACCounter,1.921
+setCbfPartRange,1.92
+TComYuv,1.919
+TEncBinCABAC,1.6
+TComDataCU,1.28
+TEncSampleAdaptiveOffset,0.961
+TEncEntropy,0.64
+TEncCu,0.64
