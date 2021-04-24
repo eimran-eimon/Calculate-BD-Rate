@@ -1,6 +1,0 @@
-Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
-BinDecoder::decodeBin	0.012009	0.012009	0.0	0.012009	0.0	0.0	0.0	0.0	0.0	vvdecapp	BinDecoder::decodeBin(unsigned int)	[Unknown]	0xc0b70
-[Outside any known module]	0.010000	0.010000	0.010000	0.0	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
-__memmove_avx_unaligned_erms	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
-std::chrono::_V2::steady_clock::now	0.010000	0.010000	0.010000	0.0	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::chrono::_V2::steady_clock::now(void)	[Unknown]	0xb5390
-CABACReader::coding_tree	0.007991	0.007991	0.0	0.007991	0.0	0.0	0.0	0.0	0.0	vvdecapp	CABACReader::coding_tree(CodingStructure&, Partitioner&, CUCtx&)	[Unknown]	0xc92b0

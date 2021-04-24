@@ -1,2 +1,0 @@
-Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
-__malloc_trim	0.010000	0.010000	0.010000	0.0	0.0	0.0	0.0	0.0	0.0	libc.so.6	__malloc_trim	malloc.c	0x9a5b0

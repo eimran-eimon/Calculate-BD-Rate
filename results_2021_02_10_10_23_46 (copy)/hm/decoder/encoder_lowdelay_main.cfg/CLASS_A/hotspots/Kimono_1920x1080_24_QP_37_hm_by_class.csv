@@ -1,6 +1,0 @@
-Class,CPU Time (%)
-xIntraRecBlk,11.996
-"filter<(int)8, (bool)1, (bool)0, (bool)0>",11.987
-getPULeft,10.016
-loopFilterPic,10.0
-istream,7.995

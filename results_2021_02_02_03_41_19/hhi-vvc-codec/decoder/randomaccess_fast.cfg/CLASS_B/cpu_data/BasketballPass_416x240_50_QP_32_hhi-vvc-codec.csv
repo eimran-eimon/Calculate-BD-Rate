@@ -1,3 +1,0 @@
-Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
-NoMallocThreadPool::findNextTask	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	NoMallocThreadPool::findNextTask(int, NoMallocThreadPool::ChunkedTaskQueue::Iterator)	[Unknown]	0x69fc0
-OS_MutexLockTid	0.010000	0.010000	0.010000	0.0	0.0	0.0	0.0	0.0	0.0	libc-dynamic.so	OS_MutexLockTid	[Unknown]	0x746f0

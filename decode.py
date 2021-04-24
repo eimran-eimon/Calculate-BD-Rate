@@ -5,9 +5,9 @@ import weasyprint
 import power_analysis
 import csv_process
 
-analyzing_types = {'hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration'}
-# analyzing_types = {'hotspots'}
-data_fields = ['Seq', 'Codec', 'Cfg', 'Bitrate (kbps)', 'CPU Time', ' Average Power (mW)', 'Total Energy (mJ)']
+# analyzing_types = {'hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration'}
+analyzing_types = {'hotspots', 'memory-access'}
+data_fields = ['Seq', 'Codec', 'Cfg', 'Bitrate (kbps)', 'CPU Time', 'Average Power (mW)', 'Total Energy (mJ)']
 no_of_samples = 20
 
 

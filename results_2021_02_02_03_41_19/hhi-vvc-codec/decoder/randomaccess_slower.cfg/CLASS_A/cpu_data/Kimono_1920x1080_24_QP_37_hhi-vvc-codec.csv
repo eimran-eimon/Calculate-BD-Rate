@@ -1,9 +1,0 @@
-Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
-simdFilter7x7Blk<(X86_VEXT)4>	0.033965	0.033965	0.0	0.033965	0.0	0.0	0.0	0.0	0.0	vvdecapp	void simdFilter7x7Blk<(X86_VEXT)4>(AlfClassifier const*, UnitBuf<short> const&, UnitBuf<short const> const&, Area const&, ComponentID, short const*, short const*, ClpRngTemplate<short> const&, CodingStructure const&, int, int)	[Unknown]	0xea630
-__memmove_avx_unaligned_erms	0.030000	0.030000	0.0	0.030000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
-__memset_avx2_erms	0.022012	0.022012	0.0	0.022012	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18ee60
-GetLumaRecPixel420SIMD<(X86_VEXT)4>	0.012012	0.012012	0.0	0.012012	0.0	0.0	0.0	0.0	0.0	vvdecapp	void GetLumaRecPixel420SIMD<(X86_VEXT)4>(int, int, short const*, long, short*, long)	[Unknown]	0x40980
-sched_yield	0.012012	0.0	0.0	0.0	0.0	0.0	0.0	0.012012	0.0	libc.so.6	sched_yield	syscall-template.S	0x103ef0
-CABACReader::residual_coding	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	CABACReader::residual_coding(TransformUnit&, ComponentID, CUCtx&)	[Unknown]	0xc0cd0
-NoMallocThreadPool::findNextTask	0.010000	0.010000	0.0	0.0	0.010000	0.0	0.0	0.0	0.0	vvdecapp	NoMallocThreadPool::findNextTask(int, NoMallocThreadPool::ChunkedTaskQueue::Iterator)	[Unknown]	0x69fc0
-UnitBuf<short>::subBuf	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	vvdecapp	UnitBuf<short>::subBuf(UnitArea const&)	[Unknown]	0x70c80

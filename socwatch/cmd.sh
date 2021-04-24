@@ -1,2 +1,2 @@
 #!/bin/sh
-./codecs/HHI-VVC/decoder/vvdecapp  -b ./bin/HHI-VVC/randomaccess_fast.cfg/CLASS_C/RaceHorses_416x240_30_QP_32_HHI-VVC.bin
+./codecs/original/decoder/DecoderAppStatic  -b ./bin/original/encoder_intra_vtm.cfg/CLASS_A/Kimono_1920x1080_24_QP_32_original.bin

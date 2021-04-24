@@ -1,4 +1,0 @@
-Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
-NoMallocThreadPool::findNextTask	0.018001	0.018001	0.0	0.018001	0.0	0.0	0.0	0.0	0.0	vvdecapp	NoMallocThreadPool::findNextTask(int, NoMallocThreadPool::ChunkedTaskQueue::Iterator)	[Unknown]	0x69fc0
-CABACReader::residual_coding	0.011999	0.011999	0.0	0.011999	0.0	0.0	0.0	0.0	0.0	vvdecapp	CABACReader::residual_coding(TransformUnit&, ComponentID, CUCtx&)	[Unknown]	0xc0cd0
-__posix_memalign	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	libc.so.6	__posix_memalign	malloc.c	0x9aeb0

@@ -184,11 +184,11 @@ def generate_pdf(result_path, analyzing_types):
 									for analyzer_type in analyzing_types:
 										# print(path)
 										if analyzer_type == 'hotspots':
-											hotspots_analysis(analyzer_type, doc, path, 2,
+											hotspots_analysis(codec_part, analyzer_type, doc, path, 2,
 											                  caption=f"Hotspots By Function\n {sub_sub_section_name}")
 										
 										if analyzer_type == 'memory-consumption':
-											hotspots_analysis(analyzer_type, doc, path, 2,
+											hotspots_analysis(codec_part, analyzer_type, doc, path, 2,
 											                  caption=f"Memory Consumption\n {sub_sub_section_name}")
 										
 										if analyzer_type == 'performance-snapshot':
@@ -284,7 +284,7 @@ def html_file_to_tables(analyzer_type, doc, path, selected_metrics, column_idx_t
 	dict_to_pdf_table(doc, caption, selected_metrics, metrics_list)
 
 
-def hotspots_analysis(analyzer_type, doc, path, no_of_column, caption):
+def hotspots_analysis(codec_part, analyzer_type, doc, path, no_of_column, caption):
 	hotspots_csv = os.listdir(path + '/' + analyzer_type)
 	for csv_file in hotspots_csv:
 		if csv_file.split("_")[-1] != "class":
@@ -294,7 +294,10 @@ def hotspots_analysis(analyzer_type, doc, path, no_of_column, caption):
 	                        delimiter='\t')
 	data_list = split_list(data_list, 0, no_of_column)
 	split_csv_name = hotspots_csv[0].split('_')
-	name = split_csv_name[0] + ', QP =' + split_csv_name[-1].split('.')[0]
+	if codec_part == 'encoder':
+		name = split_csv_name[0] + ', QP =' + split_csv_name[-1].split('.')[0]
+	elif codec_part == 'decoder':
+		name = split_csv_name[0] + ', QP =' + split_csv_name[-2]
 	
 	if analyzer_type == 'hotspots':  # add memory consumption too
 		
@@ -311,6 +314,7 @@ def hotspots_analysis(analyzer_type, doc, path, no_of_column, caption):
 
 
 if __name__ == "__main__":
-	analyzing_types = ['hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration']
-	result_path = "/home/ridi/Desktop/Research_VVC_HM/results_2021_04_19_03_58_32"
+	# analyzing_types = ['hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration']
+	analyzing_types = ['hotspots', 'memory-access']
+	result_path = "/home/ridi/Desktop/Research_VVC_HM/results_2021_04_24_15_17_56"
 	generate_pdf(result_path, analyzing_types)

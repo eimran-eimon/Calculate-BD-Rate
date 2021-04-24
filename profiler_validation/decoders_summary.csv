@@ -1,0 +1,4 @@
+Seq,Codec,Cfg,Bitrate (kbps),CPU Time,Average Power (mW),Total Energy (mJ)
+Kimono_1920x1080_24_QP_32,modified-config,encoder_intra_vtm_modified.cfg,637.7520,0.390s,4443.49,1777.65
+Kimono_1920x1080_24_QP_32,modified-source,encoder_intra_vtm.cfg,636.0240,0.390s,4705.51,1854.49
+Kimono_1920x1080_24_QP_32,original,encoder_intra_vtm.cfg,630.7200,0.390s,4551.25,1750.18

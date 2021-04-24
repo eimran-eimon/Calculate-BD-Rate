@@ -9,23 +9,24 @@ import numpy as np
 import weasyprint
 import csv_process
 import post_processing_results
+import power_analysis
 
 matplotlib.rcParams.update({'font.size': 6})
 
-frames_to_encode = 2
+frames_to_encode = 1
 vtune_cmd = '/opt/intel/oneapi/vtune/2021.1.1/bin64/vtune'
 sudo_cmd = 'echo 555555 | sudo -S'
-qps = [22, 27, 32, 37]
+qps = [32]
 codec_path = './codecs'
 config_path = './configs'
 sequences_path = './sequences'
 results_path = f"./results_{datetime.now().strftime('%Y_%m_%d_%H_%M_%S')}"
-analyzing_types = ['hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration']
-# analyzing_types = {'hotspots'}
+# analyzing_types = ['hotspots', 'memory-consumption', 'performance-snapshot', 'memory-access', 'uarch-exploration']
+analyzing_types = {'hotspots', 'memory-access'}
 rec_yuv_directory = './rec_yuv'
 bin_directory = './bin'
 
-data_fields = ['Seq Name', 'Codec Name', 'Config Name', 'QP', 'Bitrate', 'Y-PSNR', 'CPU Time', 'Enc_FPS/FR']
+data_fields = ['Seq Name', 'Codec Name', 'Config Name', 'QP', 'Bitrate', 'Y-PSNR', 'CPU Time', 'Average Power (mW)', 'Total Energy (mJ)']
 
 os.system(f'{sudo_cmd} rm -r r0*')
 os.system(f'{sudo_cmd} rm -r {bin_directory}')
@@ -102,8 +103,8 @@ with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
 									if not os.path.exists(rec_yuv_dir_to_store):
 										os.makedirs(rec_yuv_dir_to_store)
 
-									cmd = f'{sudo_cmd} {vtune_cmd} -collect {analyzing_type} ' \
-										f'{codec_path}/{codec}/{enc_dec}/{list_of_enc_dec[0]} ' \
+									profiler_cmd = f'{sudo_cmd} {vtune_cmd} -collect {analyzing_type} '
+									encode_cmd = f'{codec_path}/{codec}/{enc_dec}/{list_of_enc_dec[0]} ' \
 										f'-c {config_path}/{codec}/{config} ' \
 										f'-i {sequences_path}/{cls}/{seq} ' \
 										f'-wdt {width} -hgt {height} ' \
@@ -111,7 +112,8 @@ with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
 										f'-o {rec_yuv_dir_to_store}{seq.split(".")[0] + "_QP_" + str(qp) + "_" + codec}.yuv ' \
 										f'-fr {int(seq.split("_")[2].split(".")[0])} ' \
 										f'-fs 0 -f {frames_to_encode} -q {qp} '
-
+									
+									cmd = profiler_cmd + encode_cmd
 									print("--------------------------")
 									print(cmd)
 									print("--------------------------")
@@ -167,8 +169,13 @@ with open(data_filename, 'w', newline='', encoding='utf-8') as csv_file:
 										psnr = np.append(psnr, float(y_psnr))
 
 										real_time_indicator = (frames_to_encode/float(cpu_time[:-1])) / int(seq.split("_")[2].split(".")[0])
-
-										csv_writer.writerows([["_".join(seq.split(".")[:-1]), codec, config.split(".")[0], qp, bitrate, y_psnr, cpu_time, round(real_time_indicator, 3)]])
+										encoding_avg_power, encoding_energy = power_analysis.get_avg_power_and_total_energy(
+											sudo_cmd, encode_cmd)
+										
+										# csv_writer.writerows([["_".join(seq.split(".")[:-1]), codec, config.split(
+										# ".")[0], qp, bitrate, y_psnr, cpu_time, round(real_time_indicator, 3)]])
+										
+										csv_writer.writerows([["_".join(seq.split(".")[:-1]), codec, config.split(".")[0], qp, bitrate, y_psnr, cpu_time, encoding_avg_power, encoding_energy]])
 										csv_process.write_cpu_consuming_classes(f"{result_dir}/{seq}_qp_{qp}.csv", float(cpu_time[:-1]))
 
 									elif analyzing_type == 'memory-consumption':

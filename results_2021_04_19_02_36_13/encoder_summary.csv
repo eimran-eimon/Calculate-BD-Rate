@@ -1,5 +1,0 @@
-Seq Name,Codec Name,Config Name,QP,Bitrate,Y-PSNR,CPU Time,Enc_FPS/FR
-['RaceHorses_416x240_30'],hm,encoder_lowdelay_main,22,3428.7600,41.0101,3.290s,0.02
-['RaceHorses_416x240_30'],hm,encoder_lowdelay_main,27,2044.8000,36.8827,2.130s,0.031
-['RaceHorses_416x240_30'],hm,encoder_lowdelay_main,32,1188.9600,33.2687,2.220s,0.03
-['RaceHorses_416x240_30'],hm,encoder_lowdelay_main,37,627.9600,30.0505,1.360s,0.049

@@ -1,5 +1,0 @@
-Seq,Codec,Cfg,Bitrate (kbps),CPU Time, Average Power (mW),Total Energy (mJ)
-RaceHorses_416x240_30_QP_22,hm,encoder_lowdelay_main.cfg,3428.7600,0.020s,5363.03,193.12
-RaceHorses_416x240_30_QP_27,hm,encoder_lowdelay_main.cfg,2044.8000,0.040s,10953.05,197.57
-RaceHorses_416x240_30_QP_32,hm,encoder_lowdelay_main.cfg,1188.9600,0.030s,6924.34,174.5
-RaceHorses_416x240_30_QP_37,hm,encoder_lowdelay_main.cfg,627.9600,0.030s,5250.44,111.76

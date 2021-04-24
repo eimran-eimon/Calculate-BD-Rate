@@ -1,0 +1,23 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+CDTrace::dtrace<(bool)0>	0.043990	0.043990	0.0	0.043990	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void CDTrace::dtrace<(bool)0>(int, char const*, ellipsis)	[Unknown]	0xc3970
+DecLib::DecLib	0.035985	0.035985	0.0	0.035985	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	DecLib::DecLib(void)	[Unknown]	0x1c0780
+__memmove_avx_unaligned_erms	0.031998	0.031998	0.0	0.031998	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0x18ea10
+TBinDecoder<BinProbModel_Std>::decodeBin	0.031991	0.031991	0.0	0.031991	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	TBinDecoder<BinProbModel_Std>::decodeBin(unsigned int)	[Unknown]	0x20df40
+IntraPrediction::xGetLumaRecPixels	0.028001	0.028001	0.0	0.028001	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	IntraPrediction::xGetLumaRecPixels(PredictionUnit const&, CompArea)	[Unknown]	0x253250
+LoopFilter::loopFilterPic	0.024001	0.024001	0.0	0.024001	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::loopFilterPic(CodingStructure&)	[Unknown]	0x260290
+__memset_avx2_erms	0.023998	0.023998	0.0	0.023998	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18ee60
+MatrixIntraPrediction::predictionUpsampling1D	0.020000	0.020000	0.0	0.020000	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	MatrixIntraPrediction::predictionUpsampling1D(int*, int const*, int const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)	[Unknown]	0x262db0
+TrQuant::invTransformNxN	0.019995	0.019995	0.0	0.019995	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	TrQuant::invTransformNxN(TransformUnit&, ComponentID const&, AreaBuf<short>&, QpParam const&)	[Unknown]	0x85700
+__memset_avx2_unaligned_erms	0.012014	0.012014	0.0	0.012014	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_unaligned_erms	memset-vec-unaligned-erms.S	0x18ee90
+operator new	0.012004	0.012004	0.0	0.012004	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	operator new(unsigned long)	[Unknown]	0x93280
+LoopFilter::xEdgeFilterLuma	0.012000	0.012000	0.0	0.012000	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::xEdgeFilterLuma(CodingUnit const&, DeblockEdgeDir, int)	[Unknown]	0x25a940
+LoopFilter::xEdgeFilterChroma	0.011998	0.011998	0.0	0.011998	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::xEdgeFilterChroma(CodingUnit const&, DeblockEdgeDir, int)	[Unknown]	0x259040
+TU::getCbf	0.011992	0.011992	0.0	0.011992	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	TU::getCbf(TransformUnit const&, ComponentID const&)	[Unknown]	0xb6af0
+simdDeriveClassificationBlk<(X86_VEXT)4>	0.011083	0.011083	0.0	0.011083	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void simdDeriveClassificationBlk<(X86_VEXT)4>(AlfClassifier**, int***, AreaBuf<short const> const&, Area const&, Area const&, int, int, int)	[Unknown]	0x17eff0
+_GLOBAL__sub_I_Rom.cpp	0.010023	0.010023	0.0	0.010023	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	_GLOBAL__sub_I_Rom.cpp	[Unknown]	0xcea0
+[Outside any known module]	0.008917	0.008917	0.0	0.008917	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+IntraPrediction::xFillReferenceSamples	0.008010	0.008010	0.0	0.008010	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	IntraPrediction::xFillReferenceSamples(AreaBuf<short const> const&, short*, CompArea const&, CodingUnit const&)	[Unknown]	0x24d970
+simdFilter7x7Blk<(X86_VEXT)4>	0.008006	0.008006	0.0	0.008006	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void simdFilter7x7Blk<(X86_VEXT)4>(AlfClassifier**, UnitBuf<short> const&, UnitBuf<short const> const&, Area const&, Area const&, ComponentID, short const*, short const*, ClpRng const&, CodingStructure&, int, int)	[Unknown]	0x17d3c0
+CodingStructure::getTU	0.008000	0.008000	0.0	0.008000	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CodingStructure::getTU(Position const&, ChannelType, int)	[Unknown]	0xcddd0
+CodingStructure::getCU	0.007999	0.007999	0.0	0.007999	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CodingStructure::getCU(Position const&, ChannelType) const	[Unknown]	0xcd830
+std::istream::get	0.007996	0.007996	0.0	0.007996	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0

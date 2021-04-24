@@ -1,0 +1,99 @@
+Class,CPU Time (%)
+EncAdaptiveLoopFilter,14.628
+CDTrace,11.244
+DQIntern,10.231
+IntraPrediction,8.335
+TrQuant,6.846
+CodingStructure,4.751
+CABACWriter,4.344
+std,3.969
+RdCost,3.473
+IntraSearch,2.914
+AlfCovariance,2.561
+IbcHashMap,2.464
+fastForwardDCT2_B32,2.252
+MatrixIntraPrediction,2.231
+__GI_,1.618
+__memmove_avx_unaligned_erms,1.548
+CtxStore<BinProbModel_Std>,1.254
+fastInverseDCT2_B32,1.03
+fastInverseDCT2_B64,0.971
+fastInverseDST7_B32,0.777
+fastForwardDCT2_B16,0.683
+fastForwardDCT2_B64,0.606
+CU,0.595
+TBitEstimator<BinProbModel_Std>,0.553
+AreaBuf<short>,0.553
+__memset_avx2_unaligned_erms,0.53
+fastInverseDST7_B8,0.53
+fastForwardDST7_B32,0.518
+operator new,0.389
+QTBTPartitioner,0.371
+PredictionUnit,0.365
+__memset_avx2_erms,0.312
+fastForwardDCT2_B8,0.306
+fastInverseDCT2_B16,0.306
+fastForwardDST7_B8,0.3
+CodingUnit,0.282
+xCalcHAD16x16_AVX2.isra.1,0.277
+"reco_SSE<(X86_VEXT)4, (int)8>",0.271
+fastForwardDST7_B16,0.253
+PU,0.241
+fastInverseDCT2_B8,0.224
+TU,0.224
+CoeffCodingContext,0.212
+DepQuant,0.212
+Picture,0.194
+PreCalcValues,0.182
+fastInverseDST7_B16,0.177
+"reco_SSE<(X86_VEXT)4, (int)4>",0.159
+__ieee754_log10,0.153
+PelStorage,0.153
+func@0xec30,0.138
+TransformUnit,0.135
+EncSampleAdaptiveOffset,0.118
+EncCu,0.118
+DeriveCtx,0.112
+QpParam,0.106
+updateCandList<IntraSearch,0.1
+CS,0.1
+EncReshape,0.094
+fastForwardDCT2_B4,0.088
+CacheBlkInfoCtrl,0.088
+PartitionerImpl,0.082
+fastForwardDST7_B4,0.079
+UnitArea,0.071
+func@0xec60,0.065
+func@0xeaa0,0.065
+VideoIOYuv,0.059
+func@0xebb0,0.053
+EncModeCtrl,0.047
+EncModeCtrlMTnoRQT,0.047
+BestEncInfoCache,0.046
+UnitBuf<short>,0.041
+QuantRDOQ,0.041
+BitEstimatorBase,0.041
+LoopFilter,0.041
+dtrace_frame_blockwise<short const>,0.035
+PartLevel,0.035
+__posix_memalign,0.029
+AreaBuf<unsigned int>,0.029
+func@0x8a3f0,0.024
+fastInverseDCT2_B4,0.024
+dtrace_block<short const>,0.024
+simdFilter7x7Blk<(X86_VEXT)4>,0.018
+TUIntraSubPartitioner,0.018
+simdDeriveClassificationBlk<(X86_VEXT)4>,0.018
+getMipSizeId,0.018
+AdaptiveDepthPartitioner,0.018
+__pow,0.018
+EncSlice,0.018
+CompArea,0.018
+TBinEncoder<BinProbModel_Std>,0.018
+initROM,0.018
+_GLOBAL__sub_I_Rom.cpp,0.015
+[Outside any known module],0.012
+Channel,0.012
+fastForwardDCT2_B2,0.012
+operator delete,0.012
+__dynamic_cast,0.012

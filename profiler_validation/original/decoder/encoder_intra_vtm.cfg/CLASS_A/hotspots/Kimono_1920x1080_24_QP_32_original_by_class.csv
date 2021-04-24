@@ -1,0 +1,19 @@
+Class,CPU Time (%)
+LoopFilter,12.307
+CDTrace,11.279
+IntraPrediction,9.234
+DecLib,9.227
+__memmove_avx_unaligned_erms,8.205
+TBinDecoder<BinProbModel_Std>,8.203
+__memset_avx2_erms,6.153
+MatrixIntraPrediction,5.128
+TrQuant,5.127
+CodingStructure,4.102
+__memset_avx2_unaligned_erms,3.081
+operator new,3.078
+TU,3.075
+simdDeriveClassificationBlk<(X86_VEXT)4>,2.842
+_GLOBAL__sub_I_Rom.cpp,2.57
+[Outside any known module],2.286
+simdFilter7x7Blk<(X86_VEXT)4>,2.053
+std,2.05

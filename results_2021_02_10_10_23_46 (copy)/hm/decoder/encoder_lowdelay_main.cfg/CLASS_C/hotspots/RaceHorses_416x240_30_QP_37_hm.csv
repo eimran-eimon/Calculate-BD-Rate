@@ -1,3 +1,0 @@
-Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
-std::istream::get	0.022003	0.022003	0.0	0.022003	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
-TDecSbac::parseQtRootCbf	0.007997	0.007997	0.0	0.007997	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecSbac::parseQtRootCbf(unsigned int, unsigned int&)	[Unknown]	0x446e0

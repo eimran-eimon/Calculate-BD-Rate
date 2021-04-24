@@ -1,0 +1,21 @@
+Class,CPU Time (%)
+CDTrace,14.361
+DecLib,10.256
+LoopFilter,10.256
+IntraPrediction,10.252
+TBinDecoder<BinProbModel_Std>,6.159
+CodingStructure,6.156
+_GLOBAL__sub_I_Rom.cpp,5.132
+SampleAdaptiveOffset,5.129
+fastInverseDST7_B32,5.128
+__memset_avx2_erms,4.101
+simdDeriveClassificationBlk<(X86_VEXT)4>,3.079
+func@0x11350,3.078
+[Outside any known module],2.564
+AreaBuf<short>,2.051
+fastInverseDCT2_B64,2.05
+MatrixIntraPrediction,2.05
+CU,2.05
+BinDecoderBase,2.049
+simdFilter7x7Blk<(X86_VEXT)4>,2.049
+std,2.049

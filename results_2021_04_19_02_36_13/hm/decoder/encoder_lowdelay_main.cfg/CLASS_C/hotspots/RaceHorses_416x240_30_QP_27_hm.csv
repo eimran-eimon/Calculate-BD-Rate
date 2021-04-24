@@ -1,9 +1,0 @@
-Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
-std::istream::get	0.011988	0.011988	0.0	0.011988	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
-partialButterflyInverse16	0.010010	0.010010	0.0	0.010010	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	partialButterflyInverse16(int*, int*, int, int, int, int)	[Unknown]	0x8bea0
-TComDataCU::getPUAbove	0.008002	0.008002	0.0	0.008002	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComDataCU::getPUAbove(unsigned int&, unsigned int, bool, bool, bool) const	[Unknown]	0x583b0
-Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
-TComLoopFilter::xSetEdgefilterTU	0.011995	0.011995	0.0	0.011995	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::xSetEdgefilterTU(TComTU&)	[Unknown]	0x5f7f0
-TDecSbac::parseCoeffNxN	0.011973	0.011973	0.0	0.011973	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TDecSbac::parseCoeffNxN(TComTU&, ComponentID)	[Unknown]	0x472a0
-std::istream::get	0.008006	0.008006	0.0	0.008006	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
-TComLoopFilter::loopFilterPic	0.007991	0.007991	0.0	0.007991	0.0	0.0	0.0	0.0	0.0	TAppDecoderStatic	TComLoopFilter::loopFilterPic(TComPic*)	[Unknown]	0x620b0

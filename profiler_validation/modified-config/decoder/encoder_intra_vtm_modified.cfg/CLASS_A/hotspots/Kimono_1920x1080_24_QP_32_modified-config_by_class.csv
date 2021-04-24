@@ -1,0 +1,20 @@
+Class,CPU Time (%)
+CDTrace,16.405
+LoopFilter,9.223
+SampleAdaptiveOffset,8.205
+std,8.203
+DecLib,6.155
+TrQuant,6.155
+IntraPrediction,6.151
+CodingStructure,5.132
+__memset_avx2_unaligned_erms,5.128
+CABACReader,4.101
+__memset_avx2_erms,4.1
+AreaBuf<short>,3.082
+simdFilter7x7Blk<(X86_VEXT)4>,3.079
+CU,3.077
+TBinDecoder<BinProbModel_Std>,3.076
+_GLOBAL__sub_I_Rom.cpp,2.571
+dtrace_frame_blockwise<short const>,2.054
+"reco_SSE<(X86_VEXT)4, (int)8>",2.053
+simdDeriveClassificationBlk<(X86_VEXT)4>,2.049

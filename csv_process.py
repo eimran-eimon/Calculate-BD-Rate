@@ -17,6 +17,9 @@ def write_cpu_consuming_classes(path, total_cpu_time):
 			if len(class_name) > 1:
 				if class_name[0] in exclude_from_class_name:
 					cls_name = class_name[1]
+					if ("vvenc::" not in cls_name or "vvdec::" not in cls_name) and ("::" in cls_name):
+						cls_name = cls_name.split("::", 1)[0]
+						# print(cls_name)
 				else:
 					cls_name = class_name[0]
 			else:

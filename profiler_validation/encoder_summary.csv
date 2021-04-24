@@ -1,0 +1,4 @@
+Seq Name,Codec Name,Config Name,QP,Bitrate,Y-PSNR,CPU Time,Average Power (mW),Total Energy (mJ)
+Kimono_1920x1080_24,modified-config,encoder_intra_vtm_modified,32,637.7520,40.6350,258.644s,4206.97,1077896.06
+Kimono_1920x1080_24,modified-source,encoder_intra_vtm,32,636.0240,40.6085,67.950s,4168.71,281815.86
+Kimono_1920x1080_24,original,encoder_intra_vtm,32,630.7200,40.6363,291.377s,4178.56,1197477.54

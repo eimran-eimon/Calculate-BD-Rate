@@ -1,0 +1,30 @@
+Function	CPU Time	CPU Time:Effective Time	CPU Time:Effective Time:Idle	CPU Time:Effective Time:Poor	CPU Time:Effective Time:Ok	CPU Time:Effective Time:Ideal	CPU Time:Effective Time:Over	CPU Time:Spin Time	CPU Time:Overhead Time	Module	Function (Full)	Source File	Start Address
+CDTrace::dtrace<(bool)0>	0.044001	0.044001	0.0	0.044001	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void CDTrace::dtrace<(bool)0>(int, char const*, ellipsis)	[Unknown]	0xc3970
+DecLib::DecLib	0.040000	0.040000	0.0	0.040000	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	DecLib::DecLib(void)	[Unknown]	0x1c0780
+TBinDecoder<BinProbModel_Std>::decodeBin	0.024019	0.024019	0.0	0.024019	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	TBinDecoder<BinProbModel_Std>::decodeBin(unsigned int)	[Unknown]	0x20df40
+_GLOBAL__sub_I_Rom.cpp	0.020014	0.020014	0.0	0.020014	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	_GLOBAL__sub_I_Rom.cpp	[Unknown]	0xcea0
+fastInverseDST7_B32	0.019999	0.019999	0.0	0.019999	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	fastInverseDST7_B32(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x9e9b0
+__memset_avx2_erms	0.015995	0.015995	0.0	0.015995	0.0	0.0	0.0	0.0	0.0	libc.so.6	__memset_avx2_erms	memset-vec-unaligned-erms.S	0x18ee60
+SampleAdaptiveOffset::offsetBlock	0.012010	0.012010	0.0	0.012010	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	SampleAdaptiveOffset::offsetBlock(int, ClpRng const&, int, int*, short const*, short*, int, int, int, int, bool, bool, bool, bool, bool, bool, bool, bool, bool, int*, int*, int, int)	[Unknown]	0x5a8c0
+LoopFilter::xDeblockCU	0.012008	0.012008	0.0	0.012008	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::xDeblockCU(CodingUnit&, DeblockEdgeDir)	[Unknown]	0x25ef40
+simdDeriveClassificationBlk<(X86_VEXT)4>	0.012007	0.012007	0.0	0.012007	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void simdDeriveClassificationBlk<(X86_VEXT)4>(AlfClassifier**, int***, AreaBuf<short const> const&, Area const&, Area const&, int, int, int)	[Unknown]	0x17eff0
+CodingStructure::getPU	0.012007	0.012007	0.0	0.012007	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CodingStructure::getPU(Position const&, ChannelType)	[Unknown]	0xcac80
+CDTrace::dtrace<(bool)1>	0.012006	0.012006	0.0	0.012006	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void CDTrace::dtrace<(bool)1>(int, char const*, ellipsis)	[Unknown]	0xc3880
+func@0x11350	0.012003	0.012003	0.0	0.012003	0.0	0.0	0.0	0.0	0.0	libgcc_s.so.1	func@0x11350	[Unknown]	0x11350
+IntraPrediction::xPredIntraPlanar	0.012003	0.012003	0.0	0.012003	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	IntraPrediction::xPredIntraPlanar(AreaBuf<short const> const&, AreaBuf<short>&)	[Unknown]	0x24aa10
+IntraPrediction::xFillReferenceSamples	0.012001	0.012001	0.0	0.012001	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	IntraPrediction::xFillReferenceSamples(AreaBuf<short const> const&, short*, CompArea const&, CodingUnit const&)	[Unknown]	0x24d970
+CodingStructure::addCU	0.012001	0.012001	0.0	0.012001	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CodingStructure::addCU(UnitArea const&, ChannelType)	[Unknown]	0xd4590
+LoopFilter::xEdgeFilterChroma	0.012001	0.012001	0.0	0.012001	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::xEdgeFilterChroma(CodingUnit const&, DeblockEdgeDir, int)	[Unknown]	0x259040
+[Outside any known module]	0.010000	0.010000	0.0	0.010000	0.0	0.0	0.0	0.0	0.0	[Unknown]	[Outside any known module]	[Unknown]	0x0
+AreaBuf<short>::rspSignal	0.007998	0.007998	0.0	0.007998	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	AreaBuf<short>::rspSignal(std::vector<short, std::allocator<short>>&)	[Unknown]	0x398c0
+fastInverseDCT2_B64	0.007996	0.007996	0.0	0.007996	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	fastInverseDCT2_B64(int const*, int*, int, int, int, int, int, int)	[Unknown]	0x97630
+MatrixIntraPrediction::predictionUpsampling1D	0.007995	0.007995	0.0	0.007995	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	MatrixIntraPrediction::predictionUpsampling1D(int*, int const*, int const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)	[Unknown]	0x262db0
+CU::isSameSlice	0.007995	0.007995	0.0	0.007995	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	CU::isSameSlice(CodingUnit const&, CodingUnit const&)	[Unknown]	0xad570
+LoopFilter::loopFilterPic	0.007994	0.007994	0.0	0.007994	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::loopFilterPic(CodingStructure&)	[Unknown]	0x260290
+IntraPrediction::xPredIntraAng	0.007994	0.007994	0.0	0.007994	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	IntraPrediction::xPredIntraAng(AreaBuf<short const> const&, AreaBuf<short>&, ChannelType, ClpRng const&)	[Unknown]	0x2468f0
+LoopFilter::xGetBoundaryStrengthSingle	0.007994	0.007994	0.0	0.007994	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	LoopFilter::xGetBoundaryStrengthSingle(CodingUnit const&, DeblockEdgeDir, Position const&, ChannelType) const	[Unknown]	0x258450
+SampleAdaptiveOffset::SAOProcess	0.007994	0.007994	0.0	0.007994	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	SampleAdaptiveOffset::SAOProcess(CodingStructure&, SAOBlkParam*)	[Unknown]	0x60200
+BinDecoderBase::decodeBinsEP	0.007993	0.007993	0.0	0.007993	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	BinDecoderBase::decodeBinsEP(unsigned int)	[Unknown]	0x20d630
+simdFilter7x7Blk<(X86_VEXT)4>	0.007993	0.007993	0.0	0.007993	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	void simdFilter7x7Blk<(X86_VEXT)4>(AlfClassifier**, UnitBuf<short> const&, UnitBuf<short const> const&, Area const&, Area const&, ComponentID, short const*, short const*, ClpRng const&, CodingStructure&, int, int)	[Unknown]	0x17d3c0
+std::istream::get	0.007992	0.007992	0.0	0.007992	0.0	0.0	0.0	0.0	0.0	libstdc++.so.6	std::istream::get(void)	[Unknown]	0xfbaa0
+IntraPrediction::xGetLumaRecPixels	0.007986	0.007986	0.0	0.007986	0.0	0.0	0.0	0.0	0.0	DecoderAppStatic	IntraPrediction::xGetLumaRecPixels(PredictionUnit const&, CompArea)	[Unknown]	0x253250
